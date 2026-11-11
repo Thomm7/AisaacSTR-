@@ -1,0 +1,1297 @@
+C:\Users\gonza\OneDrive\Desktop\proyecto-ad\AisaacSTR\bin\Debug\net9.0\appsettings.Development.json
+C:\Users\gonza\OneDrive\Desktop\proyecto-ad\AisaacSTR\bin\Debug\net9.0\appsettings.json
+C:\Users\gonza\OneDrive\Desktop\proyecto-ad\AisaacSTR\bin\Debug\net9.0\AisaacSTR.staticwebassets.runtime.json
+C:\Users\gonza\OneDrive\Desktop\proyecto-ad\AisaacSTR\bin\Debug\net9.0\AisaacSTR.staticwebassets.endpoints.json
+C:\Users\gonza\OneDrive\Desktop\proyecto-ad\AisaacSTR\bin\Debug\net9.0\AisaacSTR.exe
+C:\Users\gonza\OneDrive\Desktop\proyecto-ad\AisaacSTR\bin\Debug\net9.0\AisaacSTR.deps.json
+C:\Users\gonza\OneDrive\Desktop\proyecto-ad\AisaacSTR\bin\Debug\net9.0\AisaacSTR.runtimeconfig.json
+C:\Users\gonza\OneDrive\Desktop\proyecto-ad\AisaacSTR\bin\Debug\net9.0\AisaacSTR.dll
+C:\Users\gonza\OneDrive\Desktop\proyecto-ad\AisaacSTR\bin\Debug\net9.0\AisaacSTR.pdb
+C:\Users\gonza\OneDrive\Desktop\proyecto-ad\AisaacSTR\obj\Debug\net9.0\rpswa.dswa.cache.json
+C:\Users\gonza\OneDrive\Desktop\proyecto-ad\AisaacSTR\obj\Debug\net9.0\AisaacSTR.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\gonza\OneDrive\Desktop\proyecto-ad\AisaacSTR\obj\Debug\net9.0\AisaacSTR.AssemblyInfoInputs.cache
+C:\Users\gonza\OneDrive\Desktop\proyecto-ad\AisaacSTR\obj\Debug\net9.0\AisaacSTR.AssemblyInfo.cs
+C:\Users\gonza\OneDrive\Desktop\proyecto-ad\AisaacSTR\obj\Debug\net9.0\AisaacSTR.csproj.CoreCompileInputs.cache
+C:\Users\gonza\OneDrive\Desktop\proyecto-ad\AisaacSTR\obj\Debug\net9.0\AisaacSTR.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\gonza\OneDrive\Desktop\proyecto-ad\AisaacSTR\obj\Debug\net9.0\AisaacSTR.RazorAssemblyInfo.cache
+C:\Users\gonza\OneDrive\Desktop\proyecto-ad\AisaacSTR\obj\Debug\net9.0\AisaacSTR.RazorAssemblyInfo.cs
+C:\Users\gonza\OneDrive\Desktop\proyecto-ad\AisaacSTR\obj\Debug\net9.0\rjimswa.dswa.cache.json
+C:\Users\gonza\OneDrive\Desktop\proyecto-ad\AisaacSTR\obj\Debug\net9.0\rjsmrazor.dswa.cache.json
+C:\Users\gonza\OneDrive\Desktop\proyecto-ad\AisaacSTR\obj\Debug\net9.0\rjsmcshtml.dswa.cache.json
+C:\Users\gonza\OneDrive\Desktop\proyecto-ad\AisaacSTR\obj\Debug\net9.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\gonza\OneDrive\Desktop\proyecto-ad\AisaacSTR\obj\Debug\net9.0\scopedcss\bundle\AisaacSTR.styles.css
+C:\Users\gonza\OneDrive\Desktop\proyecto-ad\AisaacSTR\obj\Debug\net9.0\scopedcss\projectbundle\AisaacSTR.bundle.scp.css
+C:\Users\gonza\OneDrive\Desktop\proyecto-ad\AisaacSTR\obj\Debug\net9.0\compressed\3t7px3j005-b9sayid5wm.gz
+C:\Users\gonza\OneDrive\Desktop\proyecto-ad\AisaacSTR\obj\Debug\net9.0\compressed\wqh2yk1qmi-61n19gt1b8.gz
+C:\Users\gonza\OneDrive\Desktop\proyecto-ad\AisaacSTR\obj\Debug\net9.0\compressed\k8xax4e7qk-xtxxf3hu2r.gz
+C:\Users\gonza\OneDrive\Desktop\proyecto-ad\AisaacSTR\obj\Debug\net9.0\compressed\887v6bjyvf-bqjiyaj88i.gz
+C:\Users\gonza\OneDrive\Desktop\proyecto-ad\AisaacSTR\obj\Debug\net9.0\compressed\2bwa4krptf-c2jlpeoesf.gz
+C:\Users\gonza\OneDrive\Desktop\proyecto-ad\AisaacSTR\obj\Debug\net9.0\compressed\hmja6ztqty-erw9l3u2r3.gz
+C:\Users\gonza\OneDrive\Desktop\proyecto-ad\AisaacSTR\obj\Debug\net9.0\compressed\to6kh8ge2j-aexeepp0ev.gz
+C:\Users\gonza\OneDrive\Desktop\proyecto-ad\AisaacSTR\obj\Debug\net9.0\compressed\mbak7fsh1r-d7shbmvgxk.gz
+C:\Users\gonza\OneDrive\Desktop\proyecto-ad\AisaacSTR\obj\Debug\net9.0\compressed\d9aaelfh14-ausgxo2sd3.gz
+C:\Users\gonza\OneDrive\Desktop\proyecto-ad\AisaacSTR\obj\Debug\net9.0\compressed\clwwbld3hi-k8d9w2qqmf.gz
+C:\Users\gonza\OneDrive\Desktop\proyecto-ad\AisaacSTR\obj\Debug\net9.0\compressed\wslx53f1lo-cosvhxvwiu.gz
+C:\Users\gonza\OneDrive\Desktop\proyecto-ad\AisaacSTR\obj\Debug\net9.0\compressed\28lfv0vcm3-ub07r2b239.gz
+C:\Users\gonza\OneDrive\Desktop\proyecto-ad\AisaacSTR\obj\Debug\net9.0\compressed\ttgzu2a73o-fvhpjtyr6v.gz
+C:\Users\gonza\OneDrive\Desktop\proyecto-ad\AisaacSTR\obj\Debug\net9.0\compressed\gj75z59ly1-b7pk76d08c.gz
+C:\Users\gonza\OneDrive\Desktop\proyecto-ad\AisaacSTR\obj\Debug\net9.0\compressed\zmcu7bvm6f-fsbi9cje9m.gz
+C:\Users\gonza\OneDrive\Desktop\proyecto-ad\AisaacSTR\obj\Debug\net9.0\compressed\lf1fq1ha3d-rzd6atqjts.gz
+C:\Users\gonza\OneDrive\Desktop\proyecto-ad\AisaacSTR\obj\Debug\net9.0\compressed\wgud4w76q7-ee0r1s7dh0.gz
+C:\Users\gonza\OneDrive\Desktop\proyecto-ad\AisaacSTR\obj\Debug\net9.0\compressed\7esu8ts1el-dxx9fxp4il.gz
+C:\Users\gonza\OneDrive\Desktop\proyecto-ad\AisaacSTR\obj\Debug\net9.0\compressed\hqrcinn6pt-jd9uben2k1.gz
+C:\Users\gonza\OneDrive\Desktop\proyecto-ad\AisaacSTR\obj\Debug\net9.0\compressed\y8gcg90d0x-khv3u5hwcm.gz
+C:\Users\gonza\OneDrive\Desktop\proyecto-ad\AisaacSTR\obj\Debug\net9.0\compressed\854y38dj59-r4e9w2rdcm.gz
+C:\Users\gonza\OneDrive\Desktop\proyecto-ad\AisaacSTR\obj\Debug\net9.0\compressed\8g6bysylhw-lcd1t2u6c8.gz
+C:\Users\gonza\OneDrive\Desktop\proyecto-ad\AisaacSTR\obj\Debug\net9.0\compressed\dp43xmbi72-c2oey78nd0.gz
+C:\Users\gonza\OneDrive\Desktop\proyecto-ad\AisaacSTR\obj\Debug\net9.0\compressed\686ajpaov6-tdbxkamptv.gz
+C:\Users\gonza\OneDrive\Desktop\proyecto-ad\AisaacSTR\obj\Debug\net9.0\compressed\3r3uhypeu7-j5mq2jizvt.gz
+C:\Users\gonza\OneDrive\Desktop\proyecto-ad\AisaacSTR\obj\Debug\net9.0\compressed\y5b475odih-06098lyss8.gz
+C:\Users\gonza\OneDrive\Desktop\proyecto-ad\AisaacSTR\obj\Debug\net9.0\compressed\m1ve6xrzul-nvvlpmu67g.gz
+C:\Users\gonza\OneDrive\Desktop\proyecto-ad\AisaacSTR\obj\Debug\net9.0\compressed\emgrilwdmu-s35ty4nyc5.gz
+C:\Users\gonza\OneDrive\Desktop\proyecto-ad\AisaacSTR\obj\Debug\net9.0\compressed\6jpeea14f0-pj5nd1wqec.gz
+C:\Users\gonza\OneDrive\Desktop\proyecto-ad\AisaacSTR\obj\Debug\net9.0\compressed\3ezezdowzg-46ein0sx1k.gz
+C:\Users\gonza\OneDrive\Desktop\proyecto-ad\AisaacSTR\obj\Debug\net9.0\compressed\7ftqws5doe-v0zj4ognzu.gz
+C:\Users\gonza\OneDrive\Desktop\proyecto-ad\AisaacSTR\obj\Debug\net9.0\compressed\7xkqmuc3wm-37tfw0ft22.gz
+C:\Users\gonza\OneDrive\Desktop\proyecto-ad\AisaacSTR\obj\Debug\net9.0\compressed\jvni2yh0q5-hrwsygsryq.gz
+C:\Users\gonza\OneDrive\Desktop\proyecto-ad\AisaacSTR\obj\Debug\net9.0\compressed\vhu8d7ktbb-pk9g2wxc8p.gz
+C:\Users\gonza\OneDrive\Desktop\proyecto-ad\AisaacSTR\obj\Debug\net9.0\compressed\k0ijeep85h-ft3s53vfgj.gz
+C:\Users\gonza\OneDrive\Desktop\proyecto-ad\AisaacSTR\obj\Debug\net9.0\compressed\ylq37wovrx-6cfz1n2cew.gz
+C:\Users\gonza\OneDrive\Desktop\proyecto-ad\AisaacSTR\obj\Debug\net9.0\compressed\p0zdjkyaym-6pdc2jztkx.gz
+C:\Users\gonza\OneDrive\Desktop\proyecto-ad\AisaacSTR\obj\Debug\net9.0\compressed\qikkjrs83l-493y06b0oq.gz
+C:\Users\gonza\OneDrive\Desktop\proyecto-ad\AisaacSTR\obj\Debug\net9.0\compressed\1nm3qgv6p8-iovd86k7lj.gz
+C:\Users\gonza\OneDrive\Desktop\proyecto-ad\AisaacSTR\obj\Debug\net9.0\compressed\hp35cyy5tq-vr1egmr9el.gz
+C:\Users\gonza\OneDrive\Desktop\proyecto-ad\AisaacSTR\obj\Debug\net9.0\compressed\ow0tauslgu-kbrnm935zg.gz
+C:\Users\gonza\OneDrive\Desktop\proyecto-ad\AisaacSTR\obj\Debug\net9.0\compressed\fhnrso2uee-jj8uyg4cgr.gz
+C:\Users\gonza\OneDrive\Desktop\proyecto-ad\AisaacSTR\obj\Debug\net9.0\compressed\vqqfknoasp-y7v9cxd14o.gz
+C:\Users\gonza\OneDrive\Desktop\proyecto-ad\AisaacSTR\obj\Debug\net9.0\compressed\w9r7yl1kop-notf2xhcfb.gz
+C:\Users\gonza\OneDrive\Desktop\proyecto-ad\AisaacSTR\obj\Debug\net9.0\compressed\2yqryv9vez-h1s4sie4z3.gz
+C:\Users\gonza\OneDrive\Desktop\proyecto-ad\AisaacSTR\obj\Debug\net9.0\compressed\7b1kzksn3v-63fj8s7r0e.gz
+C:\Users\gonza\OneDrive\Desktop\proyecto-ad\AisaacSTR\obj\Debug\net9.0\compressed\xjqphlnilg-0j3bgjxly4.gz
+C:\Users\gonza\OneDrive\Desktop\proyecto-ad\AisaacSTR\obj\Debug\net9.0\compressed\n2kp8xkcy7-47otxtyo56.gz
+C:\Users\gonza\OneDrive\Desktop\proyecto-ad\AisaacSTR\obj\Debug\net9.0\compressed\augp09ad9n-4v8eqarkd7.gz
+C:\Users\gonza\OneDrive\Desktop\proyecto-ad\AisaacSTR\obj\Debug\net9.0\compressed\93mch5t9mg-356vix0kms.gz
+C:\Users\gonza\OneDrive\Desktop\proyecto-ad\AisaacSTR\obj\Debug\net9.0\compressed\f370rb3jg5-83jwlth58m.gz
+C:\Users\gonza\OneDrive\Desktop\proyecto-ad\AisaacSTR\obj\Debug\net9.0\compressed\6t17mrkxaw-mrlpezrjn3.gz
+C:\Users\gonza\OneDrive\Desktop\proyecto-ad\AisaacSTR\obj\Debug\net9.0\compressed\sp584j3vly-lzl9nlhx6b.gz
+C:\Users\gonza\OneDrive\Desktop\proyecto-ad\AisaacSTR\obj\Debug\net9.0\compressed\msgia8xfxs-ag7o75518u.gz
+C:\Users\gonza\OneDrive\Desktop\proyecto-ad\AisaacSTR\obj\Debug\net9.0\compressed\g9tmhu664c-x0q3zqp4vz.gz
+C:\Users\gonza\OneDrive\Desktop\proyecto-ad\AisaacSTR\obj\Debug\net9.0\compressed\ci8f1b618w-0i3buxo5is.gz
+C:\Users\gonza\OneDrive\Desktop\proyecto-ad\AisaacSTR\obj\Debug\net9.0\compressed\wqwphzqyj9-o1o13a6vjx.gz
+C:\Users\gonza\OneDrive\Desktop\proyecto-ad\AisaacSTR\obj\Debug\net9.0\compressed\e9k5cukf4r-ttgo8qnofa.gz
+C:\Users\gonza\OneDrive\Desktop\proyecto-ad\AisaacSTR\obj\Debug\net9.0\compressed\5b6pnwb4s1-2z0ns9nrw6.gz
+C:\Users\gonza\OneDrive\Desktop\proyecto-ad\AisaacSTR\obj\Debug\net9.0\compressed\bzgnnyj0j4-muycvpuwrr.gz
+C:\Users\gonza\OneDrive\Desktop\proyecto-ad\AisaacSTR\obj\Debug\net9.0\compressed\19r6s3wq2p-87fc7y1x7t.gz
+C:\Users\gonza\OneDrive\Desktop\proyecto-ad\AisaacSTR\obj\Debug\net9.0\compressed\qrbj13wckc-mlv21k5csn.gz
+C:\Users\gonza\OneDrive\Desktop\proyecto-ad\AisaacSTR\obj\Debug\net9.0\compressed\gjav0rbnsy-6x0ps564rj.gz
+C:\Users\gonza\OneDrive\Desktop\proyecto-ad\AisaacSTR\obj\Debug\net9.0\compressed\laqchw9fqr-6x0ps564rj.gz
+C:\Users\gonza\OneDrive\Desktop\proyecto-ad\AisaacSTR\obj\Debug\net9.0\staticwebassets.build.json
+C:\Users\gonza\OneDrive\Desktop\proyecto-ad\AisaacSTR\obj\Debug\net9.0\staticwebassets.build.json.cache
+C:\Users\gonza\OneDrive\Desktop\proyecto-ad\AisaacSTR\obj\Debug\net9.0\staticwebassets.development.json
+C:\Users\gonza\OneDrive\Desktop\proyecto-ad\AisaacSTR\obj\Debug\net9.0\staticwebassets.build.endpoints.json
+C:\Users\gonza\OneDrive\Desktop\proyecto-ad\AisaacSTR\obj\Debug\net9.0\AisaacSTR.dll
+C:\Users\gonza\OneDrive\Desktop\proyecto-ad\AisaacSTR\obj\Debug\net9.0\refint\AisaacSTR.dll
+C:\Users\gonza\OneDrive\Desktop\proyecto-ad\AisaacSTR\obj\Debug\net9.0\AisaacSTR.pdb
+C:\Users\gonza\OneDrive\Desktop\proyecto-ad\AisaacSTR\obj\Debug\net9.0\AisaacSTR.genruntimeconfig.cache
+C:\Users\gonza\OneDrive\Desktop\proyecto-ad\AisaacSTR\obj\Debug\net9.0\ref\AisaacSTR.dll
+C:\Users\gonza\OneDrive\Desktop\proyecto-ad\AisaacSTR\bin\Debug\net9.0\BCrypt.Net-Next.dll
+C:\Users\gonza\OneDrive\Desktop\proyecto-ad\AisaacSTR\bin\Debug\net9.0\Humanizer.dll
+C:\Users\gonza\OneDrive\Desktop\proyecto-ad\AisaacSTR\bin\Debug\net9.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\gonza\OneDrive\Desktop\proyecto-ad\AisaacSTR\bin\Debug\net9.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\gonza\OneDrive\Desktop\proyecto-ad\AisaacSTR\bin\Debug\net9.0\Microsoft.Build.Locator.dll
+C:\Users\gonza\OneDrive\Desktop\proyecto-ad\AisaacSTR\bin\Debug\net9.0\Microsoft.CodeAnalysis.dll
+C:\Users\gonza\OneDrive\Desktop\proyecto-ad\AisaacSTR\bin\Debug\net9.0\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\gonza\OneDrive\Desktop\proyecto-ad\AisaacSTR\bin\Debug\net9.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+C:\Users\gonza\OneDrive\Desktop\proyecto-ad\AisaacSTR\bin\Debug\net9.0\Microsoft.CodeAnalysis.Workspaces.dll
+C:\Users\gonza\OneDrive\Desktop\proyecto-ad\AisaacSTR\bin\Debug\net9.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.dll
+C:\Users\gonza\OneDrive\Desktop\proyecto-ad\AisaacSTR\bin\Debug\net9.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.dll
+C:\Users\gonza\OneDrive\Desktop\proyecto-ad\AisaacSTR\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\gonza\OneDrive\Desktop\proyecto-ad\AisaacSTR\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\gonza\OneDrive\Desktop\proyecto-ad\AisaacSTR\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\gonza\OneDrive\Desktop\proyecto-ad\AisaacSTR\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.InMemory.dll
+C:\Users\gonza\OneDrive\Desktop\proyecto-ad\AisaacSTR\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\gonza\OneDrive\Desktop\proyecto-ad\AisaacSTR\bin\Debug\net9.0\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\gonza\OneDrive\Desktop\proyecto-ad\AisaacSTR\bin\Debug\net9.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\gonza\OneDrive\Desktop\proyecto-ad\AisaacSTR\bin\Debug\net9.0\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\gonza\OneDrive\Desktop\proyecto-ad\AisaacSTR\bin\Debug\net9.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\gonza\OneDrive\Desktop\proyecto-ad\AisaacSTR\bin\Debug\net9.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\gonza\OneDrive\Desktop\proyecto-ad\AisaacSTR\bin\Debug\net9.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\gonza\OneDrive\Desktop\proyecto-ad\AisaacSTR\bin\Debug\net9.0\Microsoft.Extensions.Logging.dll
+C:\Users\gonza\OneDrive\Desktop\proyecto-ad\AisaacSTR\bin\Debug\net9.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\gonza\OneDrive\Desktop\proyecto-ad\AisaacSTR\bin\Debug\net9.0\Microsoft.Extensions.Options.dll
+C:\Users\gonza\OneDrive\Desktop\proyecto-ad\AisaacSTR\bin\Debug\net9.0\Microsoft.Extensions.Primitives.dll
+C:\Users\gonza\OneDrive\Desktop\proyecto-ad\AisaacSTR\bin\Debug\net9.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\gonza\OneDrive\Desktop\proyecto-ad\AisaacSTR\bin\Debug\net9.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\gonza\OneDrive\Desktop\proyecto-ad\AisaacSTR\bin\Debug\net9.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\gonza\OneDrive\Desktop\proyecto-ad\AisaacSTR\bin\Debug\net9.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\gonza\OneDrive\Desktop\proyecto-ad\AisaacSTR\bin\Debug\net9.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\gonza\OneDrive\Desktop\proyecto-ad\AisaacSTR\bin\Debug\net9.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\gonza\OneDrive\Desktop\proyecto-ad\AisaacSTR\bin\Debug\net9.0\Mono.TextTemplating.dll
+C:\Users\gonza\OneDrive\Desktop\proyecto-ad\AisaacSTR\bin\Debug\net9.0\Npgsql.dll
+C:\Users\gonza\OneDrive\Desktop\proyecto-ad\AisaacSTR\bin\Debug\net9.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
+C:\Users\gonza\OneDrive\Desktop\proyecto-ad\AisaacSTR\bin\Debug\net9.0\System.CodeDom.dll
+C:\Users\gonza\OneDrive\Desktop\proyecto-ad\AisaacSTR\bin\Debug\net9.0\System.Composition.AttributedModel.dll
+C:\Users\gonza\OneDrive\Desktop\proyecto-ad\AisaacSTR\bin\Debug\net9.0\System.Composition.Convention.dll
+C:\Users\gonza\OneDrive\Desktop\proyecto-ad\AisaacSTR\bin\Debug\net9.0\System.Composition.Hosting.dll
+C:\Users\gonza\OneDrive\Desktop\proyecto-ad\AisaacSTR\bin\Debug\net9.0\System.Composition.Runtime.dll
+C:\Users\gonza\OneDrive\Desktop\proyecto-ad\AisaacSTR\bin\Debug\net9.0\System.Composition.TypedParts.dll
+C:\Users\gonza\OneDrive\Desktop\proyecto-ad\AisaacSTR\bin\Debug\net9.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\gonza\OneDrive\Desktop\proyecto-ad\AisaacSTR\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.resources.dll
+C:\Users\gonza\OneDrive\Desktop\proyecto-ad\AisaacSTR\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.resources.dll
+C:\Users\gonza\OneDrive\Desktop\proyecto-ad\AisaacSTR\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.resources.dll
+C:\Users\gonza\OneDrive\Desktop\proyecto-ad\AisaacSTR\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\gonza\OneDrive\Desktop\proyecto-ad\AisaacSTR\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.resources.dll
+C:\Users\gonza\OneDrive\Desktop\proyecto-ad\AisaacSTR\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.resources.dll
+C:\Users\gonza\OneDrive\Desktop\proyecto-ad\AisaacSTR\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.resources.dll
+C:\Users\gonza\OneDrive\Desktop\proyecto-ad\AisaacSTR\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.resources.dll
+C:\Users\gonza\OneDrive\Desktop\proyecto-ad\AisaacSTR\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+C:\Users\gonza\OneDrive\Desktop\proyecto-ad\AisaacSTR\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.resources.dll
+C:\Users\gonza\OneDrive\Desktop\proyecto-ad\AisaacSTR\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\gonza\OneDrive\Desktop\proyecto-ad\AisaacSTR\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+C:\Users\gonza\OneDrive\Desktop\proyecto-ad\AisaacSTR\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+C:\Users\gonza\OneDrive\Desktop\proyecto-ad\AisaacSTR\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\gonza\OneDrive\Desktop\proyecto-ad\AisaacSTR\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\gonza\OneDrive\Desktop\proyecto-ad\AisaacSTR\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\gonza\OneDrive\Desktop\proyecto-ad\AisaacSTR\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\gonza\OneDrive\Desktop\proyecto-ad\AisaacSTR\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\gonza\OneDrive\Desktop\proyecto-ad\AisaacSTR\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\gonza\OneDrive\Desktop\proyecto-ad\AisaacSTR\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\gonza\OneDrive\Desktop\proyecto-ad\AisaacSTR\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\gonza\OneDrive\Desktop\proyecto-ad\AisaacSTR\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\gonza\OneDrive\Desktop\proyecto-ad\AisaacSTR\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\gonza\OneDrive\Desktop\proyecto-ad\AisaacSTR\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\gonza\OneDrive\Desktop\proyecto-ad\AisaacSTR\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\gonza\OneDrive\Desktop\proyecto-ad\AisaacSTR\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\gonza\OneDrive\Desktop\proyecto-ad\AisaacSTR\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\gonza\OneDrive\Desktop\proyecto-ad\AisaacSTR\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\gonza\OneDrive\Desktop\proyecto-ad\AisaacSTR\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\gonza\OneDrive\Desktop\proyecto-ad\AisaacSTR\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\gonza\OneDrive\Desktop\proyecto-ad\AisaacSTR\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\gonza\OneDrive\Desktop\proyecto-ad\AisaacSTR\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\gonza\OneDrive\Desktop\proyecto-ad\AisaacSTR\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\gonza\OneDrive\Desktop\proyecto-ad\AisaacSTR\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\gonza\OneDrive\Desktop\proyecto-ad\AisaacSTR\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\gonza\OneDrive\Desktop\proyecto-ad\AisaacSTR\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\gonza\OneDrive\Desktop\proyecto-ad\AisaacSTR\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\gonza\OneDrive\Desktop\proyecto-ad\AisaacSTR\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\gonza\OneDrive\Desktop\proyecto-ad\AisaacSTR\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\gonza\OneDrive\Desktop\proyecto-ad\AisaacSTR\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\gonza\OneDrive\Desktop\proyecto-ad\AisaacSTR\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\gonza\OneDrive\Desktop\proyecto-ad\AisaacSTR\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\gonza\OneDrive\Desktop\proyecto-ad\AisaacSTR\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\gonza\OneDrive\Desktop\proyecto-ad\AisaacSTR\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\gonza\OneDrive\Desktop\proyecto-ad\AisaacSTR\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\gonza\OneDrive\Desktop\proyecto-ad\AisaacSTR\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\gonza\OneDrive\Desktop\proyecto-ad\AisaacSTR\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\gonza\OneDrive\Desktop\proyecto-ad\AisaacSTR\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\gonza\OneDrive\Desktop\proyecto-ad\AisaacSTR\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\gonza\OneDrive\Desktop\proyecto-ad\AisaacSTR\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\gonza\OneDrive\Desktop\proyecto-ad\AisaacSTR\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\gonza\OneDrive\Desktop\proyecto-ad\AisaacSTR\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\gonza\OneDrive\Desktop\proyecto-ad\AisaacSTR\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\gonza\OneDrive\Desktop\proyecto-ad\AisaacSTR\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\gonza\OneDrive\Desktop\proyecto-ad\AisaacSTR\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\gonza\OneDrive\Desktop\proyecto-ad\AisaacSTR\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\gonza\OneDrive\Desktop\proyecto-ad\AisaacSTR\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\gonza\OneDrive\Desktop\proyecto-ad\AisaacSTR\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\gonza\OneDrive\Desktop\proyecto-ad\AisaacSTR\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\gonza\OneDrive\Desktop\proyecto-ad\AisaacSTR\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\gonza\OneDrive\Desktop\proyecto-ad\AisaacSTR\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\gonza\OneDrive\Desktop\proyecto-ad\AisaacSTR\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\gonza\OneDrive\Desktop\proyecto-ad\AisaacSTR\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\gonza\OneDrive\Desktop\proyecto-ad\AisaacSTR\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\gonza\OneDrive\Desktop\proyecto-ad\AisaacSTR\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\gonza\OneDrive\Desktop\proyecto-ad\AisaacSTR\obj\Debug\net9.0\AisaacSTR.csproj.AssemblyReference.cache
+C:\Users\gonza\OneDrive\Desktop\proyecto-ad\AisaacSTR\obj\Debug\net9.0\AisaacSTR.csproj.Up2Date
+C:\Users\gonza\OneDrive\Desktop\proyecto-ad\AisaacSTR\obj\Debug\net9.0\compressed\40bgiq88ox-b3itggoqop.gz
+C:\Users\gonza\OneDrive\Desktop\proyecto-ad\AisaacSTR\obj\Debug\net9.0\compressed\0ttpic2yj0-qrqq1b4xvl.gz
+C:\Users\Usuario\OneDrive\Escritorio\AisaacSTR\AisaacSTR\bin\Debug\net9.0\appsettings.Development.json
+C:\Users\Usuario\OneDrive\Escritorio\AisaacSTR\AisaacSTR\bin\Debug\net9.0\appsettings.json
+C:\Users\Usuario\OneDrive\Escritorio\AisaacSTR\AisaacSTR\bin\Debug\net9.0\AisaacSTR.staticwebassets.runtime.json
+C:\Users\Usuario\OneDrive\Escritorio\AisaacSTR\AisaacSTR\bin\Debug\net9.0\AisaacSTR.staticwebassets.endpoints.json
+C:\Users\Usuario\OneDrive\Escritorio\AisaacSTR\AisaacSTR\bin\Debug\net9.0\AisaacSTR.exe
+C:\Users\Usuario\OneDrive\Escritorio\AisaacSTR\AisaacSTR\bin\Debug\net9.0\AisaacSTR.deps.json
+C:\Users\Usuario\OneDrive\Escritorio\AisaacSTR\AisaacSTR\bin\Debug\net9.0\AisaacSTR.runtimeconfig.json
+C:\Users\Usuario\OneDrive\Escritorio\AisaacSTR\AisaacSTR\bin\Debug\net9.0\AisaacSTR.dll
+C:\Users\Usuario\OneDrive\Escritorio\AisaacSTR\AisaacSTR\bin\Debug\net9.0\AisaacSTR.pdb
+C:\Users\Usuario\OneDrive\Escritorio\AisaacSTR\AisaacSTR\bin\Debug\net9.0\BCrypt.Net-Next.dll
+C:\Users\Usuario\OneDrive\Escritorio\AisaacSTR\AisaacSTR\bin\Debug\net9.0\Humanizer.dll
+C:\Users\Usuario\OneDrive\Escritorio\AisaacSTR\AisaacSTR\bin\Debug\net9.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\Usuario\OneDrive\Escritorio\AisaacSTR\AisaacSTR\bin\Debug\net9.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Usuario\OneDrive\Escritorio\AisaacSTR\AisaacSTR\bin\Debug\net9.0\Microsoft.Build.Locator.dll
+C:\Users\Usuario\OneDrive\Escritorio\AisaacSTR\AisaacSTR\bin\Debug\net9.0\Microsoft.CodeAnalysis.dll
+C:\Users\Usuario\OneDrive\Escritorio\AisaacSTR\AisaacSTR\bin\Debug\net9.0\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Usuario\OneDrive\Escritorio\AisaacSTR\AisaacSTR\bin\Debug\net9.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+C:\Users\Usuario\OneDrive\Escritorio\AisaacSTR\AisaacSTR\bin\Debug\net9.0\Microsoft.CodeAnalysis.Workspaces.dll
+C:\Users\Usuario\OneDrive\Escritorio\AisaacSTR\AisaacSTR\bin\Debug\net9.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.dll
+C:\Users\Usuario\OneDrive\Escritorio\AisaacSTR\AisaacSTR\bin\Debug\net9.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.dll
+C:\Users\Usuario\OneDrive\Escritorio\AisaacSTR\AisaacSTR\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\Usuario\OneDrive\Escritorio\AisaacSTR\AisaacSTR\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Usuario\OneDrive\Escritorio\AisaacSTR\AisaacSTR\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\Usuario\OneDrive\Escritorio\AisaacSTR\AisaacSTR\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.InMemory.dll
+C:\Users\Usuario\OneDrive\Escritorio\AisaacSTR\AisaacSTR\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\Usuario\OneDrive\Escritorio\AisaacSTR\AisaacSTR\bin\Debug\net9.0\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\Usuario\OneDrive\Escritorio\AisaacSTR\AisaacSTR\bin\Debug\net9.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\Usuario\OneDrive\Escritorio\AisaacSTR\AisaacSTR\bin\Debug\net9.0\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\Usuario\OneDrive\Escritorio\AisaacSTR\AisaacSTR\bin\Debug\net9.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\Usuario\OneDrive\Escritorio\AisaacSTR\AisaacSTR\bin\Debug\net9.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Usuario\OneDrive\Escritorio\AisaacSTR\AisaacSTR\bin\Debug\net9.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\Usuario\OneDrive\Escritorio\AisaacSTR\AisaacSTR\bin\Debug\net9.0\Microsoft.Extensions.Logging.dll
+C:\Users\Usuario\OneDrive\Escritorio\AisaacSTR\AisaacSTR\bin\Debug\net9.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\Usuario\OneDrive\Escritorio\AisaacSTR\AisaacSTR\bin\Debug\net9.0\Microsoft.Extensions.Options.dll
+C:\Users\Usuario\OneDrive\Escritorio\AisaacSTR\AisaacSTR\bin\Debug\net9.0\Microsoft.Extensions.Primitives.dll
+C:\Users\Usuario\OneDrive\Escritorio\AisaacSTR\AisaacSTR\bin\Debug\net9.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\Usuario\OneDrive\Escritorio\AisaacSTR\AisaacSTR\bin\Debug\net9.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Usuario\OneDrive\Escritorio\AisaacSTR\AisaacSTR\bin\Debug\net9.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\Usuario\OneDrive\Escritorio\AisaacSTR\AisaacSTR\bin\Debug\net9.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\Usuario\OneDrive\Escritorio\AisaacSTR\AisaacSTR\bin\Debug\net9.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\Usuario\OneDrive\Escritorio\AisaacSTR\AisaacSTR\bin\Debug\net9.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Usuario\OneDrive\Escritorio\AisaacSTR\AisaacSTR\bin\Debug\net9.0\Mono.TextTemplating.dll
+C:\Users\Usuario\OneDrive\Escritorio\AisaacSTR\AisaacSTR\bin\Debug\net9.0\Npgsql.dll
+C:\Users\Usuario\OneDrive\Escritorio\AisaacSTR\AisaacSTR\bin\Debug\net9.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
+C:\Users\Usuario\OneDrive\Escritorio\AisaacSTR\AisaacSTR\bin\Debug\net9.0\System.CodeDom.dll
+C:\Users\Usuario\OneDrive\Escritorio\AisaacSTR\AisaacSTR\bin\Debug\net9.0\System.Composition.AttributedModel.dll
+C:\Users\Usuario\OneDrive\Escritorio\AisaacSTR\AisaacSTR\bin\Debug\net9.0\System.Composition.Convention.dll
+C:\Users\Usuario\OneDrive\Escritorio\AisaacSTR\AisaacSTR\bin\Debug\net9.0\System.Composition.Hosting.dll
+C:\Users\Usuario\OneDrive\Escritorio\AisaacSTR\AisaacSTR\bin\Debug\net9.0\System.Composition.Runtime.dll
+C:\Users\Usuario\OneDrive\Escritorio\AisaacSTR\AisaacSTR\bin\Debug\net9.0\System.Composition.TypedParts.dll
+C:\Users\Usuario\OneDrive\Escritorio\AisaacSTR\AisaacSTR\bin\Debug\net9.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\Usuario\OneDrive\Escritorio\AisaacSTR\AisaacSTR\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Usuario\OneDrive\Escritorio\AisaacSTR\AisaacSTR\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Usuario\OneDrive\Escritorio\AisaacSTR\AisaacSTR\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Usuario\OneDrive\Escritorio\AisaacSTR\AisaacSTR\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Usuario\OneDrive\Escritorio\AisaacSTR\AisaacSTR\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Usuario\OneDrive\Escritorio\AisaacSTR\AisaacSTR\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Usuario\OneDrive\Escritorio\AisaacSTR\AisaacSTR\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Usuario\OneDrive\Escritorio\AisaacSTR\AisaacSTR\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Usuario\OneDrive\Escritorio\AisaacSTR\AisaacSTR\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Usuario\OneDrive\Escritorio\AisaacSTR\AisaacSTR\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Usuario\OneDrive\Escritorio\AisaacSTR\AisaacSTR\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Usuario\OneDrive\Escritorio\AisaacSTR\AisaacSTR\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Usuario\OneDrive\Escritorio\AisaacSTR\AisaacSTR\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Usuario\OneDrive\Escritorio\AisaacSTR\AisaacSTR\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Usuario\OneDrive\Escritorio\AisaacSTR\AisaacSTR\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Usuario\OneDrive\Escritorio\AisaacSTR\AisaacSTR\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Usuario\OneDrive\Escritorio\AisaacSTR\AisaacSTR\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Usuario\OneDrive\Escritorio\AisaacSTR\AisaacSTR\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Usuario\OneDrive\Escritorio\AisaacSTR\AisaacSTR\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Usuario\OneDrive\Escritorio\AisaacSTR\AisaacSTR\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Usuario\OneDrive\Escritorio\AisaacSTR\AisaacSTR\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Usuario\OneDrive\Escritorio\AisaacSTR\AisaacSTR\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Usuario\OneDrive\Escritorio\AisaacSTR\AisaacSTR\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Usuario\OneDrive\Escritorio\AisaacSTR\AisaacSTR\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Usuario\OneDrive\Escritorio\AisaacSTR\AisaacSTR\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Usuario\OneDrive\Escritorio\AisaacSTR\AisaacSTR\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Usuario\OneDrive\Escritorio\AisaacSTR\AisaacSTR\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Usuario\OneDrive\Escritorio\AisaacSTR\AisaacSTR\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Usuario\OneDrive\Escritorio\AisaacSTR\AisaacSTR\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Usuario\OneDrive\Escritorio\AisaacSTR\AisaacSTR\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Usuario\OneDrive\Escritorio\AisaacSTR\AisaacSTR\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Usuario\OneDrive\Escritorio\AisaacSTR\AisaacSTR\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Usuario\OneDrive\Escritorio\AisaacSTR\AisaacSTR\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Usuario\OneDrive\Escritorio\AisaacSTR\AisaacSTR\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Usuario\OneDrive\Escritorio\AisaacSTR\AisaacSTR\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Usuario\OneDrive\Escritorio\AisaacSTR\AisaacSTR\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Usuario\OneDrive\Escritorio\AisaacSTR\AisaacSTR\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Usuario\OneDrive\Escritorio\AisaacSTR\AisaacSTR\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Usuario\OneDrive\Escritorio\AisaacSTR\AisaacSTR\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Usuario\OneDrive\Escritorio\AisaacSTR\AisaacSTR\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Usuario\OneDrive\Escritorio\AisaacSTR\AisaacSTR\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Usuario\OneDrive\Escritorio\AisaacSTR\AisaacSTR\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Usuario\OneDrive\Escritorio\AisaacSTR\AisaacSTR\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Usuario\OneDrive\Escritorio\AisaacSTR\AisaacSTR\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Usuario\OneDrive\Escritorio\AisaacSTR\AisaacSTR\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Usuario\OneDrive\Escritorio\AisaacSTR\AisaacSTR\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Usuario\OneDrive\Escritorio\AisaacSTR\AisaacSTR\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Usuario\OneDrive\Escritorio\AisaacSTR\AisaacSTR\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Usuario\OneDrive\Escritorio\AisaacSTR\AisaacSTR\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Usuario\OneDrive\Escritorio\AisaacSTR\AisaacSTR\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Usuario\OneDrive\Escritorio\AisaacSTR\AisaacSTR\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Usuario\OneDrive\Escritorio\AisaacSTR\AisaacSTR\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Usuario\OneDrive\Escritorio\AisaacSTR\AisaacSTR\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\Usuario\OneDrive\Escritorio\AisaacSTR\AisaacSTR\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\Usuario\OneDrive\Escritorio\AisaacSTR\AisaacSTR\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\Usuario\OneDrive\Escritorio\AisaacSTR\AisaacSTR\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\Usuario\OneDrive\Escritorio\AisaacSTR\AisaacSTR\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\Usuario\OneDrive\Escritorio\AisaacSTR\AisaacSTR\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\Usuario\OneDrive\Escritorio\AisaacSTR\AisaacSTR\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\Usuario\OneDrive\Escritorio\AisaacSTR\AisaacSTR\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\Usuario\OneDrive\Escritorio\AisaacSTR\AisaacSTR\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\Usuario\OneDrive\Escritorio\AisaacSTR\AisaacSTR\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\Usuario\OneDrive\Escritorio\AisaacSTR\AisaacSTR\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\Usuario\OneDrive\Escritorio\AisaacSTR\AisaacSTR\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\Usuario\OneDrive\Escritorio\AisaacSTR\AisaacSTR\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\Usuario\OneDrive\Escritorio\AisaacSTR\AisaacSTR\obj\Debug\net9.0\AisaacSTR.csproj.AssemblyReference.cache
+C:\Users\Usuario\OneDrive\Escritorio\AisaacSTR\AisaacSTR\obj\Debug\net9.0\rpswa.dswa.cache.json
+C:\Users\Usuario\OneDrive\Escritorio\AisaacSTR\AisaacSTR\obj\Debug\net9.0\AisaacSTR.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Usuario\OneDrive\Escritorio\AisaacSTR\AisaacSTR\obj\Debug\net9.0\AisaacSTR.AssemblyInfoInputs.cache
+C:\Users\Usuario\OneDrive\Escritorio\AisaacSTR\AisaacSTR\obj\Debug\net9.0\AisaacSTR.AssemblyInfo.cs
+C:\Users\Usuario\OneDrive\Escritorio\AisaacSTR\AisaacSTR\obj\Debug\net9.0\AisaacSTR.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\OneDrive\Escritorio\AisaacSTR\AisaacSTR\obj\Debug\net9.0\AisaacSTR.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Usuario\OneDrive\Escritorio\AisaacSTR\AisaacSTR\obj\Debug\net9.0\AisaacSTR.RazorAssemblyInfo.cache
+C:\Users\Usuario\OneDrive\Escritorio\AisaacSTR\AisaacSTR\obj\Debug\net9.0\AisaacSTR.RazorAssemblyInfo.cs
+C:\Users\Usuario\OneDrive\Escritorio\AisaacSTR\AisaacSTR\obj\Debug\net9.0\rjimswa.dswa.cache.json
+C:\Users\Usuario\OneDrive\Escritorio\AisaacSTR\AisaacSTR\obj\Debug\net9.0\rjsmrazor.dswa.cache.json
+C:\Users\Usuario\OneDrive\Escritorio\AisaacSTR\AisaacSTR\obj\Debug\net9.0\rjsmcshtml.dswa.cache.json
+C:\Users\Usuario\OneDrive\Escritorio\AisaacSTR\AisaacSTR\obj\Debug\net9.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\Usuario\OneDrive\Escritorio\AisaacSTR\AisaacSTR\obj\Debug\net9.0\scopedcss\bundle\AisaacSTR.styles.css
+C:\Users\Usuario\OneDrive\Escritorio\AisaacSTR\AisaacSTR\obj\Debug\net9.0\scopedcss\projectbundle\AisaacSTR.bundle.scp.css
+C:\Users\Usuario\OneDrive\Escritorio\AisaacSTR\AisaacSTR\obj\Debug\net9.0\compressed\82fwdkx6i6-{0}-b9sayid5wm-b9sayid5wm.gz
+C:\Users\Usuario\OneDrive\Escritorio\AisaacSTR\AisaacSTR\obj\Debug\net9.0\compressed\amg3xlrgu4-{0}-61n19gt1b8-61n19gt1b8.gz
+C:\Users\Usuario\OneDrive\Escritorio\AisaacSTR\AisaacSTR\obj\Debug\net9.0\compressed\k14zk1rj5z-{0}-xtxxf3hu2r-xtxxf3hu2r.gz
+C:\Users\Usuario\OneDrive\Escritorio\AisaacSTR\AisaacSTR\obj\Debug\net9.0\compressed\epnm1jyhxe-{0}-bqjiyaj88i-bqjiyaj88i.gz
+C:\Users\Usuario\OneDrive\Escritorio\AisaacSTR\AisaacSTR\obj\Debug\net9.0\compressed\k45rtluku7-{0}-c2jlpeoesf-c2jlpeoesf.gz
+C:\Users\Usuario\OneDrive\Escritorio\AisaacSTR\AisaacSTR\obj\Debug\net9.0\compressed\vs4sn7gdw5-{0}-erw9l3u2r3-erw9l3u2r3.gz
+C:\Users\Usuario\OneDrive\Escritorio\AisaacSTR\AisaacSTR\obj\Debug\net9.0\compressed\gigcyz70u7-{0}-aexeepp0ev-aexeepp0ev.gz
+C:\Users\Usuario\OneDrive\Escritorio\AisaacSTR\AisaacSTR\obj\Debug\net9.0\compressed\g4g1apj2lj-{0}-d7shbmvgxk-d7shbmvgxk.gz
+C:\Users\Usuario\OneDrive\Escritorio\AisaacSTR\AisaacSTR\obj\Debug\net9.0\compressed\1impkjcd9s-{0}-ausgxo2sd3-ausgxo2sd3.gz
+C:\Users\Usuario\OneDrive\Escritorio\AisaacSTR\AisaacSTR\obj\Debug\net9.0\compressed\vm7j4pvfve-{0}-k8d9w2qqmf-k8d9w2qqmf.gz
+C:\Users\Usuario\OneDrive\Escritorio\AisaacSTR\AisaacSTR\obj\Debug\net9.0\compressed\0eyqo02hnq-{0}-cosvhxvwiu-cosvhxvwiu.gz
+C:\Users\Usuario\OneDrive\Escritorio\AisaacSTR\AisaacSTR\obj\Debug\net9.0\compressed\oqqaxrfvtb-{0}-ub07r2b239-ub07r2b239.gz
+C:\Users\Usuario\OneDrive\Escritorio\AisaacSTR\AisaacSTR\obj\Debug\net9.0\compressed\azokflwn93-{0}-fvhpjtyr6v-fvhpjtyr6v.gz
+C:\Users\Usuario\OneDrive\Escritorio\AisaacSTR\AisaacSTR\obj\Debug\net9.0\compressed\l9ltcvmjce-{0}-b7pk76d08c-b7pk76d08c.gz
+C:\Users\Usuario\OneDrive\Escritorio\AisaacSTR\AisaacSTR\obj\Debug\net9.0\compressed\u8omoj9xqt-{0}-fsbi9cje9m-fsbi9cje9m.gz
+C:\Users\Usuario\OneDrive\Escritorio\AisaacSTR\AisaacSTR\obj\Debug\net9.0\compressed\lqv5r9q8yd-{0}-rzd6atqjts-rzd6atqjts.gz
+C:\Users\Usuario\OneDrive\Escritorio\AisaacSTR\AisaacSTR\obj\Debug\net9.0\compressed\8iaxb88nil-{0}-ee0r1s7dh0-ee0r1s7dh0.gz
+C:\Users\Usuario\OneDrive\Escritorio\AisaacSTR\AisaacSTR\obj\Debug\net9.0\compressed\w3gp4omjz8-{0}-dxx9fxp4il-dxx9fxp4il.gz
+C:\Users\Usuario\OneDrive\Escritorio\AisaacSTR\AisaacSTR\obj\Debug\net9.0\compressed\jjgmbukfp6-{0}-jd9uben2k1-jd9uben2k1.gz
+C:\Users\Usuario\OneDrive\Escritorio\AisaacSTR\AisaacSTR\obj\Debug\net9.0\compressed\94wv2eim3s-{0}-khv3u5hwcm-khv3u5hwcm.gz
+C:\Users\Usuario\OneDrive\Escritorio\AisaacSTR\AisaacSTR\obj\Debug\net9.0\compressed\qindnsqjrq-{0}-r4e9w2rdcm-r4e9w2rdcm.gz
+C:\Users\Usuario\OneDrive\Escritorio\AisaacSTR\AisaacSTR\obj\Debug\net9.0\compressed\kkgp6tcg53-{0}-lcd1t2u6c8-lcd1t2u6c8.gz
+C:\Users\Usuario\OneDrive\Escritorio\AisaacSTR\AisaacSTR\obj\Debug\net9.0\compressed\4gq067407y-{0}-c2oey78nd0-c2oey78nd0.gz
+C:\Users\Usuario\OneDrive\Escritorio\AisaacSTR\AisaacSTR\obj\Debug\net9.0\compressed\3i21ne8mym-{0}-tdbxkamptv-tdbxkamptv.gz
+C:\Users\Usuario\OneDrive\Escritorio\AisaacSTR\AisaacSTR\obj\Debug\net9.0\compressed\ycapevaxec-{0}-j5mq2jizvt-j5mq2jizvt.gz
+C:\Users\Usuario\OneDrive\Escritorio\AisaacSTR\AisaacSTR\obj\Debug\net9.0\compressed\ruxuj1cre1-{0}-06098lyss8-06098lyss8.gz
+C:\Users\Usuario\OneDrive\Escritorio\AisaacSTR\AisaacSTR\obj\Debug\net9.0\compressed\bx9cs97w1a-{0}-nvvlpmu67g-nvvlpmu67g.gz
+C:\Users\Usuario\OneDrive\Escritorio\AisaacSTR\AisaacSTR\obj\Debug\net9.0\compressed\bhzygw4ud7-{0}-s35ty4nyc5-s35ty4nyc5.gz
+C:\Users\Usuario\OneDrive\Escritorio\AisaacSTR\AisaacSTR\obj\Debug\net9.0\compressed\a7wfkvto0m-{0}-pj5nd1wqec-pj5nd1wqec.gz
+C:\Users\Usuario\OneDrive\Escritorio\AisaacSTR\AisaacSTR\obj\Debug\net9.0\compressed\newrp4xpa9-{0}-46ein0sx1k-46ein0sx1k.gz
+C:\Users\Usuario\OneDrive\Escritorio\AisaacSTR\AisaacSTR\obj\Debug\net9.0\compressed\yggpdw7dxw-{0}-v0zj4ognzu-v0zj4ognzu.gz
+C:\Users\Usuario\OneDrive\Escritorio\AisaacSTR\AisaacSTR\obj\Debug\net9.0\compressed\5mjbrkokzx-{0}-37tfw0ft22-37tfw0ft22.gz
+C:\Users\Usuario\OneDrive\Escritorio\AisaacSTR\AisaacSTR\obj\Debug\net9.0\compressed\udw760nle2-{0}-hrwsygsryq-hrwsygsryq.gz
+C:\Users\Usuario\OneDrive\Escritorio\AisaacSTR\AisaacSTR\obj\Debug\net9.0\compressed\dpcm1ckwk9-{0}-pk9g2wxc8p-pk9g2wxc8p.gz
+C:\Users\Usuario\OneDrive\Escritorio\AisaacSTR\AisaacSTR\obj\Debug\net9.0\compressed\v86yr8fbqp-{0}-ft3s53vfgj-ft3s53vfgj.gz
+C:\Users\Usuario\OneDrive\Escritorio\AisaacSTR\AisaacSTR\obj\Debug\net9.0\compressed\u8a6y6sv2j-{0}-6cfz1n2cew-6cfz1n2cew.gz
+C:\Users\Usuario\OneDrive\Escritorio\AisaacSTR\AisaacSTR\obj\Debug\net9.0\compressed\al68f8l7jl-{0}-6pdc2jztkx-6pdc2jztkx.gz
+C:\Users\Usuario\OneDrive\Escritorio\AisaacSTR\AisaacSTR\obj\Debug\net9.0\compressed\si5qxzuu59-{0}-493y06b0oq-493y06b0oq.gz
+C:\Users\Usuario\OneDrive\Escritorio\AisaacSTR\AisaacSTR\obj\Debug\net9.0\compressed\uppmqsbqzf-{0}-iovd86k7lj-iovd86k7lj.gz
+C:\Users\Usuario\OneDrive\Escritorio\AisaacSTR\AisaacSTR\obj\Debug\net9.0\compressed\6kdw684xxq-{0}-vr1egmr9el-vr1egmr9el.gz
+C:\Users\Usuario\OneDrive\Escritorio\AisaacSTR\AisaacSTR\obj\Debug\net9.0\compressed\tcul96k1kd-{0}-kbrnm935zg-kbrnm935zg.gz
+C:\Users\Usuario\OneDrive\Escritorio\AisaacSTR\AisaacSTR\obj\Debug\net9.0\compressed\cl655fj0m5-{0}-jj8uyg4cgr-jj8uyg4cgr.gz
+C:\Users\Usuario\OneDrive\Escritorio\AisaacSTR\AisaacSTR\obj\Debug\net9.0\compressed\osynbdjqw0-{0}-y7v9cxd14o-y7v9cxd14o.gz
+C:\Users\Usuario\OneDrive\Escritorio\AisaacSTR\AisaacSTR\obj\Debug\net9.0\compressed\u8j0oujjax-{0}-notf2xhcfb-notf2xhcfb.gz
+C:\Users\Usuario\OneDrive\Escritorio\AisaacSTR\AisaacSTR\obj\Debug\net9.0\compressed\rerqyls2cr-{0}-h1s4sie4z3-h1s4sie4z3.gz
+C:\Users\Usuario\OneDrive\Escritorio\AisaacSTR\AisaacSTR\obj\Debug\net9.0\compressed\rplarrg0lk-{0}-63fj8s7r0e-63fj8s7r0e.gz
+C:\Users\Usuario\OneDrive\Escritorio\AisaacSTR\AisaacSTR\obj\Debug\net9.0\compressed\2cqqmcxe35-{0}-0j3bgjxly4-0j3bgjxly4.gz
+C:\Users\Usuario\OneDrive\Escritorio\AisaacSTR\AisaacSTR\obj\Debug\net9.0\compressed\qyjmho1u9q-{0}-47otxtyo56-47otxtyo56.gz
+C:\Users\Usuario\OneDrive\Escritorio\AisaacSTR\AisaacSTR\obj\Debug\net9.0\compressed\690gev1ord-{0}-4v8eqarkd7-4v8eqarkd7.gz
+C:\Users\Usuario\OneDrive\Escritorio\AisaacSTR\AisaacSTR\obj\Debug\net9.0\compressed\w1h2cui1tk-{0}-356vix0kms-356vix0kms.gz
+C:\Users\Usuario\OneDrive\Escritorio\AisaacSTR\AisaacSTR\obj\Debug\net9.0\compressed\k01hgsr65w-{0}-83jwlth58m-83jwlth58m.gz
+C:\Users\Usuario\OneDrive\Escritorio\AisaacSTR\AisaacSTR\obj\Debug\net9.0\compressed\nbyzk26pvf-{0}-mrlpezrjn3-mrlpezrjn3.gz
+C:\Users\Usuario\OneDrive\Escritorio\AisaacSTR\AisaacSTR\obj\Debug\net9.0\compressed\2jaou64kh0-{0}-lzl9nlhx6b-lzl9nlhx6b.gz
+C:\Users\Usuario\OneDrive\Escritorio\AisaacSTR\AisaacSTR\obj\Debug\net9.0\compressed\wg0hivjwdk-{0}-ag7o75518u-ag7o75518u.gz
+C:\Users\Usuario\OneDrive\Escritorio\AisaacSTR\AisaacSTR\obj\Debug\net9.0\compressed\5wxydbi20t-{0}-x0q3zqp4vz-x0q3zqp4vz.gz
+C:\Users\Usuario\OneDrive\Escritorio\AisaacSTR\AisaacSTR\obj\Debug\net9.0\compressed\jadouzvw24-{0}-0i3buxo5is-0i3buxo5is.gz
+C:\Users\Usuario\OneDrive\Escritorio\AisaacSTR\AisaacSTR\obj\Debug\net9.0\compressed\bh4374noce-{0}-o1o13a6vjx-o1o13a6vjx.gz
+C:\Users\Usuario\OneDrive\Escritorio\AisaacSTR\AisaacSTR\obj\Debug\net9.0\compressed\gb646zibpu-{0}-ttgo8qnofa-ttgo8qnofa.gz
+C:\Users\Usuario\OneDrive\Escritorio\AisaacSTR\AisaacSTR\obj\Debug\net9.0\compressed\o3a4zzekma-{0}-2z0ns9nrw6-2z0ns9nrw6.gz
+C:\Users\Usuario\OneDrive\Escritorio\AisaacSTR\AisaacSTR\obj\Debug\net9.0\compressed\itknvlswsp-{0}-muycvpuwrr-muycvpuwrr.gz
+C:\Users\Usuario\OneDrive\Escritorio\AisaacSTR\AisaacSTR\obj\Debug\net9.0\compressed\onakr74jjr-{0}-87fc7y1x7t-87fc7y1x7t.gz
+C:\Users\Usuario\OneDrive\Escritorio\AisaacSTR\AisaacSTR\obj\Debug\net9.0\compressed\cgdt06xxxu-{0}-mlv21k5csn-mlv21k5csn.gz
+C:\Users\Usuario\OneDrive\Escritorio\AisaacSTR\AisaacSTR\obj\Debug\net9.0\compressed\i9ma5w18et-{0}-ahkwc3fi2q-ahkwc3fi2q.gz
+C:\Users\Usuario\OneDrive\Escritorio\AisaacSTR\AisaacSTR\obj\Debug\net9.0\compressed\b2jmrjrq9v-{0}-ahkwc3fi2q-ahkwc3fi2q.gz
+C:\Users\Usuario\OneDrive\Escritorio\AisaacSTR\AisaacSTR\obj\Debug\net9.0\staticwebassets.build.json
+C:\Users\Usuario\OneDrive\Escritorio\AisaacSTR\AisaacSTR\obj\Debug\net9.0\staticwebassets.build.json.cache
+C:\Users\Usuario\OneDrive\Escritorio\AisaacSTR\AisaacSTR\obj\Debug\net9.0\staticwebassets.development.json
+C:\Users\Usuario\OneDrive\Escritorio\AisaacSTR\AisaacSTR\obj\Debug\net9.0\staticwebassets.build.endpoints.json
+C:\Users\Usuario\OneDrive\Escritorio\AisaacSTR\AisaacSTR\obj\Debug\net9.0\swae.build.ex.cache
+C:\Users\Usuario\OneDrive\Escritorio\AisaacSTR\AisaacSTR\obj\Debug\net9.0\AisaacSTR.csproj.Up2Date
+C:\Users\Usuario\OneDrive\Escritorio\AisaacSTR\AisaacSTR\obj\Debug\net9.0\AisaacSTR.dll
+C:\Users\Usuario\OneDrive\Escritorio\AisaacSTR\AisaacSTR\obj\Debug\net9.0\refint\AisaacSTR.dll
+C:\Users\Usuario\OneDrive\Escritorio\AisaacSTR\AisaacSTR\obj\Debug\net9.0\AisaacSTR.pdb
+C:\Users\Usuario\OneDrive\Escritorio\AisaacSTR\AisaacSTR\obj\Debug\net9.0\AisaacSTR.genruntimeconfig.cache
+C:\Users\Usuario\OneDrive\Escritorio\AisaacSTR\AisaacSTR\obj\Debug\net9.0\ref\AisaacSTR.dll
+C:\Users\Usuario\OneDrive\Escritorio\AisaacSTR\AisaacSTR\obj\Debug\net9.0\compressed\cmsu5758o3-{0}-nmj3llhkyw-nmj3llhkyw.gz
+C:\Users\Usuario\OneDrive\Escritorio\AisaacSTR\AisaacSTR\obj\Debug\net9.0\compressed\4wohp6achm-{0}-xk50cjrxj4-xk50cjrxj4.gz
+C:\Users\gonza\Downloads\AisaacSTR (2)\AisaacSTR\AisaacSTR\bin\Debug\net9.0\appsettings.Development.json
+C:\Users\gonza\Downloads\AisaacSTR (2)\AisaacSTR\AisaacSTR\bin\Debug\net9.0\appsettings.json
+C:\Users\gonza\Downloads\AisaacSTR (2)\AisaacSTR\AisaacSTR\bin\Debug\net9.0\AisaacSTR.staticwebassets.runtime.json
+C:\Users\gonza\Downloads\AisaacSTR (2)\AisaacSTR\AisaacSTR\bin\Debug\net9.0\AisaacSTR.staticwebassets.endpoints.json
+C:\Users\gonza\Downloads\AisaacSTR (2)\AisaacSTR\AisaacSTR\bin\Debug\net9.0\AisaacSTR.exe
+C:\Users\gonza\Downloads\AisaacSTR (2)\AisaacSTR\AisaacSTR\bin\Debug\net9.0\AisaacSTR.deps.json
+C:\Users\gonza\Downloads\AisaacSTR (2)\AisaacSTR\AisaacSTR\bin\Debug\net9.0\AisaacSTR.runtimeconfig.json
+C:\Users\gonza\Downloads\AisaacSTR (2)\AisaacSTR\AisaacSTR\bin\Debug\net9.0\AisaacSTR.dll
+C:\Users\gonza\Downloads\AisaacSTR (2)\AisaacSTR\AisaacSTR\bin\Debug\net9.0\AisaacSTR.pdb
+C:\Users\gonza\Downloads\AisaacSTR (2)\AisaacSTR\AisaacSTR\bin\Debug\net9.0\BCrypt.Net-Next.dll
+C:\Users\gonza\Downloads\AisaacSTR (2)\AisaacSTR\AisaacSTR\bin\Debug\net9.0\Humanizer.dll
+C:\Users\gonza\Downloads\AisaacSTR (2)\AisaacSTR\AisaacSTR\bin\Debug\net9.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\gonza\Downloads\AisaacSTR (2)\AisaacSTR\AisaacSTR\bin\Debug\net9.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\gonza\Downloads\AisaacSTR (2)\AisaacSTR\AisaacSTR\bin\Debug\net9.0\Microsoft.Build.Locator.dll
+C:\Users\gonza\Downloads\AisaacSTR (2)\AisaacSTR\AisaacSTR\bin\Debug\net9.0\Microsoft.CodeAnalysis.dll
+C:\Users\gonza\Downloads\AisaacSTR (2)\AisaacSTR\AisaacSTR\bin\Debug\net9.0\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\gonza\Downloads\AisaacSTR (2)\AisaacSTR\AisaacSTR\bin\Debug\net9.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+C:\Users\gonza\Downloads\AisaacSTR (2)\AisaacSTR\AisaacSTR\bin\Debug\net9.0\Microsoft.CodeAnalysis.Workspaces.dll
+C:\Users\gonza\Downloads\AisaacSTR (2)\AisaacSTR\AisaacSTR\bin\Debug\net9.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.dll
+C:\Users\gonza\Downloads\AisaacSTR (2)\AisaacSTR\AisaacSTR\bin\Debug\net9.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.dll
+C:\Users\gonza\Downloads\AisaacSTR (2)\AisaacSTR\AisaacSTR\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\gonza\Downloads\AisaacSTR (2)\AisaacSTR\AisaacSTR\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\gonza\Downloads\AisaacSTR (2)\AisaacSTR\AisaacSTR\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\gonza\Downloads\AisaacSTR (2)\AisaacSTR\AisaacSTR\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.InMemory.dll
+C:\Users\gonza\Downloads\AisaacSTR (2)\AisaacSTR\AisaacSTR\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\gonza\Downloads\AisaacSTR (2)\AisaacSTR\AisaacSTR\bin\Debug\net9.0\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\gonza\Downloads\AisaacSTR (2)\AisaacSTR\AisaacSTR\bin\Debug\net9.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\gonza\Downloads\AisaacSTR (2)\AisaacSTR\AisaacSTR\bin\Debug\net9.0\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\gonza\Downloads\AisaacSTR (2)\AisaacSTR\AisaacSTR\bin\Debug\net9.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\gonza\Downloads\AisaacSTR (2)\AisaacSTR\AisaacSTR\bin\Debug\net9.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\gonza\Downloads\AisaacSTR (2)\AisaacSTR\AisaacSTR\bin\Debug\net9.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\gonza\Downloads\AisaacSTR (2)\AisaacSTR\AisaacSTR\bin\Debug\net9.0\Microsoft.Extensions.Logging.dll
+C:\Users\gonza\Downloads\AisaacSTR (2)\AisaacSTR\AisaacSTR\bin\Debug\net9.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\gonza\Downloads\AisaacSTR (2)\AisaacSTR\AisaacSTR\bin\Debug\net9.0\Microsoft.Extensions.Options.dll
+C:\Users\gonza\Downloads\AisaacSTR (2)\AisaacSTR\AisaacSTR\bin\Debug\net9.0\Microsoft.Extensions.Primitives.dll
+C:\Users\gonza\Downloads\AisaacSTR (2)\AisaacSTR\AisaacSTR\bin\Debug\net9.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\gonza\Downloads\AisaacSTR (2)\AisaacSTR\AisaacSTR\bin\Debug\net9.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\gonza\Downloads\AisaacSTR (2)\AisaacSTR\AisaacSTR\bin\Debug\net9.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\gonza\Downloads\AisaacSTR (2)\AisaacSTR\AisaacSTR\bin\Debug\net9.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\gonza\Downloads\AisaacSTR (2)\AisaacSTR\AisaacSTR\bin\Debug\net9.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\gonza\Downloads\AisaacSTR (2)\AisaacSTR\AisaacSTR\bin\Debug\net9.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\gonza\Downloads\AisaacSTR (2)\AisaacSTR\AisaacSTR\bin\Debug\net9.0\Mono.TextTemplating.dll
+C:\Users\gonza\Downloads\AisaacSTR (2)\AisaacSTR\AisaacSTR\bin\Debug\net9.0\Npgsql.dll
+C:\Users\gonza\Downloads\AisaacSTR (2)\AisaacSTR\AisaacSTR\bin\Debug\net9.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
+C:\Users\gonza\Downloads\AisaacSTR (2)\AisaacSTR\AisaacSTR\bin\Debug\net9.0\System.CodeDom.dll
+C:\Users\gonza\Downloads\AisaacSTR (2)\AisaacSTR\AisaacSTR\bin\Debug\net9.0\System.Composition.AttributedModel.dll
+C:\Users\gonza\Downloads\AisaacSTR (2)\AisaacSTR\AisaacSTR\bin\Debug\net9.0\System.Composition.Convention.dll
+C:\Users\gonza\Downloads\AisaacSTR (2)\AisaacSTR\AisaacSTR\bin\Debug\net9.0\System.Composition.Hosting.dll
+C:\Users\gonza\Downloads\AisaacSTR (2)\AisaacSTR\AisaacSTR\bin\Debug\net9.0\System.Composition.Runtime.dll
+C:\Users\gonza\Downloads\AisaacSTR (2)\AisaacSTR\AisaacSTR\bin\Debug\net9.0\System.Composition.TypedParts.dll
+C:\Users\gonza\Downloads\AisaacSTR (2)\AisaacSTR\AisaacSTR\bin\Debug\net9.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\gonza\Downloads\AisaacSTR (2)\AisaacSTR\AisaacSTR\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.resources.dll
+C:\Users\gonza\Downloads\AisaacSTR (2)\AisaacSTR\AisaacSTR\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.resources.dll
+C:\Users\gonza\Downloads\AisaacSTR (2)\AisaacSTR\AisaacSTR\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.resources.dll
+C:\Users\gonza\Downloads\AisaacSTR (2)\AisaacSTR\AisaacSTR\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\gonza\Downloads\AisaacSTR (2)\AisaacSTR\AisaacSTR\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.resources.dll
+C:\Users\gonza\Downloads\AisaacSTR (2)\AisaacSTR\AisaacSTR\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.resources.dll
+C:\Users\gonza\Downloads\AisaacSTR (2)\AisaacSTR\AisaacSTR\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.resources.dll
+C:\Users\gonza\Downloads\AisaacSTR (2)\AisaacSTR\AisaacSTR\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.resources.dll
+C:\Users\gonza\Downloads\AisaacSTR (2)\AisaacSTR\AisaacSTR\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+C:\Users\gonza\Downloads\AisaacSTR (2)\AisaacSTR\AisaacSTR\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.resources.dll
+C:\Users\gonza\Downloads\AisaacSTR (2)\AisaacSTR\AisaacSTR\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\gonza\Downloads\AisaacSTR (2)\AisaacSTR\AisaacSTR\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+C:\Users\gonza\Downloads\AisaacSTR (2)\AisaacSTR\AisaacSTR\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+C:\Users\gonza\Downloads\AisaacSTR (2)\AisaacSTR\AisaacSTR\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\gonza\Downloads\AisaacSTR (2)\AisaacSTR\AisaacSTR\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\gonza\Downloads\AisaacSTR (2)\AisaacSTR\AisaacSTR\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\gonza\Downloads\AisaacSTR (2)\AisaacSTR\AisaacSTR\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\gonza\Downloads\AisaacSTR (2)\AisaacSTR\AisaacSTR\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\gonza\Downloads\AisaacSTR (2)\AisaacSTR\AisaacSTR\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\gonza\Downloads\AisaacSTR (2)\AisaacSTR\AisaacSTR\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\gonza\Downloads\AisaacSTR (2)\AisaacSTR\AisaacSTR\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\gonza\Downloads\AisaacSTR (2)\AisaacSTR\AisaacSTR\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\gonza\Downloads\AisaacSTR (2)\AisaacSTR\AisaacSTR\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\gonza\Downloads\AisaacSTR (2)\AisaacSTR\AisaacSTR\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\gonza\Downloads\AisaacSTR (2)\AisaacSTR\AisaacSTR\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\gonza\Downloads\AisaacSTR (2)\AisaacSTR\AisaacSTR\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\gonza\Downloads\AisaacSTR (2)\AisaacSTR\AisaacSTR\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\gonza\Downloads\AisaacSTR (2)\AisaacSTR\AisaacSTR\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\gonza\Downloads\AisaacSTR (2)\AisaacSTR\AisaacSTR\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\gonza\Downloads\AisaacSTR (2)\AisaacSTR\AisaacSTR\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\gonza\Downloads\AisaacSTR (2)\AisaacSTR\AisaacSTR\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\gonza\Downloads\AisaacSTR (2)\AisaacSTR\AisaacSTR\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\gonza\Downloads\AisaacSTR (2)\AisaacSTR\AisaacSTR\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\gonza\Downloads\AisaacSTR (2)\AisaacSTR\AisaacSTR\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\gonza\Downloads\AisaacSTR (2)\AisaacSTR\AisaacSTR\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\gonza\Downloads\AisaacSTR (2)\AisaacSTR\AisaacSTR\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\gonza\Downloads\AisaacSTR (2)\AisaacSTR\AisaacSTR\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\gonza\Downloads\AisaacSTR (2)\AisaacSTR\AisaacSTR\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\gonza\Downloads\AisaacSTR (2)\AisaacSTR\AisaacSTR\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\gonza\Downloads\AisaacSTR (2)\AisaacSTR\AisaacSTR\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\gonza\Downloads\AisaacSTR (2)\AisaacSTR\AisaacSTR\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\gonza\Downloads\AisaacSTR (2)\AisaacSTR\AisaacSTR\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\gonza\Downloads\AisaacSTR (2)\AisaacSTR\AisaacSTR\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\gonza\Downloads\AisaacSTR (2)\AisaacSTR\AisaacSTR\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\gonza\Downloads\AisaacSTR (2)\AisaacSTR\AisaacSTR\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\gonza\Downloads\AisaacSTR (2)\AisaacSTR\AisaacSTR\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\gonza\Downloads\AisaacSTR (2)\AisaacSTR\AisaacSTR\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\gonza\Downloads\AisaacSTR (2)\AisaacSTR\AisaacSTR\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\gonza\Downloads\AisaacSTR (2)\AisaacSTR\AisaacSTR\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\gonza\Downloads\AisaacSTR (2)\AisaacSTR\AisaacSTR\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\gonza\Downloads\AisaacSTR (2)\AisaacSTR\AisaacSTR\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\gonza\Downloads\AisaacSTR (2)\AisaacSTR\AisaacSTR\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\gonza\Downloads\AisaacSTR (2)\AisaacSTR\AisaacSTR\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\gonza\Downloads\AisaacSTR (2)\AisaacSTR\AisaacSTR\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\gonza\Downloads\AisaacSTR (2)\AisaacSTR\AisaacSTR\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\gonza\Downloads\AisaacSTR (2)\AisaacSTR\AisaacSTR\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\gonza\Downloads\AisaacSTR (2)\AisaacSTR\AisaacSTR\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\gonza\Downloads\AisaacSTR (2)\AisaacSTR\AisaacSTR\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\gonza\Downloads\AisaacSTR (2)\AisaacSTR\AisaacSTR\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\gonza\Downloads\AisaacSTR (2)\AisaacSTR\AisaacSTR\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\gonza\Downloads\AisaacSTR (2)\AisaacSTR\AisaacSTR\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\gonza\Downloads\AisaacSTR (2)\AisaacSTR\AisaacSTR\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\gonza\Downloads\AisaacSTR (2)\AisaacSTR\AisaacSTR\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\gonza\Downloads\AisaacSTR (2)\AisaacSTR\AisaacSTR\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\gonza\Downloads\AisaacSTR (2)\AisaacSTR\AisaacSTR\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\gonza\Downloads\AisaacSTR (2)\AisaacSTR\AisaacSTR\obj\Debug\net9.0\AisaacSTR.csproj.AssemblyReference.cache
+C:\Users\gonza\Downloads\AisaacSTR (2)\AisaacSTR\AisaacSTR\obj\Debug\net9.0\rpswa.dswa.cache.json
+C:\Users\gonza\Downloads\AisaacSTR (2)\AisaacSTR\AisaacSTR\obj\Debug\net9.0\AisaacSTR.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\gonza\Downloads\AisaacSTR (2)\AisaacSTR\AisaacSTR\obj\Debug\net9.0\AisaacSTR.AssemblyInfoInputs.cache
+C:\Users\gonza\Downloads\AisaacSTR (2)\AisaacSTR\AisaacSTR\obj\Debug\net9.0\AisaacSTR.AssemblyInfo.cs
+C:\Users\gonza\Downloads\AisaacSTR (2)\AisaacSTR\AisaacSTR\obj\Debug\net9.0\AisaacSTR.csproj.CoreCompileInputs.cache
+C:\Users\gonza\Downloads\AisaacSTR (2)\AisaacSTR\AisaacSTR\obj\Debug\net9.0\AisaacSTR.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\gonza\Downloads\AisaacSTR (2)\AisaacSTR\AisaacSTR\obj\Debug\net9.0\AisaacSTR.RazorAssemblyInfo.cache
+C:\Users\gonza\Downloads\AisaacSTR (2)\AisaacSTR\AisaacSTR\obj\Debug\net9.0\AisaacSTR.RazorAssemblyInfo.cs
+C:\Users\gonza\Downloads\AisaacSTR (2)\AisaacSTR\AisaacSTR\obj\Debug\net9.0\rjimswa.dswa.cache.json
+C:\Users\gonza\Downloads\AisaacSTR (2)\AisaacSTR\AisaacSTR\obj\Debug\net9.0\rjsmrazor.dswa.cache.json
+C:\Users\gonza\Downloads\AisaacSTR (2)\AisaacSTR\AisaacSTR\obj\Debug\net9.0\rjsmcshtml.dswa.cache.json
+C:\Users\gonza\Downloads\AisaacSTR (2)\AisaacSTR\AisaacSTR\obj\Debug\net9.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\gonza\Downloads\AisaacSTR (2)\AisaacSTR\AisaacSTR\obj\Debug\net9.0\scopedcss\bundle\AisaacSTR.styles.css
+C:\Users\gonza\Downloads\AisaacSTR (2)\AisaacSTR\AisaacSTR\obj\Debug\net9.0\scopedcss\projectbundle\AisaacSTR.bundle.scp.css
+C:\Users\gonza\Downloads\AisaacSTR (2)\AisaacSTR\AisaacSTR\obj\Debug\net9.0\compressed\40bgiq88ox-nmj3llhkyw.gz
+C:\Users\gonza\Downloads\AisaacSTR (2)\AisaacSTR\AisaacSTR\obj\Debug\net9.0\compressed\3t7px3j005-b9sayid5wm.gz
+C:\Users\gonza\Downloads\AisaacSTR (2)\AisaacSTR\AisaacSTR\obj\Debug\net9.0\compressed\wqh2yk1qmi-61n19gt1b8.gz
+C:\Users\gonza\Downloads\AisaacSTR (2)\AisaacSTR\AisaacSTR\obj\Debug\net9.0\compressed\0ttpic2yj0-xk50cjrxj4.gz
+C:\Users\gonza\Downloads\AisaacSTR (2)\AisaacSTR\AisaacSTR\obj\Debug\net9.0\compressed\k8xax4e7qk-xtxxf3hu2r.gz
+C:\Users\gonza\Downloads\AisaacSTR (2)\AisaacSTR\AisaacSTR\obj\Debug\net9.0\compressed\887v6bjyvf-bqjiyaj88i.gz
+C:\Users\gonza\Downloads\AisaacSTR (2)\AisaacSTR\AisaacSTR\obj\Debug\net9.0\compressed\2bwa4krptf-c2jlpeoesf.gz
+C:\Users\gonza\Downloads\AisaacSTR (2)\AisaacSTR\AisaacSTR\obj\Debug\net9.0\compressed\hmja6ztqty-erw9l3u2r3.gz
+C:\Users\gonza\Downloads\AisaacSTR (2)\AisaacSTR\AisaacSTR\obj\Debug\net9.0\compressed\to6kh8ge2j-aexeepp0ev.gz
+C:\Users\gonza\Downloads\AisaacSTR (2)\AisaacSTR\AisaacSTR\obj\Debug\net9.0\compressed\mbak7fsh1r-d7shbmvgxk.gz
+C:\Users\gonza\Downloads\AisaacSTR (2)\AisaacSTR\AisaacSTR\obj\Debug\net9.0\compressed\d9aaelfh14-ausgxo2sd3.gz
+C:\Users\gonza\Downloads\AisaacSTR (2)\AisaacSTR\AisaacSTR\obj\Debug\net9.0\compressed\clwwbld3hi-k8d9w2qqmf.gz
+C:\Users\gonza\Downloads\AisaacSTR (2)\AisaacSTR\AisaacSTR\obj\Debug\net9.0\compressed\wslx53f1lo-cosvhxvwiu.gz
+C:\Users\gonza\Downloads\AisaacSTR (2)\AisaacSTR\AisaacSTR\obj\Debug\net9.0\compressed\28lfv0vcm3-ub07r2b239.gz
+C:\Users\gonza\Downloads\AisaacSTR (2)\AisaacSTR\AisaacSTR\obj\Debug\net9.0\compressed\ttgzu2a73o-fvhpjtyr6v.gz
+C:\Users\gonza\Downloads\AisaacSTR (2)\AisaacSTR\AisaacSTR\obj\Debug\net9.0\compressed\gj75z59ly1-b7pk76d08c.gz
+C:\Users\gonza\Downloads\AisaacSTR (2)\AisaacSTR\AisaacSTR\obj\Debug\net9.0\compressed\zmcu7bvm6f-fsbi9cje9m.gz
+C:\Users\gonza\Downloads\AisaacSTR (2)\AisaacSTR\AisaacSTR\obj\Debug\net9.0\compressed\lf1fq1ha3d-rzd6atqjts.gz
+C:\Users\gonza\Downloads\AisaacSTR (2)\AisaacSTR\AisaacSTR\obj\Debug\net9.0\compressed\wgud4w76q7-ee0r1s7dh0.gz
+C:\Users\gonza\Downloads\AisaacSTR (2)\AisaacSTR\AisaacSTR\obj\Debug\net9.0\compressed\7esu8ts1el-dxx9fxp4il.gz
+C:\Users\gonza\Downloads\AisaacSTR (2)\AisaacSTR\AisaacSTR\obj\Debug\net9.0\compressed\hqrcinn6pt-jd9uben2k1.gz
+C:\Users\gonza\Downloads\AisaacSTR (2)\AisaacSTR\AisaacSTR\obj\Debug\net9.0\compressed\y8gcg90d0x-khv3u5hwcm.gz
+C:\Users\gonza\Downloads\AisaacSTR (2)\AisaacSTR\AisaacSTR\obj\Debug\net9.0\compressed\854y38dj59-r4e9w2rdcm.gz
+C:\Users\gonza\Downloads\AisaacSTR (2)\AisaacSTR\AisaacSTR\obj\Debug\net9.0\compressed\8g6bysylhw-lcd1t2u6c8.gz
+C:\Users\gonza\Downloads\AisaacSTR (2)\AisaacSTR\AisaacSTR\obj\Debug\net9.0\compressed\dp43xmbi72-c2oey78nd0.gz
+C:\Users\gonza\Downloads\AisaacSTR (2)\AisaacSTR\AisaacSTR\obj\Debug\net9.0\compressed\686ajpaov6-tdbxkamptv.gz
+C:\Users\gonza\Downloads\AisaacSTR (2)\AisaacSTR\AisaacSTR\obj\Debug\net9.0\compressed\3r3uhypeu7-j5mq2jizvt.gz
+C:\Users\gonza\Downloads\AisaacSTR (2)\AisaacSTR\AisaacSTR\obj\Debug\net9.0\compressed\y5b475odih-06098lyss8.gz
+C:\Users\gonza\Downloads\AisaacSTR (2)\AisaacSTR\AisaacSTR\obj\Debug\net9.0\compressed\m1ve6xrzul-nvvlpmu67g.gz
+C:\Users\gonza\Downloads\AisaacSTR (2)\AisaacSTR\AisaacSTR\obj\Debug\net9.0\compressed\emgrilwdmu-s35ty4nyc5.gz
+C:\Users\gonza\Downloads\AisaacSTR (2)\AisaacSTR\AisaacSTR\obj\Debug\net9.0\compressed\6jpeea14f0-pj5nd1wqec.gz
+C:\Users\gonza\Downloads\AisaacSTR (2)\AisaacSTR\AisaacSTR\obj\Debug\net9.0\compressed\3ezezdowzg-46ein0sx1k.gz
+C:\Users\gonza\Downloads\AisaacSTR (2)\AisaacSTR\AisaacSTR\obj\Debug\net9.0\compressed\7ftqws5doe-v0zj4ognzu.gz
+C:\Users\gonza\Downloads\AisaacSTR (2)\AisaacSTR\AisaacSTR\obj\Debug\net9.0\compressed\7xkqmuc3wm-37tfw0ft22.gz
+C:\Users\gonza\Downloads\AisaacSTR (2)\AisaacSTR\AisaacSTR\obj\Debug\net9.0\compressed\jvni2yh0q5-hrwsygsryq.gz
+C:\Users\gonza\Downloads\AisaacSTR (2)\AisaacSTR\AisaacSTR\obj\Debug\net9.0\compressed\vhu8d7ktbb-pk9g2wxc8p.gz
+C:\Users\gonza\Downloads\AisaacSTR (2)\AisaacSTR\AisaacSTR\obj\Debug\net9.0\compressed\k0ijeep85h-ft3s53vfgj.gz
+C:\Users\gonza\Downloads\AisaacSTR (2)\AisaacSTR\AisaacSTR\obj\Debug\net9.0\compressed\ylq37wovrx-6cfz1n2cew.gz
+C:\Users\gonza\Downloads\AisaacSTR (2)\AisaacSTR\AisaacSTR\obj\Debug\net9.0\compressed\p0zdjkyaym-6pdc2jztkx.gz
+C:\Users\gonza\Downloads\AisaacSTR (2)\AisaacSTR\AisaacSTR\obj\Debug\net9.0\compressed\qikkjrs83l-493y06b0oq.gz
+C:\Users\gonza\Downloads\AisaacSTR (2)\AisaacSTR\AisaacSTR\obj\Debug\net9.0\compressed\1nm3qgv6p8-iovd86k7lj.gz
+C:\Users\gonza\Downloads\AisaacSTR (2)\AisaacSTR\AisaacSTR\obj\Debug\net9.0\compressed\hp35cyy5tq-vr1egmr9el.gz
+C:\Users\gonza\Downloads\AisaacSTR (2)\AisaacSTR\AisaacSTR\obj\Debug\net9.0\compressed\ow0tauslgu-kbrnm935zg.gz
+C:\Users\gonza\Downloads\AisaacSTR (2)\AisaacSTR\AisaacSTR\obj\Debug\net9.0\compressed\fhnrso2uee-jj8uyg4cgr.gz
+C:\Users\gonza\Downloads\AisaacSTR (2)\AisaacSTR\AisaacSTR\obj\Debug\net9.0\compressed\vqqfknoasp-y7v9cxd14o.gz
+C:\Users\gonza\Downloads\AisaacSTR (2)\AisaacSTR\AisaacSTR\obj\Debug\net9.0\compressed\w9r7yl1kop-notf2xhcfb.gz
+C:\Users\gonza\Downloads\AisaacSTR (2)\AisaacSTR\AisaacSTR\obj\Debug\net9.0\compressed\2yqryv9vez-h1s4sie4z3.gz
+C:\Users\gonza\Downloads\AisaacSTR (2)\AisaacSTR\AisaacSTR\obj\Debug\net9.0\compressed\7b1kzksn3v-63fj8s7r0e.gz
+C:\Users\gonza\Downloads\AisaacSTR (2)\AisaacSTR\AisaacSTR\obj\Debug\net9.0\compressed\xjqphlnilg-0j3bgjxly4.gz
+C:\Users\gonza\Downloads\AisaacSTR (2)\AisaacSTR\AisaacSTR\obj\Debug\net9.0\compressed\n2kp8xkcy7-47otxtyo56.gz
+C:\Users\gonza\Downloads\AisaacSTR (2)\AisaacSTR\AisaacSTR\obj\Debug\net9.0\compressed\augp09ad9n-4v8eqarkd7.gz
+C:\Users\gonza\Downloads\AisaacSTR (2)\AisaacSTR\AisaacSTR\obj\Debug\net9.0\compressed\93mch5t9mg-356vix0kms.gz
+C:\Users\gonza\Downloads\AisaacSTR (2)\AisaacSTR\AisaacSTR\obj\Debug\net9.0\compressed\f370rb3jg5-83jwlth58m.gz
+C:\Users\gonza\Downloads\AisaacSTR (2)\AisaacSTR\AisaacSTR\obj\Debug\net9.0\compressed\6t17mrkxaw-mrlpezrjn3.gz
+C:\Users\gonza\Downloads\AisaacSTR (2)\AisaacSTR\AisaacSTR\obj\Debug\net9.0\compressed\sp584j3vly-lzl9nlhx6b.gz
+C:\Users\gonza\Downloads\AisaacSTR (2)\AisaacSTR\AisaacSTR\obj\Debug\net9.0\compressed\msgia8xfxs-ag7o75518u.gz
+C:\Users\gonza\Downloads\AisaacSTR (2)\AisaacSTR\AisaacSTR\obj\Debug\net9.0\compressed\g9tmhu664c-x0q3zqp4vz.gz
+C:\Users\gonza\Downloads\AisaacSTR (2)\AisaacSTR\AisaacSTR\obj\Debug\net9.0\compressed\ci8f1b618w-0i3buxo5is.gz
+C:\Users\gonza\Downloads\AisaacSTR (2)\AisaacSTR\AisaacSTR\obj\Debug\net9.0\compressed\wqwphzqyj9-o1o13a6vjx.gz
+C:\Users\gonza\Downloads\AisaacSTR (2)\AisaacSTR\AisaacSTR\obj\Debug\net9.0\compressed\e9k5cukf4r-ttgo8qnofa.gz
+C:\Users\gonza\Downloads\AisaacSTR (2)\AisaacSTR\AisaacSTR\obj\Debug\net9.0\compressed\5b6pnwb4s1-2z0ns9nrw6.gz
+C:\Users\gonza\Downloads\AisaacSTR (2)\AisaacSTR\AisaacSTR\obj\Debug\net9.0\compressed\bzgnnyj0j4-muycvpuwrr.gz
+C:\Users\gonza\Downloads\AisaacSTR (2)\AisaacSTR\AisaacSTR\obj\Debug\net9.0\compressed\19r6s3wq2p-87fc7y1x7t.gz
+C:\Users\gonza\Downloads\AisaacSTR (2)\AisaacSTR\AisaacSTR\obj\Debug\net9.0\compressed\qrbj13wckc-mlv21k5csn.gz
+C:\Users\gonza\Downloads\AisaacSTR (2)\AisaacSTR\AisaacSTR\obj\Debug\net9.0\compressed\gjav0rbnsy-6x0ps564rj.gz
+C:\Users\gonza\Downloads\AisaacSTR (2)\AisaacSTR\AisaacSTR\obj\Debug\net9.0\compressed\laqchw9fqr-6x0ps564rj.gz
+C:\Users\gonza\Downloads\AisaacSTR (2)\AisaacSTR\AisaacSTR\obj\Debug\net9.0\staticwebassets.build.json
+C:\Users\gonza\Downloads\AisaacSTR (2)\AisaacSTR\AisaacSTR\obj\Debug\net9.0\staticwebassets.build.json.cache
+C:\Users\gonza\Downloads\AisaacSTR (2)\AisaacSTR\AisaacSTR\obj\Debug\net9.0\staticwebassets.development.json
+C:\Users\gonza\Downloads\AisaacSTR (2)\AisaacSTR\AisaacSTR\obj\Debug\net9.0\staticwebassets.build.endpoints.json
+C:\Users\gonza\Downloads\AisaacSTR (2)\AisaacSTR\AisaacSTR\obj\Debug\net9.0\AisaacSTR.csproj.Up2Date
+C:\Users\gonza\Downloads\AisaacSTR (2)\AisaacSTR\AisaacSTR\obj\Debug\net9.0\AisaacSTR.dll
+C:\Users\gonza\Downloads\AisaacSTR (2)\AisaacSTR\AisaacSTR\obj\Debug\net9.0\refint\AisaacSTR.dll
+C:\Users\gonza\Downloads\AisaacSTR (2)\AisaacSTR\AisaacSTR\obj\Debug\net9.0\AisaacSTR.pdb
+C:\Users\gonza\Downloads\AisaacSTR (2)\AisaacSTR\AisaacSTR\obj\Debug\net9.0\AisaacSTR.genruntimeconfig.cache
+C:\Users\gonza\Downloads\AisaacSTR (2)\AisaacSTR\AisaacSTR\obj\Debug\net9.0\ref\AisaacSTR.dll
+C:\Users\gonza\Downloads\AisaacSTR\bin\Debug\net9.0\appsettings.Development.json
+C:\Users\gonza\Downloads\AisaacSTR\bin\Debug\net9.0\appsettings.json
+C:\Users\gonza\Downloads\AisaacSTR\bin\Debug\net9.0\AisaacSTR.staticwebassets.endpoints.json
+C:\Users\gonza\Downloads\AisaacSTR\bin\Debug\net9.0\AisaacSTR.staticwebassets.runtime.json
+C:\Users\gonza\Downloads\AisaacSTR\bin\Debug\net9.0\AisaacSTR.deps.json
+C:\Users\gonza\Downloads\AisaacSTR\bin\Debug\net9.0\AisaacSTR.runtimeconfig.json
+C:\Users\gonza\Downloads\AisaacSTR\bin\Debug\net9.0\AisaacSTR.dll
+C:\Users\gonza\Downloads\AisaacSTR\bin\Debug\net9.0\AisaacSTR.pdb
+C:\Users\gonza\Downloads\AisaacSTR\bin\Debug\net9.0\BCrypt.Net-Next.dll
+C:\Users\gonza\Downloads\AisaacSTR\bin\Debug\net9.0\Humanizer.dll
+C:\Users\gonza\Downloads\AisaacSTR\bin\Debug\net9.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\gonza\Downloads\AisaacSTR\bin\Debug\net9.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\gonza\Downloads\AisaacSTR\bin\Debug\net9.0\Microsoft.Build.Locator.dll
+C:\Users\gonza\Downloads\AisaacSTR\bin\Debug\net9.0\Microsoft.CodeAnalysis.dll
+C:\Users\gonza\Downloads\AisaacSTR\bin\Debug\net9.0\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\gonza\Downloads\AisaacSTR\bin\Debug\net9.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+C:\Users\gonza\Downloads\AisaacSTR\bin\Debug\net9.0\Microsoft.CodeAnalysis.Workspaces.dll
+C:\Users\gonza\Downloads\AisaacSTR\bin\Debug\net9.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.dll
+C:\Users\gonza\Downloads\AisaacSTR\bin\Debug\net9.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.dll
+C:\Users\gonza\Downloads\AisaacSTR\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\gonza\Downloads\AisaacSTR\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\gonza\Downloads\AisaacSTR\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\gonza\Downloads\AisaacSTR\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.InMemory.dll
+C:\Users\gonza\Downloads\AisaacSTR\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\gonza\Downloads\AisaacSTR\bin\Debug\net9.0\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\gonza\Downloads\AisaacSTR\bin\Debug\net9.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\gonza\Downloads\AisaacSTR\bin\Debug\net9.0\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\gonza\Downloads\AisaacSTR\bin\Debug\net9.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\gonza\Downloads\AisaacSTR\bin\Debug\net9.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\gonza\Downloads\AisaacSTR\bin\Debug\net9.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\gonza\Downloads\AisaacSTR\bin\Debug\net9.0\Microsoft.Extensions.Logging.dll
+C:\Users\gonza\Downloads\AisaacSTR\bin\Debug\net9.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\gonza\Downloads\AisaacSTR\bin\Debug\net9.0\Microsoft.Extensions.Options.dll
+C:\Users\gonza\Downloads\AisaacSTR\bin\Debug\net9.0\Microsoft.Extensions.Primitives.dll
+C:\Users\gonza\Downloads\AisaacSTR\bin\Debug\net9.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\gonza\Downloads\AisaacSTR\bin\Debug\net9.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\gonza\Downloads\AisaacSTR\bin\Debug\net9.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\gonza\Downloads\AisaacSTR\bin\Debug\net9.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\gonza\Downloads\AisaacSTR\bin\Debug\net9.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\gonza\Downloads\AisaacSTR\bin\Debug\net9.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\gonza\Downloads\AisaacSTR\bin\Debug\net9.0\Mono.TextTemplating.dll
+C:\Users\gonza\Downloads\AisaacSTR\bin\Debug\net9.0\Npgsql.dll
+C:\Users\gonza\Downloads\AisaacSTR\bin\Debug\net9.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
+C:\Users\gonza\Downloads\AisaacSTR\bin\Debug\net9.0\System.CodeDom.dll
+C:\Users\gonza\Downloads\AisaacSTR\bin\Debug\net9.0\System.Composition.AttributedModel.dll
+C:\Users\gonza\Downloads\AisaacSTR\bin\Debug\net9.0\System.Composition.Convention.dll
+C:\Users\gonza\Downloads\AisaacSTR\bin\Debug\net9.0\System.Composition.Hosting.dll
+C:\Users\gonza\Downloads\AisaacSTR\bin\Debug\net9.0\System.Composition.Runtime.dll
+C:\Users\gonza\Downloads\AisaacSTR\bin\Debug\net9.0\System.Composition.TypedParts.dll
+C:\Users\gonza\Downloads\AisaacSTR\bin\Debug\net9.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\gonza\Downloads\AisaacSTR\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.resources.dll
+C:\Users\gonza\Downloads\AisaacSTR\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.resources.dll
+C:\Users\gonza\Downloads\AisaacSTR\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.resources.dll
+C:\Users\gonza\Downloads\AisaacSTR\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\gonza\Downloads\AisaacSTR\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.resources.dll
+C:\Users\gonza\Downloads\AisaacSTR\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.resources.dll
+C:\Users\gonza\Downloads\AisaacSTR\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.resources.dll
+C:\Users\gonza\Downloads\AisaacSTR\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.resources.dll
+C:\Users\gonza\Downloads\AisaacSTR\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+C:\Users\gonza\Downloads\AisaacSTR\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.resources.dll
+C:\Users\gonza\Downloads\AisaacSTR\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\gonza\Downloads\AisaacSTR\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+C:\Users\gonza\Downloads\AisaacSTR\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+C:\Users\gonza\Downloads\AisaacSTR\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\gonza\Downloads\AisaacSTR\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\gonza\Downloads\AisaacSTR\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\gonza\Downloads\AisaacSTR\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\gonza\Downloads\AisaacSTR\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\gonza\Downloads\AisaacSTR\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\gonza\Downloads\AisaacSTR\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\gonza\Downloads\AisaacSTR\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\gonza\Downloads\AisaacSTR\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\gonza\Downloads\AisaacSTR\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\gonza\Downloads\AisaacSTR\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\gonza\Downloads\AisaacSTR\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\gonza\Downloads\AisaacSTR\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\gonza\Downloads\AisaacSTR\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\gonza\Downloads\AisaacSTR\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\gonza\Downloads\AisaacSTR\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\gonza\Downloads\AisaacSTR\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\gonza\Downloads\AisaacSTR\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\gonza\Downloads\AisaacSTR\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\gonza\Downloads\AisaacSTR\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\gonza\Downloads\AisaacSTR\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\gonza\Downloads\AisaacSTR\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\gonza\Downloads\AisaacSTR\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\gonza\Downloads\AisaacSTR\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\gonza\Downloads\AisaacSTR\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\gonza\Downloads\AisaacSTR\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\gonza\Downloads\AisaacSTR\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\gonza\Downloads\AisaacSTR\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\gonza\Downloads\AisaacSTR\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\gonza\Downloads\AisaacSTR\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\gonza\Downloads\AisaacSTR\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\gonza\Downloads\AisaacSTR\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\gonza\Downloads\AisaacSTR\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\gonza\Downloads\AisaacSTR\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\gonza\Downloads\AisaacSTR\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\gonza\Downloads\AisaacSTR\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\gonza\Downloads\AisaacSTR\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\gonza\Downloads\AisaacSTR\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\gonza\Downloads\AisaacSTR\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\gonza\Downloads\AisaacSTR\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\gonza\Downloads\AisaacSTR\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\gonza\Downloads\AisaacSTR\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\gonza\Downloads\AisaacSTR\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\gonza\Downloads\AisaacSTR\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\gonza\Downloads\AisaacSTR\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\gonza\Downloads\AisaacSTR\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\gonza\Downloads\AisaacSTR\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\gonza\Downloads\AisaacSTR\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\gonza\Downloads\AisaacSTR\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\gonza\Downloads\AisaacSTR\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\gonza\Downloads\AisaacSTR\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\gonza\Downloads\AisaacSTR\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\gonza\Downloads\AisaacSTR\obj\Debug\net9.0\AisaacSTR.csproj.AssemblyReference.cache
+C:\Users\gonza\Downloads\AisaacSTR\obj\Debug\net9.0\rpswa.dswa.cache.json
+C:\Users\gonza\Downloads\AisaacSTR\obj\Debug\net9.0\AisaacSTR.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\gonza\Downloads\AisaacSTR\obj\Debug\net9.0\AisaacSTR.AssemblyInfoInputs.cache
+C:\Users\gonza\Downloads\AisaacSTR\obj\Debug\net9.0\AisaacSTR.AssemblyInfo.cs
+C:\Users\gonza\Downloads\AisaacSTR\obj\Debug\net9.0\AisaacSTR.csproj.CoreCompileInputs.cache
+C:\Users\gonza\Downloads\AisaacSTR\obj\Debug\net9.0\AisaacSTR.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\gonza\Downloads\AisaacSTR\obj\Debug\net9.0\AisaacSTR.RazorAssemblyInfo.cache
+C:\Users\gonza\Downloads\AisaacSTR\obj\Debug\net9.0\AisaacSTR.RazorAssemblyInfo.cs
+C:\Users\gonza\Downloads\AisaacSTR\obj\Debug\net9.0\rjimswa.dswa.cache.json
+C:\Users\gonza\Downloads\AisaacSTR\obj\Debug\net9.0\rjsmrazor.dswa.cache.json
+C:\Users\gonza\Downloads\AisaacSTR\obj\Debug\net9.0\rjsmcshtml.dswa.cache.json
+C:\Users\gonza\Downloads\AisaacSTR\obj\Debug\net9.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\gonza\Downloads\AisaacSTR\obj\Debug\net9.0\scopedcss\bundle\AisaacSTR.styles.css
+C:\Users\gonza\Downloads\AisaacSTR\obj\Debug\net9.0\scopedcss\projectbundle\AisaacSTR.bundle.scp.css
+C:\Users\gonza\Downloads\AisaacSTR\obj\Debug\net9.0\compressed\3t7px3j005-b9sayid5wm.gz
+C:\Users\gonza\Downloads\AisaacSTR\obj\Debug\net9.0\compressed\wqh2yk1qmi-61n19gt1b8.gz
+C:\Users\gonza\Downloads\AisaacSTR\obj\Debug\net9.0\compressed\k8xax4e7qk-xtxxf3hu2r.gz
+C:\Users\gonza\Downloads\AisaacSTR\obj\Debug\net9.0\compressed\887v6bjyvf-bqjiyaj88i.gz
+C:\Users\gonza\Downloads\AisaacSTR\obj\Debug\net9.0\compressed\2bwa4krptf-c2jlpeoesf.gz
+C:\Users\gonza\Downloads\AisaacSTR\obj\Debug\net9.0\compressed\hmja6ztqty-erw9l3u2r3.gz
+C:\Users\gonza\Downloads\AisaacSTR\obj\Debug\net9.0\compressed\to6kh8ge2j-aexeepp0ev.gz
+C:\Users\gonza\Downloads\AisaacSTR\obj\Debug\net9.0\compressed\mbak7fsh1r-d7shbmvgxk.gz
+C:\Users\gonza\Downloads\AisaacSTR\obj\Debug\net9.0\compressed\d9aaelfh14-ausgxo2sd3.gz
+C:\Users\gonza\Downloads\AisaacSTR\obj\Debug\net9.0\compressed\clwwbld3hi-k8d9w2qqmf.gz
+C:\Users\gonza\Downloads\AisaacSTR\obj\Debug\net9.0\compressed\wslx53f1lo-cosvhxvwiu.gz
+C:\Users\gonza\Downloads\AisaacSTR\obj\Debug\net9.0\compressed\28lfv0vcm3-ub07r2b239.gz
+C:\Users\gonza\Downloads\AisaacSTR\obj\Debug\net9.0\compressed\ttgzu2a73o-fvhpjtyr6v.gz
+C:\Users\gonza\Downloads\AisaacSTR\obj\Debug\net9.0\compressed\gj75z59ly1-b7pk76d08c.gz
+C:\Users\gonza\Downloads\AisaacSTR\obj\Debug\net9.0\compressed\zmcu7bvm6f-fsbi9cje9m.gz
+C:\Users\gonza\Downloads\AisaacSTR\obj\Debug\net9.0\compressed\lf1fq1ha3d-rzd6atqjts.gz
+C:\Users\gonza\Downloads\AisaacSTR\obj\Debug\net9.0\compressed\wgud4w76q7-ee0r1s7dh0.gz
+C:\Users\gonza\Downloads\AisaacSTR\obj\Debug\net9.0\compressed\7esu8ts1el-dxx9fxp4il.gz
+C:\Users\gonza\Downloads\AisaacSTR\obj\Debug\net9.0\compressed\hqrcinn6pt-jd9uben2k1.gz
+C:\Users\gonza\Downloads\AisaacSTR\obj\Debug\net9.0\compressed\y8gcg90d0x-khv3u5hwcm.gz
+C:\Users\gonza\Downloads\AisaacSTR\obj\Debug\net9.0\compressed\854y38dj59-r4e9w2rdcm.gz
+C:\Users\gonza\Downloads\AisaacSTR\obj\Debug\net9.0\compressed\8g6bysylhw-lcd1t2u6c8.gz
+C:\Users\gonza\Downloads\AisaacSTR\obj\Debug\net9.0\compressed\dp43xmbi72-c2oey78nd0.gz
+C:\Users\gonza\Downloads\AisaacSTR\obj\Debug\net9.0\compressed\686ajpaov6-tdbxkamptv.gz
+C:\Users\gonza\Downloads\AisaacSTR\obj\Debug\net9.0\compressed\3r3uhypeu7-j5mq2jizvt.gz
+C:\Users\gonza\Downloads\AisaacSTR\obj\Debug\net9.0\compressed\y5b475odih-06098lyss8.gz
+C:\Users\gonza\Downloads\AisaacSTR\obj\Debug\net9.0\compressed\m1ve6xrzul-nvvlpmu67g.gz
+C:\Users\gonza\Downloads\AisaacSTR\obj\Debug\net9.0\compressed\emgrilwdmu-s35ty4nyc5.gz
+C:\Users\gonza\Downloads\AisaacSTR\obj\Debug\net9.0\compressed\6jpeea14f0-pj5nd1wqec.gz
+C:\Users\gonza\Downloads\AisaacSTR\obj\Debug\net9.0\compressed\3ezezdowzg-46ein0sx1k.gz
+C:\Users\gonza\Downloads\AisaacSTR\obj\Debug\net9.0\compressed\7ftqws5doe-v0zj4ognzu.gz
+C:\Users\gonza\Downloads\AisaacSTR\obj\Debug\net9.0\compressed\7xkqmuc3wm-37tfw0ft22.gz
+C:\Users\gonza\Downloads\AisaacSTR\obj\Debug\net9.0\compressed\jvni2yh0q5-hrwsygsryq.gz
+C:\Users\gonza\Downloads\AisaacSTR\obj\Debug\net9.0\compressed\vhu8d7ktbb-pk9g2wxc8p.gz
+C:\Users\gonza\Downloads\AisaacSTR\obj\Debug\net9.0\compressed\k0ijeep85h-ft3s53vfgj.gz
+C:\Users\gonza\Downloads\AisaacSTR\obj\Debug\net9.0\compressed\ylq37wovrx-6cfz1n2cew.gz
+C:\Users\gonza\Downloads\AisaacSTR\obj\Debug\net9.0\compressed\p0zdjkyaym-6pdc2jztkx.gz
+C:\Users\gonza\Downloads\AisaacSTR\obj\Debug\net9.0\compressed\qikkjrs83l-493y06b0oq.gz
+C:\Users\gonza\Downloads\AisaacSTR\obj\Debug\net9.0\compressed\1nm3qgv6p8-iovd86k7lj.gz
+C:\Users\gonza\Downloads\AisaacSTR\obj\Debug\net9.0\compressed\hp35cyy5tq-vr1egmr9el.gz
+C:\Users\gonza\Downloads\AisaacSTR\obj\Debug\net9.0\compressed\ow0tauslgu-kbrnm935zg.gz
+C:\Users\gonza\Downloads\AisaacSTR\obj\Debug\net9.0\compressed\fhnrso2uee-jj8uyg4cgr.gz
+C:\Users\gonza\Downloads\AisaacSTR\obj\Debug\net9.0\compressed\vqqfknoasp-y7v9cxd14o.gz
+C:\Users\gonza\Downloads\AisaacSTR\obj\Debug\net9.0\compressed\w9r7yl1kop-notf2xhcfb.gz
+C:\Users\gonza\Downloads\AisaacSTR\obj\Debug\net9.0\compressed\2yqryv9vez-h1s4sie4z3.gz
+C:\Users\gonza\Downloads\AisaacSTR\obj\Debug\net9.0\compressed\7b1kzksn3v-63fj8s7r0e.gz
+C:\Users\gonza\Downloads\AisaacSTR\obj\Debug\net9.0\compressed\xjqphlnilg-0j3bgjxly4.gz
+C:\Users\gonza\Downloads\AisaacSTR\obj\Debug\net9.0\compressed\n2kp8xkcy7-47otxtyo56.gz
+C:\Users\gonza\Downloads\AisaacSTR\obj\Debug\net9.0\compressed\augp09ad9n-4v8eqarkd7.gz
+C:\Users\gonza\Downloads\AisaacSTR\obj\Debug\net9.0\compressed\93mch5t9mg-356vix0kms.gz
+C:\Users\gonza\Downloads\AisaacSTR\obj\Debug\net9.0\compressed\f370rb3jg5-83jwlth58m.gz
+C:\Users\gonza\Downloads\AisaacSTR\obj\Debug\net9.0\compressed\6t17mrkxaw-mrlpezrjn3.gz
+C:\Users\gonza\Downloads\AisaacSTR\obj\Debug\net9.0\compressed\sp584j3vly-lzl9nlhx6b.gz
+C:\Users\gonza\Downloads\AisaacSTR\obj\Debug\net9.0\compressed\msgia8xfxs-ag7o75518u.gz
+C:\Users\gonza\Downloads\AisaacSTR\obj\Debug\net9.0\compressed\g9tmhu664c-x0q3zqp4vz.gz
+C:\Users\gonza\Downloads\AisaacSTR\obj\Debug\net9.0\compressed\ci8f1b618w-0i3buxo5is.gz
+C:\Users\gonza\Downloads\AisaacSTR\obj\Debug\net9.0\compressed\wqwphzqyj9-o1o13a6vjx.gz
+C:\Users\gonza\Downloads\AisaacSTR\obj\Debug\net9.0\compressed\e9k5cukf4r-ttgo8qnofa.gz
+C:\Users\gonza\Downloads\AisaacSTR\obj\Debug\net9.0\compressed\5b6pnwb4s1-2z0ns9nrw6.gz
+C:\Users\gonza\Downloads\AisaacSTR\obj\Debug\net9.0\compressed\bzgnnyj0j4-muycvpuwrr.gz
+C:\Users\gonza\Downloads\AisaacSTR\obj\Debug\net9.0\compressed\19r6s3wq2p-87fc7y1x7t.gz
+C:\Users\gonza\Downloads\AisaacSTR\obj\Debug\net9.0\compressed\qrbj13wckc-mlv21k5csn.gz
+C:\Users\gonza\Downloads\AisaacSTR\obj\Debug\net9.0\compressed\gjav0rbnsy-6x0ps564rj.gz
+C:\Users\gonza\Downloads\AisaacSTR\obj\Debug\net9.0\compressed\laqchw9fqr-6x0ps564rj.gz
+C:\Users\gonza\Downloads\AisaacSTR\obj\Debug\net9.0\staticwebassets.build.json
+C:\Users\gonza\Downloads\AisaacSTR\obj\Debug\net9.0\staticwebassets.build.json.cache
+C:\Users\gonza\Downloads\AisaacSTR\obj\Debug\net9.0\staticwebassets.development.json
+C:\Users\gonza\Downloads\AisaacSTR\obj\Debug\net9.0\staticwebassets.build.endpoints.json
+C:\Users\gonza\Downloads\AisaacSTR\obj\Debug\net9.0\AisaacSTR.csproj.Up2Date
+C:\Users\gonza\Downloads\AisaacSTR\obj\Debug\net9.0\AisaacSTR.dll
+C:\Users\gonza\Downloads\AisaacSTR\obj\Debug\net9.0\refint\AisaacSTR.dll
+C:\Users\gonza\Downloads\AisaacSTR\obj\Debug\net9.0\AisaacSTR.pdb
+C:\Users\gonza\Downloads\AisaacSTR\obj\Debug\net9.0\AisaacSTR.genruntimeconfig.cache
+C:\Users\gonza\Downloads\AisaacSTR\obj\Debug\net9.0\ref\AisaacSTR.dll
+C:\Users\gonza\Downloads\AisaacSTR\bin\Debug\net9.0\QuestPDF.Fonts.Lato.br
+C:\Users\gonza\Downloads\AisaacSTR\bin\Debug\net9.0\QuestPDF.dll
+C:\Users\gonza\Downloads\AisaacSTR\bin\Debug\net9.0\runtimes\linux-arm64\native\libQuestPdfSkia.so
+C:\Users\gonza\Downloads\AisaacSTR\bin\Debug\net9.0\runtimes\linux-arm64\native\libqpdf.so
+C:\Users\gonza\Downloads\AisaacSTR\bin\Debug\net9.0\runtimes\linux-musl-x64\native\libQuestPdfSkia.so
+C:\Users\gonza\Downloads\AisaacSTR\bin\Debug\net9.0\runtimes\linux-musl-x64\native\libqpdf.so
+C:\Users\gonza\Downloads\AisaacSTR\bin\Debug\net9.0\runtimes\linux-x64\native\libQuestPdfSkia.so
+C:\Users\gonza\Downloads\AisaacSTR\bin\Debug\net9.0\runtimes\linux-x64\native\libqpdf.so
+C:\Users\gonza\Downloads\AisaacSTR\bin\Debug\net9.0\runtimes\osx-arm64\native\libQuestPdfSkia.dylib
+C:\Users\gonza\Downloads\AisaacSTR\bin\Debug\net9.0\runtimes\osx-arm64\native\libqpdf.dylib
+C:\Users\gonza\Downloads\AisaacSTR\bin\Debug\net9.0\runtimes\osx-x64\native\libQuestPdfSkia.dylib
+C:\Users\gonza\Downloads\AisaacSTR\bin\Debug\net9.0\runtimes\osx-x64\native\libqpdf.dylib
+C:\Users\gonza\Downloads\AisaacSTR\bin\Debug\net9.0\runtimes\win-arm64\native\QuestPdfSkia.dll
+C:\Users\gonza\Downloads\AisaacSTR\bin\Debug\net9.0\runtimes\win-arm64\native\qpdf.dll
+C:\Users\gonza\Downloads\AisaacSTR\bin\Debug\net9.0\runtimes\win-x64\native\QuestPdfSkia.dll
+C:\Users\gonza\Downloads\AisaacSTR\bin\Debug\net9.0\runtimes\win-x64\native\qpdf.dll
+C:\Users\gonza\Downloads\AisaacSTR\bin\Debug\net9.0\runtimes\win-x86\native\QuestPdfSkia.dll
+C:\Users\gonza\Downloads\AisaacSTR\bin\Debug\net9.0\runtimes\win-x86\native\qpdf.dll
+C:\Users\gonza\Downloads\AisaacSTR\obj\Debug\net9.0\compressed\0ttpic2yj0-siz9rzv8p3.gz
+C:\Users\gonza\Downloads\AisaacSTR\obj\Debug\net9.0\compressed\40bgiq88ox-d26ogw32hj.gz
+C:\Users\gonza\Downloads\AisaacSTR\bin\Debug\net9.0\AisaacSTR.exe
+C:\Users\gonza\OneDrive\Desktop\proyecto de analisis de sistemas de informacion\AisaacSTR\bin\Debug\net9.0\appsettings.Development.json
+C:\Users\gonza\OneDrive\Desktop\proyecto de analisis de sistemas de informacion\AisaacSTR\bin\Debug\net9.0\appsettings.json
+C:\Users\gonza\OneDrive\Desktop\proyecto de analisis de sistemas de informacion\AisaacSTR\bin\Debug\net9.0\AisaacSTR.staticwebassets.endpoints.json
+C:\Users\gonza\OneDrive\Desktop\proyecto de analisis de sistemas de informacion\AisaacSTR\bin\Debug\net9.0\QuestPDF.Fonts.Lato.br
+C:\Users\gonza\OneDrive\Desktop\proyecto de analisis de sistemas de informacion\AisaacSTR\bin\Debug\net9.0\AisaacSTR.staticwebassets.runtime.json
+C:\Users\gonza\OneDrive\Desktop\proyecto de analisis de sistemas de informacion\AisaacSTR\bin\Debug\net9.0\AisaacSTR.exe
+C:\Users\gonza\OneDrive\Desktop\proyecto de analisis de sistemas de informacion\AisaacSTR\bin\Debug\net9.0\AisaacSTR.deps.json
+C:\Users\gonza\OneDrive\Desktop\proyecto de analisis de sistemas de informacion\AisaacSTR\bin\Debug\net9.0\AisaacSTR.runtimeconfig.json
+C:\Users\gonza\OneDrive\Desktop\proyecto de analisis de sistemas de informacion\AisaacSTR\bin\Debug\net9.0\AisaacSTR.dll
+C:\Users\gonza\OneDrive\Desktop\proyecto de analisis de sistemas de informacion\AisaacSTR\bin\Debug\net9.0\AisaacSTR.pdb
+C:\Users\gonza\OneDrive\Desktop\proyecto de analisis de sistemas de informacion\AisaacSTR\bin\Debug\net9.0\BCrypt.Net-Next.dll
+C:\Users\gonza\OneDrive\Desktop\proyecto de analisis de sistemas de informacion\AisaacSTR\bin\Debug\net9.0\Humanizer.dll
+C:\Users\gonza\OneDrive\Desktop\proyecto de analisis de sistemas de informacion\AisaacSTR\bin\Debug\net9.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\gonza\OneDrive\Desktop\proyecto de analisis de sistemas de informacion\AisaacSTR\bin\Debug\net9.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\gonza\OneDrive\Desktop\proyecto de analisis de sistemas de informacion\AisaacSTR\bin\Debug\net9.0\Microsoft.Build.Locator.dll
+C:\Users\gonza\OneDrive\Desktop\proyecto de analisis de sistemas de informacion\AisaacSTR\bin\Debug\net9.0\Microsoft.CodeAnalysis.dll
+C:\Users\gonza\OneDrive\Desktop\proyecto de analisis de sistemas de informacion\AisaacSTR\bin\Debug\net9.0\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\gonza\OneDrive\Desktop\proyecto de analisis de sistemas de informacion\AisaacSTR\bin\Debug\net9.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+C:\Users\gonza\OneDrive\Desktop\proyecto de analisis de sistemas de informacion\AisaacSTR\bin\Debug\net9.0\Microsoft.CodeAnalysis.Workspaces.dll
+C:\Users\gonza\OneDrive\Desktop\proyecto de analisis de sistemas de informacion\AisaacSTR\bin\Debug\net9.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.dll
+C:\Users\gonza\OneDrive\Desktop\proyecto de analisis de sistemas de informacion\AisaacSTR\bin\Debug\net9.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.dll
+C:\Users\gonza\OneDrive\Desktop\proyecto de analisis de sistemas de informacion\AisaacSTR\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\gonza\OneDrive\Desktop\proyecto de analisis de sistemas de informacion\AisaacSTR\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\gonza\OneDrive\Desktop\proyecto de analisis de sistemas de informacion\AisaacSTR\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\gonza\OneDrive\Desktop\proyecto de analisis de sistemas de informacion\AisaacSTR\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.InMemory.dll
+C:\Users\gonza\OneDrive\Desktop\proyecto de analisis de sistemas de informacion\AisaacSTR\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\gonza\OneDrive\Desktop\proyecto de analisis de sistemas de informacion\AisaacSTR\bin\Debug\net9.0\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\gonza\OneDrive\Desktop\proyecto de analisis de sistemas de informacion\AisaacSTR\bin\Debug\net9.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\gonza\OneDrive\Desktop\proyecto de analisis de sistemas de informacion\AisaacSTR\bin\Debug\net9.0\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\gonza\OneDrive\Desktop\proyecto de analisis de sistemas de informacion\AisaacSTR\bin\Debug\net9.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\gonza\OneDrive\Desktop\proyecto de analisis de sistemas de informacion\AisaacSTR\bin\Debug\net9.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\gonza\OneDrive\Desktop\proyecto de analisis de sistemas de informacion\AisaacSTR\bin\Debug\net9.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\gonza\OneDrive\Desktop\proyecto de analisis de sistemas de informacion\AisaacSTR\bin\Debug\net9.0\Microsoft.Extensions.Logging.dll
+C:\Users\gonza\OneDrive\Desktop\proyecto de analisis de sistemas de informacion\AisaacSTR\bin\Debug\net9.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\gonza\OneDrive\Desktop\proyecto de analisis de sistemas de informacion\AisaacSTR\bin\Debug\net9.0\Microsoft.Extensions.Options.dll
+C:\Users\gonza\OneDrive\Desktop\proyecto de analisis de sistemas de informacion\AisaacSTR\bin\Debug\net9.0\Microsoft.Extensions.Primitives.dll
+C:\Users\gonza\OneDrive\Desktop\proyecto de analisis de sistemas de informacion\AisaacSTR\bin\Debug\net9.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\gonza\OneDrive\Desktop\proyecto de analisis de sistemas de informacion\AisaacSTR\bin\Debug\net9.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\gonza\OneDrive\Desktop\proyecto de analisis de sistemas de informacion\AisaacSTR\bin\Debug\net9.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\gonza\OneDrive\Desktop\proyecto de analisis de sistemas de informacion\AisaacSTR\bin\Debug\net9.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\gonza\OneDrive\Desktop\proyecto de analisis de sistemas de informacion\AisaacSTR\bin\Debug\net9.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\gonza\OneDrive\Desktop\proyecto de analisis de sistemas de informacion\AisaacSTR\bin\Debug\net9.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\gonza\OneDrive\Desktop\proyecto de analisis de sistemas de informacion\AisaacSTR\bin\Debug\net9.0\Mono.TextTemplating.dll
+C:\Users\gonza\OneDrive\Desktop\proyecto de analisis de sistemas de informacion\AisaacSTR\bin\Debug\net9.0\Npgsql.dll
+C:\Users\gonza\OneDrive\Desktop\proyecto de analisis de sistemas de informacion\AisaacSTR\bin\Debug\net9.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
+C:\Users\gonza\OneDrive\Desktop\proyecto de analisis de sistemas de informacion\AisaacSTR\bin\Debug\net9.0\QuestPDF.dll
+C:\Users\gonza\OneDrive\Desktop\proyecto de analisis de sistemas de informacion\AisaacSTR\bin\Debug\net9.0\System.CodeDom.dll
+C:\Users\gonza\OneDrive\Desktop\proyecto de analisis de sistemas de informacion\AisaacSTR\bin\Debug\net9.0\System.Composition.AttributedModel.dll
+C:\Users\gonza\OneDrive\Desktop\proyecto de analisis de sistemas de informacion\AisaacSTR\bin\Debug\net9.0\System.Composition.Convention.dll
+C:\Users\gonza\OneDrive\Desktop\proyecto de analisis de sistemas de informacion\AisaacSTR\bin\Debug\net9.0\System.Composition.Hosting.dll
+C:\Users\gonza\OneDrive\Desktop\proyecto de analisis de sistemas de informacion\AisaacSTR\bin\Debug\net9.0\System.Composition.Runtime.dll
+C:\Users\gonza\OneDrive\Desktop\proyecto de analisis de sistemas de informacion\AisaacSTR\bin\Debug\net9.0\System.Composition.TypedParts.dll
+C:\Users\gonza\OneDrive\Desktop\proyecto de analisis de sistemas de informacion\AisaacSTR\bin\Debug\net9.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\gonza\OneDrive\Desktop\proyecto de analisis de sistemas de informacion\AisaacSTR\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.resources.dll
+C:\Users\gonza\OneDrive\Desktop\proyecto de analisis de sistemas de informacion\AisaacSTR\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.resources.dll
+C:\Users\gonza\OneDrive\Desktop\proyecto de analisis de sistemas de informacion\AisaacSTR\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.resources.dll
+C:\Users\gonza\OneDrive\Desktop\proyecto de analisis de sistemas de informacion\AisaacSTR\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\gonza\OneDrive\Desktop\proyecto de analisis de sistemas de informacion\AisaacSTR\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.resources.dll
+C:\Users\gonza\OneDrive\Desktop\proyecto de analisis de sistemas de informacion\AisaacSTR\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.resources.dll
+C:\Users\gonza\OneDrive\Desktop\proyecto de analisis de sistemas de informacion\AisaacSTR\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.resources.dll
+C:\Users\gonza\OneDrive\Desktop\proyecto de analisis de sistemas de informacion\AisaacSTR\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.resources.dll
+C:\Users\gonza\OneDrive\Desktop\proyecto de analisis de sistemas de informacion\AisaacSTR\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+C:\Users\gonza\OneDrive\Desktop\proyecto de analisis de sistemas de informacion\AisaacSTR\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.resources.dll
+C:\Users\gonza\OneDrive\Desktop\proyecto de analisis de sistemas de informacion\AisaacSTR\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\gonza\OneDrive\Desktop\proyecto de analisis de sistemas de informacion\AisaacSTR\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+C:\Users\gonza\OneDrive\Desktop\proyecto de analisis de sistemas de informacion\AisaacSTR\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+C:\Users\gonza\OneDrive\Desktop\proyecto de analisis de sistemas de informacion\AisaacSTR\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\gonza\OneDrive\Desktop\proyecto de analisis de sistemas de informacion\AisaacSTR\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\gonza\OneDrive\Desktop\proyecto de analisis de sistemas de informacion\AisaacSTR\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\gonza\OneDrive\Desktop\proyecto de analisis de sistemas de informacion\AisaacSTR\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\gonza\OneDrive\Desktop\proyecto de analisis de sistemas de informacion\AisaacSTR\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\gonza\OneDrive\Desktop\proyecto de analisis de sistemas de informacion\AisaacSTR\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\gonza\OneDrive\Desktop\proyecto de analisis de sistemas de informacion\AisaacSTR\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\gonza\OneDrive\Desktop\proyecto de analisis de sistemas de informacion\AisaacSTR\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\gonza\OneDrive\Desktop\proyecto de analisis de sistemas de informacion\AisaacSTR\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\gonza\OneDrive\Desktop\proyecto de analisis de sistemas de informacion\AisaacSTR\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\gonza\OneDrive\Desktop\proyecto de analisis de sistemas de informacion\AisaacSTR\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\gonza\OneDrive\Desktop\proyecto de analisis de sistemas de informacion\AisaacSTR\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\gonza\OneDrive\Desktop\proyecto de analisis de sistemas de informacion\AisaacSTR\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\gonza\OneDrive\Desktop\proyecto de analisis de sistemas de informacion\AisaacSTR\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\gonza\OneDrive\Desktop\proyecto de analisis de sistemas de informacion\AisaacSTR\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\gonza\OneDrive\Desktop\proyecto de analisis de sistemas de informacion\AisaacSTR\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\gonza\OneDrive\Desktop\proyecto de analisis de sistemas de informacion\AisaacSTR\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\gonza\OneDrive\Desktop\proyecto de analisis de sistemas de informacion\AisaacSTR\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\gonza\OneDrive\Desktop\proyecto de analisis de sistemas de informacion\AisaacSTR\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\gonza\OneDrive\Desktop\proyecto de analisis de sistemas de informacion\AisaacSTR\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\gonza\OneDrive\Desktop\proyecto de analisis de sistemas de informacion\AisaacSTR\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\gonza\OneDrive\Desktop\proyecto de analisis de sistemas de informacion\AisaacSTR\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\gonza\OneDrive\Desktop\proyecto de analisis de sistemas de informacion\AisaacSTR\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\gonza\OneDrive\Desktop\proyecto de analisis de sistemas de informacion\AisaacSTR\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\gonza\OneDrive\Desktop\proyecto de analisis de sistemas de informacion\AisaacSTR\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\gonza\OneDrive\Desktop\proyecto de analisis de sistemas de informacion\AisaacSTR\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\gonza\OneDrive\Desktop\proyecto de analisis de sistemas de informacion\AisaacSTR\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\gonza\OneDrive\Desktop\proyecto de analisis de sistemas de informacion\AisaacSTR\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\gonza\OneDrive\Desktop\proyecto de analisis de sistemas de informacion\AisaacSTR\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\gonza\OneDrive\Desktop\proyecto de analisis de sistemas de informacion\AisaacSTR\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\gonza\OneDrive\Desktop\proyecto de analisis de sistemas de informacion\AisaacSTR\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\gonza\OneDrive\Desktop\proyecto de analisis de sistemas de informacion\AisaacSTR\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\gonza\OneDrive\Desktop\proyecto de analisis de sistemas de informacion\AisaacSTR\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\gonza\OneDrive\Desktop\proyecto de analisis de sistemas de informacion\AisaacSTR\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\gonza\OneDrive\Desktop\proyecto de analisis de sistemas de informacion\AisaacSTR\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\gonza\OneDrive\Desktop\proyecto de analisis de sistemas de informacion\AisaacSTR\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\gonza\OneDrive\Desktop\proyecto de analisis de sistemas de informacion\AisaacSTR\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\gonza\OneDrive\Desktop\proyecto de analisis de sistemas de informacion\AisaacSTR\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\gonza\OneDrive\Desktop\proyecto de analisis de sistemas de informacion\AisaacSTR\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\gonza\OneDrive\Desktop\proyecto de analisis de sistemas de informacion\AisaacSTR\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\gonza\OneDrive\Desktop\proyecto de analisis de sistemas de informacion\AisaacSTR\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\gonza\OneDrive\Desktop\proyecto de analisis de sistemas de informacion\AisaacSTR\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\gonza\OneDrive\Desktop\proyecto de analisis de sistemas de informacion\AisaacSTR\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\gonza\OneDrive\Desktop\proyecto de analisis de sistemas de informacion\AisaacSTR\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\gonza\OneDrive\Desktop\proyecto de analisis de sistemas de informacion\AisaacSTR\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\gonza\OneDrive\Desktop\proyecto de analisis de sistemas de informacion\AisaacSTR\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\gonza\OneDrive\Desktop\proyecto de analisis de sistemas de informacion\AisaacSTR\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\gonza\OneDrive\Desktop\proyecto de analisis de sistemas de informacion\AisaacSTR\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\gonza\OneDrive\Desktop\proyecto de analisis de sistemas de informacion\AisaacSTR\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\gonza\OneDrive\Desktop\proyecto de analisis de sistemas de informacion\AisaacSTR\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\gonza\OneDrive\Desktop\proyecto de analisis de sistemas de informacion\AisaacSTR\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\gonza\OneDrive\Desktop\proyecto de analisis de sistemas de informacion\AisaacSTR\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\gonza\OneDrive\Desktop\proyecto de analisis de sistemas de informacion\AisaacSTR\bin\Debug\net9.0\runtimes\linux-arm64\native\libQuestPdfSkia.so
+C:\Users\gonza\OneDrive\Desktop\proyecto de analisis de sistemas de informacion\AisaacSTR\bin\Debug\net9.0\runtimes\linux-arm64\native\libqpdf.so
+C:\Users\gonza\OneDrive\Desktop\proyecto de analisis de sistemas de informacion\AisaacSTR\bin\Debug\net9.0\runtimes\linux-musl-x64\native\libQuestPdfSkia.so
+C:\Users\gonza\OneDrive\Desktop\proyecto de analisis de sistemas de informacion\AisaacSTR\bin\Debug\net9.0\runtimes\linux-musl-x64\native\libqpdf.so
+C:\Users\gonza\OneDrive\Desktop\proyecto de analisis de sistemas de informacion\AisaacSTR\bin\Debug\net9.0\runtimes\linux-x64\native\libQuestPdfSkia.so
+C:\Users\gonza\OneDrive\Desktop\proyecto de analisis de sistemas de informacion\AisaacSTR\bin\Debug\net9.0\runtimes\linux-x64\native\libqpdf.so
+C:\Users\gonza\OneDrive\Desktop\proyecto de analisis de sistemas de informacion\AisaacSTR\bin\Debug\net9.0\runtimes\osx-arm64\native\libQuestPdfSkia.dylib
+C:\Users\gonza\OneDrive\Desktop\proyecto de analisis de sistemas de informacion\AisaacSTR\bin\Debug\net9.0\runtimes\osx-arm64\native\libqpdf.dylib
+C:\Users\gonza\OneDrive\Desktop\proyecto de analisis de sistemas de informacion\AisaacSTR\bin\Debug\net9.0\runtimes\osx-x64\native\libQuestPdfSkia.dylib
+C:\Users\gonza\OneDrive\Desktop\proyecto de analisis de sistemas de informacion\AisaacSTR\bin\Debug\net9.0\runtimes\osx-x64\native\libqpdf.dylib
+C:\Users\gonza\OneDrive\Desktop\proyecto de analisis de sistemas de informacion\AisaacSTR\bin\Debug\net9.0\runtimes\win-arm64\native\QuestPdfSkia.dll
+C:\Users\gonza\OneDrive\Desktop\proyecto de analisis de sistemas de informacion\AisaacSTR\bin\Debug\net9.0\runtimes\win-arm64\native\qpdf.dll
+C:\Users\gonza\OneDrive\Desktop\proyecto de analisis de sistemas de informacion\AisaacSTR\bin\Debug\net9.0\runtimes\win-x64\native\QuestPdfSkia.dll
+C:\Users\gonza\OneDrive\Desktop\proyecto de analisis de sistemas de informacion\AisaacSTR\bin\Debug\net9.0\runtimes\win-x64\native\qpdf.dll
+C:\Users\gonza\OneDrive\Desktop\proyecto de analisis de sistemas de informacion\AisaacSTR\bin\Debug\net9.0\runtimes\win-x86\native\QuestPdfSkia.dll
+C:\Users\gonza\OneDrive\Desktop\proyecto de analisis de sistemas de informacion\AisaacSTR\bin\Debug\net9.0\runtimes\win-x86\native\qpdf.dll
+C:\Users\gonza\OneDrive\Desktop\proyecto de analisis de sistemas de informacion\AisaacSTR\obj\Debug\net9.0\AisaacSTR.csproj.AssemblyReference.cache
+C:\Users\gonza\OneDrive\Desktop\proyecto de analisis de sistemas de informacion\AisaacSTR\obj\Debug\net9.0\rpswa.dswa.cache.json
+C:\Users\gonza\OneDrive\Desktop\proyecto de analisis de sistemas de informacion\AisaacSTR\obj\Debug\net9.0\AisaacSTR.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\gonza\OneDrive\Desktop\proyecto de analisis de sistemas de informacion\AisaacSTR\obj\Debug\net9.0\AisaacSTR.AssemblyInfoInputs.cache
+C:\Users\gonza\OneDrive\Desktop\proyecto de analisis de sistemas de informacion\AisaacSTR\obj\Debug\net9.0\AisaacSTR.AssemblyInfo.cs
+C:\Users\gonza\OneDrive\Desktop\proyecto de analisis de sistemas de informacion\AisaacSTR\obj\Debug\net9.0\AisaacSTR.csproj.CoreCompileInputs.cache
+C:\Users\gonza\OneDrive\Desktop\proyecto de analisis de sistemas de informacion\AisaacSTR\obj\Debug\net9.0\AisaacSTR.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\gonza\OneDrive\Desktop\proyecto de analisis de sistemas de informacion\AisaacSTR\obj\Debug\net9.0\AisaacSTR.RazorAssemblyInfo.cache
+C:\Users\gonza\OneDrive\Desktop\proyecto de analisis de sistemas de informacion\AisaacSTR\obj\Debug\net9.0\AisaacSTR.RazorAssemblyInfo.cs
+C:\Users\gonza\OneDrive\Desktop\proyecto de analisis de sistemas de informacion\AisaacSTR\obj\Debug\net9.0\rjimswa.dswa.cache.json
+C:\Users\gonza\OneDrive\Desktop\proyecto de analisis de sistemas de informacion\AisaacSTR\obj\Debug\net9.0\rjsmrazor.dswa.cache.json
+C:\Users\gonza\OneDrive\Desktop\proyecto de analisis de sistemas de informacion\AisaacSTR\obj\Debug\net9.0\rjsmcshtml.dswa.cache.json
+C:\Users\gonza\OneDrive\Desktop\proyecto de analisis de sistemas de informacion\AisaacSTR\obj\Debug\net9.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\gonza\OneDrive\Desktop\proyecto de analisis de sistemas de informacion\AisaacSTR\obj\Debug\net9.0\scopedcss\bundle\AisaacSTR.styles.css
+C:\Users\gonza\OneDrive\Desktop\proyecto de analisis de sistemas de informacion\AisaacSTR\obj\Debug\net9.0\scopedcss\projectbundle\AisaacSTR.bundle.scp.css
+C:\Users\gonza\OneDrive\Desktop\proyecto de analisis de sistemas de informacion\AisaacSTR\obj\Debug\net9.0\compressed\3t7px3j005-b9sayid5wm.gz
+C:\Users\gonza\OneDrive\Desktop\proyecto de analisis de sistemas de informacion\AisaacSTR\obj\Debug\net9.0\compressed\wqh2yk1qmi-61n19gt1b8.gz
+C:\Users\gonza\OneDrive\Desktop\proyecto de analisis de sistemas de informacion\AisaacSTR\obj\Debug\net9.0\compressed\k8xax4e7qk-xtxxf3hu2r.gz
+C:\Users\gonza\OneDrive\Desktop\proyecto de analisis de sistemas de informacion\AisaacSTR\obj\Debug\net9.0\compressed\887v6bjyvf-bqjiyaj88i.gz
+C:\Users\gonza\OneDrive\Desktop\proyecto de analisis de sistemas de informacion\AisaacSTR\obj\Debug\net9.0\compressed\2bwa4krptf-c2jlpeoesf.gz
+C:\Users\gonza\OneDrive\Desktop\proyecto de analisis de sistemas de informacion\AisaacSTR\obj\Debug\net9.0\compressed\hmja6ztqty-erw9l3u2r3.gz
+C:\Users\gonza\OneDrive\Desktop\proyecto de analisis de sistemas de informacion\AisaacSTR\obj\Debug\net9.0\compressed\to6kh8ge2j-aexeepp0ev.gz
+C:\Users\gonza\OneDrive\Desktop\proyecto de analisis de sistemas de informacion\AisaacSTR\obj\Debug\net9.0\compressed\mbak7fsh1r-d7shbmvgxk.gz
+C:\Users\gonza\OneDrive\Desktop\proyecto de analisis de sistemas de informacion\AisaacSTR\obj\Debug\net9.0\compressed\d9aaelfh14-ausgxo2sd3.gz
+C:\Users\gonza\OneDrive\Desktop\proyecto de analisis de sistemas de informacion\AisaacSTR\obj\Debug\net9.0\compressed\clwwbld3hi-k8d9w2qqmf.gz
+C:\Users\gonza\OneDrive\Desktop\proyecto de analisis de sistemas de informacion\AisaacSTR\obj\Debug\net9.0\compressed\wslx53f1lo-cosvhxvwiu.gz
+C:\Users\gonza\OneDrive\Desktop\proyecto de analisis de sistemas de informacion\AisaacSTR\obj\Debug\net9.0\compressed\28lfv0vcm3-ub07r2b239.gz
+C:\Users\gonza\OneDrive\Desktop\proyecto de analisis de sistemas de informacion\AisaacSTR\obj\Debug\net9.0\compressed\ttgzu2a73o-fvhpjtyr6v.gz
+C:\Users\gonza\OneDrive\Desktop\proyecto de analisis de sistemas de informacion\AisaacSTR\obj\Debug\net9.0\compressed\gj75z59ly1-b7pk76d08c.gz
+C:\Users\gonza\OneDrive\Desktop\proyecto de analisis de sistemas de informacion\AisaacSTR\obj\Debug\net9.0\compressed\zmcu7bvm6f-fsbi9cje9m.gz
+C:\Users\gonza\OneDrive\Desktop\proyecto de analisis de sistemas de informacion\AisaacSTR\obj\Debug\net9.0\compressed\lf1fq1ha3d-rzd6atqjts.gz
+C:\Users\gonza\OneDrive\Desktop\proyecto de analisis de sistemas de informacion\AisaacSTR\obj\Debug\net9.0\compressed\wgud4w76q7-ee0r1s7dh0.gz
+C:\Users\gonza\OneDrive\Desktop\proyecto de analisis de sistemas de informacion\AisaacSTR\obj\Debug\net9.0\compressed\7esu8ts1el-dxx9fxp4il.gz
+C:\Users\gonza\OneDrive\Desktop\proyecto de analisis de sistemas de informacion\AisaacSTR\obj\Debug\net9.0\compressed\hqrcinn6pt-jd9uben2k1.gz
+C:\Users\gonza\OneDrive\Desktop\proyecto de analisis de sistemas de informacion\AisaacSTR\obj\Debug\net9.0\compressed\y8gcg90d0x-khv3u5hwcm.gz
+C:\Users\gonza\OneDrive\Desktop\proyecto de analisis de sistemas de informacion\AisaacSTR\obj\Debug\net9.0\compressed\854y38dj59-r4e9w2rdcm.gz
+C:\Users\gonza\OneDrive\Desktop\proyecto de analisis de sistemas de informacion\AisaacSTR\obj\Debug\net9.0\compressed\8g6bysylhw-lcd1t2u6c8.gz
+C:\Users\gonza\OneDrive\Desktop\proyecto de analisis de sistemas de informacion\AisaacSTR\obj\Debug\net9.0\compressed\dp43xmbi72-c2oey78nd0.gz
+C:\Users\gonza\OneDrive\Desktop\proyecto de analisis de sistemas de informacion\AisaacSTR\obj\Debug\net9.0\compressed\686ajpaov6-tdbxkamptv.gz
+C:\Users\gonza\OneDrive\Desktop\proyecto de analisis de sistemas de informacion\AisaacSTR\obj\Debug\net9.0\compressed\3r3uhypeu7-j5mq2jizvt.gz
+C:\Users\gonza\OneDrive\Desktop\proyecto de analisis de sistemas de informacion\AisaacSTR\obj\Debug\net9.0\compressed\y5b475odih-06098lyss8.gz
+C:\Users\gonza\OneDrive\Desktop\proyecto de analisis de sistemas de informacion\AisaacSTR\obj\Debug\net9.0\compressed\m1ve6xrzul-nvvlpmu67g.gz
+C:\Users\gonza\OneDrive\Desktop\proyecto de analisis de sistemas de informacion\AisaacSTR\obj\Debug\net9.0\compressed\emgrilwdmu-s35ty4nyc5.gz
+C:\Users\gonza\OneDrive\Desktop\proyecto de analisis de sistemas de informacion\AisaacSTR\obj\Debug\net9.0\compressed\6jpeea14f0-pj5nd1wqec.gz
+C:\Users\gonza\OneDrive\Desktop\proyecto de analisis de sistemas de informacion\AisaacSTR\obj\Debug\net9.0\compressed\3ezezdowzg-46ein0sx1k.gz
+C:\Users\gonza\OneDrive\Desktop\proyecto de analisis de sistemas de informacion\AisaacSTR\obj\Debug\net9.0\compressed\7ftqws5doe-v0zj4ognzu.gz
+C:\Users\gonza\OneDrive\Desktop\proyecto de analisis de sistemas de informacion\AisaacSTR\obj\Debug\net9.0\compressed\7xkqmuc3wm-37tfw0ft22.gz
+C:\Users\gonza\OneDrive\Desktop\proyecto de analisis de sistemas de informacion\AisaacSTR\obj\Debug\net9.0\compressed\jvni2yh0q5-hrwsygsryq.gz
+C:\Users\gonza\OneDrive\Desktop\proyecto de analisis de sistemas de informacion\AisaacSTR\obj\Debug\net9.0\compressed\vhu8d7ktbb-pk9g2wxc8p.gz
+C:\Users\gonza\OneDrive\Desktop\proyecto de analisis de sistemas de informacion\AisaacSTR\obj\Debug\net9.0\compressed\k0ijeep85h-ft3s53vfgj.gz
+C:\Users\gonza\OneDrive\Desktop\proyecto de analisis de sistemas de informacion\AisaacSTR\obj\Debug\net9.0\compressed\ylq37wovrx-6cfz1n2cew.gz
+C:\Users\gonza\OneDrive\Desktop\proyecto de analisis de sistemas de informacion\AisaacSTR\obj\Debug\net9.0\compressed\p0zdjkyaym-6pdc2jztkx.gz
+C:\Users\gonza\OneDrive\Desktop\proyecto de analisis de sistemas de informacion\AisaacSTR\obj\Debug\net9.0\compressed\qikkjrs83l-493y06b0oq.gz
+C:\Users\gonza\OneDrive\Desktop\proyecto de analisis de sistemas de informacion\AisaacSTR\obj\Debug\net9.0\compressed\1nm3qgv6p8-iovd86k7lj.gz
+C:\Users\gonza\OneDrive\Desktop\proyecto de analisis de sistemas de informacion\AisaacSTR\obj\Debug\net9.0\compressed\hp35cyy5tq-vr1egmr9el.gz
+C:\Users\gonza\OneDrive\Desktop\proyecto de analisis de sistemas de informacion\AisaacSTR\obj\Debug\net9.0\compressed\ow0tauslgu-kbrnm935zg.gz
+C:\Users\gonza\OneDrive\Desktop\proyecto de analisis de sistemas de informacion\AisaacSTR\obj\Debug\net9.0\compressed\fhnrso2uee-jj8uyg4cgr.gz
+C:\Users\gonza\OneDrive\Desktop\proyecto de analisis de sistemas de informacion\AisaacSTR\obj\Debug\net9.0\compressed\vqqfknoasp-y7v9cxd14o.gz
+C:\Users\gonza\OneDrive\Desktop\proyecto de analisis de sistemas de informacion\AisaacSTR\obj\Debug\net9.0\compressed\w9r7yl1kop-notf2xhcfb.gz
+C:\Users\gonza\OneDrive\Desktop\proyecto de analisis de sistemas de informacion\AisaacSTR\obj\Debug\net9.0\compressed\2yqryv9vez-h1s4sie4z3.gz
+C:\Users\gonza\OneDrive\Desktop\proyecto de analisis de sistemas de informacion\AisaacSTR\obj\Debug\net9.0\compressed\7b1kzksn3v-63fj8s7r0e.gz
+C:\Users\gonza\OneDrive\Desktop\proyecto de analisis de sistemas de informacion\AisaacSTR\obj\Debug\net9.0\compressed\xjqphlnilg-0j3bgjxly4.gz
+C:\Users\gonza\OneDrive\Desktop\proyecto de analisis de sistemas de informacion\AisaacSTR\obj\Debug\net9.0\compressed\n2kp8xkcy7-47otxtyo56.gz
+C:\Users\gonza\OneDrive\Desktop\proyecto de analisis de sistemas de informacion\AisaacSTR\obj\Debug\net9.0\compressed\augp09ad9n-4v8eqarkd7.gz
+C:\Users\gonza\OneDrive\Desktop\proyecto de analisis de sistemas de informacion\AisaacSTR\obj\Debug\net9.0\compressed\93mch5t9mg-356vix0kms.gz
+C:\Users\gonza\OneDrive\Desktop\proyecto de analisis de sistemas de informacion\AisaacSTR\obj\Debug\net9.0\compressed\f370rb3jg5-83jwlth58m.gz
+C:\Users\gonza\OneDrive\Desktop\proyecto de analisis de sistemas de informacion\AisaacSTR\obj\Debug\net9.0\compressed\6t17mrkxaw-mrlpezrjn3.gz
+C:\Users\gonza\OneDrive\Desktop\proyecto de analisis de sistemas de informacion\AisaacSTR\obj\Debug\net9.0\compressed\sp584j3vly-lzl9nlhx6b.gz
+C:\Users\gonza\OneDrive\Desktop\proyecto de analisis de sistemas de informacion\AisaacSTR\obj\Debug\net9.0\compressed\msgia8xfxs-ag7o75518u.gz
+C:\Users\gonza\OneDrive\Desktop\proyecto de analisis de sistemas de informacion\AisaacSTR\obj\Debug\net9.0\compressed\g9tmhu664c-x0q3zqp4vz.gz
+C:\Users\gonza\OneDrive\Desktop\proyecto de analisis de sistemas de informacion\AisaacSTR\obj\Debug\net9.0\compressed\ci8f1b618w-0i3buxo5is.gz
+C:\Users\gonza\OneDrive\Desktop\proyecto de analisis de sistemas de informacion\AisaacSTR\obj\Debug\net9.0\compressed\wqwphzqyj9-o1o13a6vjx.gz
+C:\Users\gonza\OneDrive\Desktop\proyecto de analisis de sistemas de informacion\AisaacSTR\obj\Debug\net9.0\compressed\e9k5cukf4r-ttgo8qnofa.gz
+C:\Users\gonza\OneDrive\Desktop\proyecto de analisis de sistemas de informacion\AisaacSTR\obj\Debug\net9.0\compressed\5b6pnwb4s1-2z0ns9nrw6.gz
+C:\Users\gonza\OneDrive\Desktop\proyecto de analisis de sistemas de informacion\AisaacSTR\obj\Debug\net9.0\compressed\bzgnnyj0j4-muycvpuwrr.gz
+C:\Users\gonza\OneDrive\Desktop\proyecto de analisis de sistemas de informacion\AisaacSTR\obj\Debug\net9.0\compressed\19r6s3wq2p-87fc7y1x7t.gz
+C:\Users\gonza\OneDrive\Desktop\proyecto de analisis de sistemas de informacion\AisaacSTR\obj\Debug\net9.0\compressed\qrbj13wckc-mlv21k5csn.gz
+C:\Users\gonza\OneDrive\Desktop\proyecto de analisis de sistemas de informacion\AisaacSTR\obj\Debug\net9.0\compressed\gjav0rbnsy-6x0ps564rj.gz
+C:\Users\gonza\OneDrive\Desktop\proyecto de analisis de sistemas de informacion\AisaacSTR\obj\Debug\net9.0\compressed\laqchw9fqr-6x0ps564rj.gz
+C:\Users\gonza\OneDrive\Desktop\proyecto de analisis de sistemas de informacion\AisaacSTR\obj\Debug\net9.0\staticwebassets.build.json
+C:\Users\gonza\OneDrive\Desktop\proyecto de analisis de sistemas de informacion\AisaacSTR\obj\Debug\net9.0\staticwebassets.build.json.cache
+C:\Users\gonza\OneDrive\Desktop\proyecto de analisis de sistemas de informacion\AisaacSTR\obj\Debug\net9.0\staticwebassets.development.json
+C:\Users\gonza\OneDrive\Desktop\proyecto de analisis de sistemas de informacion\AisaacSTR\obj\Debug\net9.0\staticwebassets.build.endpoints.json
+C:\Users\gonza\OneDrive\Desktop\proyecto de analisis de sistemas de informacion\AisaacSTR\obj\Debug\net9.0\AisaacSTR.csproj.Up2Date
+C:\Users\gonza\OneDrive\Desktop\proyecto de analisis de sistemas de informacion\AisaacSTR\obj\Debug\net9.0\AisaacSTR.dll
+C:\Users\gonza\OneDrive\Desktop\proyecto de analisis de sistemas de informacion\AisaacSTR\obj\Debug\net9.0\refint\AisaacSTR.dll
+C:\Users\gonza\OneDrive\Desktop\proyecto de analisis de sistemas de informacion\AisaacSTR\obj\Debug\net9.0\AisaacSTR.pdb
+C:\Users\gonza\OneDrive\Desktop\proyecto de analisis de sistemas de informacion\AisaacSTR\obj\Debug\net9.0\AisaacSTR.genruntimeconfig.cache
+C:\Users\gonza\OneDrive\Desktop\proyecto de analisis de sistemas de informacion\AisaacSTR\obj\Debug\net9.0\ref\AisaacSTR.dll
+C:\Users\gonza\OneDrive\Desktop\proyecto de analisis de sistemas de informacion\AisaacSTR\obj\Debug\net9.0\compressed\40bgiq88ox-eiydww6ipv.gz
+C:\Users\gonza\OneDrive\Desktop\proyecto de analisis de sistemas de informacion\AisaacSTR\obj\Debug\net9.0\compressed\0ttpic2yj0-dznjo7o3v1.gz
+C:\Users\gonza\Downloads\AisaacSTR (1)\AisaacSTR\bin\Debug\net9.0\appsettings.Development.json
+C:\Users\gonza\Downloads\AisaacSTR (1)\AisaacSTR\bin\Debug\net9.0\appsettings.json
+C:\Users\gonza\Downloads\AisaacSTR (1)\AisaacSTR\bin\Debug\net9.0\QuestPDF.Fonts.Lato.br
+C:\Users\gonza\Downloads\AisaacSTR (1)\AisaacSTR\bin\Debug\net9.0\AisaacSTR.staticwebassets.runtime.json
+C:\Users\gonza\Downloads\AisaacSTR (1)\AisaacSTR\bin\Debug\net9.0\AisaacSTR.staticwebassets.endpoints.json
+C:\Users\gonza\Downloads\AisaacSTR (1)\AisaacSTR\bin\Debug\net9.0\AisaacSTR.exe
+C:\Users\gonza\Downloads\AisaacSTR (1)\AisaacSTR\bin\Debug\net9.0\AisaacSTR.deps.json
+C:\Users\gonza\Downloads\AisaacSTR (1)\AisaacSTR\bin\Debug\net9.0\AisaacSTR.runtimeconfig.json
+C:\Users\gonza\Downloads\AisaacSTR (1)\AisaacSTR\bin\Debug\net9.0\AisaacSTR.dll
+C:\Users\gonza\Downloads\AisaacSTR (1)\AisaacSTR\bin\Debug\net9.0\AisaacSTR.pdb
+C:\Users\gonza\Downloads\AisaacSTR (1)\AisaacSTR\bin\Debug\net9.0\BCrypt.Net-Next.dll
+C:\Users\gonza\Downloads\AisaacSTR (1)\AisaacSTR\bin\Debug\net9.0\Humanizer.dll
+C:\Users\gonza\Downloads\AisaacSTR (1)\AisaacSTR\bin\Debug\net9.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\gonza\Downloads\AisaacSTR (1)\AisaacSTR\bin\Debug\net9.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\gonza\Downloads\AisaacSTR (1)\AisaacSTR\bin\Debug\net9.0\Microsoft.Build.Locator.dll
+C:\Users\gonza\Downloads\AisaacSTR (1)\AisaacSTR\bin\Debug\net9.0\Microsoft.CodeAnalysis.dll
+C:\Users\gonza\Downloads\AisaacSTR (1)\AisaacSTR\bin\Debug\net9.0\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\gonza\Downloads\AisaacSTR (1)\AisaacSTR\bin\Debug\net9.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+C:\Users\gonza\Downloads\AisaacSTR (1)\AisaacSTR\bin\Debug\net9.0\Microsoft.CodeAnalysis.Workspaces.dll
+C:\Users\gonza\Downloads\AisaacSTR (1)\AisaacSTR\bin\Debug\net9.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.dll
+C:\Users\gonza\Downloads\AisaacSTR (1)\AisaacSTR\bin\Debug\net9.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.dll
+C:\Users\gonza\Downloads\AisaacSTR (1)\AisaacSTR\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\gonza\Downloads\AisaacSTR (1)\AisaacSTR\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\gonza\Downloads\AisaacSTR (1)\AisaacSTR\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\gonza\Downloads\AisaacSTR (1)\AisaacSTR\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.InMemory.dll
+C:\Users\gonza\Downloads\AisaacSTR (1)\AisaacSTR\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\gonza\Downloads\AisaacSTR (1)\AisaacSTR\bin\Debug\net9.0\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\gonza\Downloads\AisaacSTR (1)\AisaacSTR\bin\Debug\net9.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\gonza\Downloads\AisaacSTR (1)\AisaacSTR\bin\Debug\net9.0\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\gonza\Downloads\AisaacSTR (1)\AisaacSTR\bin\Debug\net9.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\gonza\Downloads\AisaacSTR (1)\AisaacSTR\bin\Debug\net9.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\gonza\Downloads\AisaacSTR (1)\AisaacSTR\bin\Debug\net9.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\gonza\Downloads\AisaacSTR (1)\AisaacSTR\bin\Debug\net9.0\Microsoft.Extensions.Logging.dll
+C:\Users\gonza\Downloads\AisaacSTR (1)\AisaacSTR\bin\Debug\net9.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\gonza\Downloads\AisaacSTR (1)\AisaacSTR\bin\Debug\net9.0\Microsoft.Extensions.Options.dll
+C:\Users\gonza\Downloads\AisaacSTR (1)\AisaacSTR\bin\Debug\net9.0\Microsoft.Extensions.Primitives.dll
+C:\Users\gonza\Downloads\AisaacSTR (1)\AisaacSTR\bin\Debug\net9.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\gonza\Downloads\AisaacSTR (1)\AisaacSTR\bin\Debug\net9.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\gonza\Downloads\AisaacSTR (1)\AisaacSTR\bin\Debug\net9.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\gonza\Downloads\AisaacSTR (1)\AisaacSTR\bin\Debug\net9.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\gonza\Downloads\AisaacSTR (1)\AisaacSTR\bin\Debug\net9.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\gonza\Downloads\AisaacSTR (1)\AisaacSTR\bin\Debug\net9.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\gonza\Downloads\AisaacSTR (1)\AisaacSTR\bin\Debug\net9.0\Mono.TextTemplating.dll
+C:\Users\gonza\Downloads\AisaacSTR (1)\AisaacSTR\bin\Debug\net9.0\Npgsql.dll
+C:\Users\gonza\Downloads\AisaacSTR (1)\AisaacSTR\bin\Debug\net9.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
+C:\Users\gonza\Downloads\AisaacSTR (1)\AisaacSTR\bin\Debug\net9.0\QuestPDF.dll
+C:\Users\gonza\Downloads\AisaacSTR (1)\AisaacSTR\bin\Debug\net9.0\System.CodeDom.dll
+C:\Users\gonza\Downloads\AisaacSTR (1)\AisaacSTR\bin\Debug\net9.0\System.Composition.AttributedModel.dll
+C:\Users\gonza\Downloads\AisaacSTR (1)\AisaacSTR\bin\Debug\net9.0\System.Composition.Convention.dll
+C:\Users\gonza\Downloads\AisaacSTR (1)\AisaacSTR\bin\Debug\net9.0\System.Composition.Hosting.dll
+C:\Users\gonza\Downloads\AisaacSTR (1)\AisaacSTR\bin\Debug\net9.0\System.Composition.Runtime.dll
+C:\Users\gonza\Downloads\AisaacSTR (1)\AisaacSTR\bin\Debug\net9.0\System.Composition.TypedParts.dll
+C:\Users\gonza\Downloads\AisaacSTR (1)\AisaacSTR\bin\Debug\net9.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\gonza\Downloads\AisaacSTR (1)\AisaacSTR\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.resources.dll
+C:\Users\gonza\Downloads\AisaacSTR (1)\AisaacSTR\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.resources.dll
+C:\Users\gonza\Downloads\AisaacSTR (1)\AisaacSTR\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.resources.dll
+C:\Users\gonza\Downloads\AisaacSTR (1)\AisaacSTR\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\gonza\Downloads\AisaacSTR (1)\AisaacSTR\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.resources.dll
+C:\Users\gonza\Downloads\AisaacSTR (1)\AisaacSTR\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.resources.dll
+C:\Users\gonza\Downloads\AisaacSTR (1)\AisaacSTR\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.resources.dll
+C:\Users\gonza\Downloads\AisaacSTR (1)\AisaacSTR\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.resources.dll
+C:\Users\gonza\Downloads\AisaacSTR (1)\AisaacSTR\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+C:\Users\gonza\Downloads\AisaacSTR (1)\AisaacSTR\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.resources.dll
+C:\Users\gonza\Downloads\AisaacSTR (1)\AisaacSTR\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\gonza\Downloads\AisaacSTR (1)\AisaacSTR\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+C:\Users\gonza\Downloads\AisaacSTR (1)\AisaacSTR\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+C:\Users\gonza\Downloads\AisaacSTR (1)\AisaacSTR\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\gonza\Downloads\AisaacSTR (1)\AisaacSTR\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\gonza\Downloads\AisaacSTR (1)\AisaacSTR\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\gonza\Downloads\AisaacSTR (1)\AisaacSTR\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\gonza\Downloads\AisaacSTR (1)\AisaacSTR\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\gonza\Downloads\AisaacSTR (1)\AisaacSTR\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\gonza\Downloads\AisaacSTR (1)\AisaacSTR\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\gonza\Downloads\AisaacSTR (1)\AisaacSTR\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\gonza\Downloads\AisaacSTR (1)\AisaacSTR\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\gonza\Downloads\AisaacSTR (1)\AisaacSTR\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\gonza\Downloads\AisaacSTR (1)\AisaacSTR\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\gonza\Downloads\AisaacSTR (1)\AisaacSTR\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\gonza\Downloads\AisaacSTR (1)\AisaacSTR\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\gonza\Downloads\AisaacSTR (1)\AisaacSTR\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\gonza\Downloads\AisaacSTR (1)\AisaacSTR\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\gonza\Downloads\AisaacSTR (1)\AisaacSTR\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\gonza\Downloads\AisaacSTR (1)\AisaacSTR\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\gonza\Downloads\AisaacSTR (1)\AisaacSTR\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\gonza\Downloads\AisaacSTR (1)\AisaacSTR\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\gonza\Downloads\AisaacSTR (1)\AisaacSTR\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\gonza\Downloads\AisaacSTR (1)\AisaacSTR\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\gonza\Downloads\AisaacSTR (1)\AisaacSTR\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\gonza\Downloads\AisaacSTR (1)\AisaacSTR\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\gonza\Downloads\AisaacSTR (1)\AisaacSTR\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\gonza\Downloads\AisaacSTR (1)\AisaacSTR\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\gonza\Downloads\AisaacSTR (1)\AisaacSTR\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\gonza\Downloads\AisaacSTR (1)\AisaacSTR\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\gonza\Downloads\AisaacSTR (1)\AisaacSTR\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\gonza\Downloads\AisaacSTR (1)\AisaacSTR\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\gonza\Downloads\AisaacSTR (1)\AisaacSTR\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\gonza\Downloads\AisaacSTR (1)\AisaacSTR\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\gonza\Downloads\AisaacSTR (1)\AisaacSTR\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\gonza\Downloads\AisaacSTR (1)\AisaacSTR\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\gonza\Downloads\AisaacSTR (1)\AisaacSTR\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\gonza\Downloads\AisaacSTR (1)\AisaacSTR\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\gonza\Downloads\AisaacSTR (1)\AisaacSTR\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\gonza\Downloads\AisaacSTR (1)\AisaacSTR\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\gonza\Downloads\AisaacSTR (1)\AisaacSTR\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\gonza\Downloads\AisaacSTR (1)\AisaacSTR\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\gonza\Downloads\AisaacSTR (1)\AisaacSTR\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\gonza\Downloads\AisaacSTR (1)\AisaacSTR\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\gonza\Downloads\AisaacSTR (1)\AisaacSTR\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\gonza\Downloads\AisaacSTR (1)\AisaacSTR\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\gonza\Downloads\AisaacSTR (1)\AisaacSTR\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\gonza\Downloads\AisaacSTR (1)\AisaacSTR\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\gonza\Downloads\AisaacSTR (1)\AisaacSTR\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\gonza\Downloads\AisaacSTR (1)\AisaacSTR\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\gonza\Downloads\AisaacSTR (1)\AisaacSTR\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\gonza\Downloads\AisaacSTR (1)\AisaacSTR\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\gonza\Downloads\AisaacSTR (1)\AisaacSTR\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\gonza\Downloads\AisaacSTR (1)\AisaacSTR\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\gonza\Downloads\AisaacSTR (1)\AisaacSTR\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\gonza\Downloads\AisaacSTR (1)\AisaacSTR\bin\Debug\net9.0\runtimes\linux-arm64\native\libQuestPdfSkia.so
+C:\Users\gonza\Downloads\AisaacSTR (1)\AisaacSTR\bin\Debug\net9.0\runtimes\linux-arm64\native\libqpdf.so
+C:\Users\gonza\Downloads\AisaacSTR (1)\AisaacSTR\bin\Debug\net9.0\runtimes\linux-musl-x64\native\libQuestPdfSkia.so
+C:\Users\gonza\Downloads\AisaacSTR (1)\AisaacSTR\bin\Debug\net9.0\runtimes\linux-musl-x64\native\libqpdf.so
+C:\Users\gonza\Downloads\AisaacSTR (1)\AisaacSTR\bin\Debug\net9.0\runtimes\linux-x64\native\libQuestPdfSkia.so
+C:\Users\gonza\Downloads\AisaacSTR (1)\AisaacSTR\bin\Debug\net9.0\runtimes\linux-x64\native\libqpdf.so
+C:\Users\gonza\Downloads\AisaacSTR (1)\AisaacSTR\bin\Debug\net9.0\runtimes\osx-arm64\native\libQuestPdfSkia.dylib
+C:\Users\gonza\Downloads\AisaacSTR (1)\AisaacSTR\bin\Debug\net9.0\runtimes\osx-arm64\native\libqpdf.dylib
+C:\Users\gonza\Downloads\AisaacSTR (1)\AisaacSTR\bin\Debug\net9.0\runtimes\osx-x64\native\libQuestPdfSkia.dylib
+C:\Users\gonza\Downloads\AisaacSTR (1)\AisaacSTR\bin\Debug\net9.0\runtimes\osx-x64\native\libqpdf.dylib
+C:\Users\gonza\Downloads\AisaacSTR (1)\AisaacSTR\bin\Debug\net9.0\runtimes\win-arm64\native\QuestPdfSkia.dll
+C:\Users\gonza\Downloads\AisaacSTR (1)\AisaacSTR\bin\Debug\net9.0\runtimes\win-arm64\native\qpdf.dll
+C:\Users\gonza\Downloads\AisaacSTR (1)\AisaacSTR\bin\Debug\net9.0\runtimes\win-x64\native\QuestPdfSkia.dll
+C:\Users\gonza\Downloads\AisaacSTR (1)\AisaacSTR\bin\Debug\net9.0\runtimes\win-x64\native\qpdf.dll
+C:\Users\gonza\Downloads\AisaacSTR (1)\AisaacSTR\bin\Debug\net9.0\runtimes\win-x86\native\QuestPdfSkia.dll
+C:\Users\gonza\Downloads\AisaacSTR (1)\AisaacSTR\bin\Debug\net9.0\runtimes\win-x86\native\qpdf.dll
+C:\Users\gonza\Downloads\AisaacSTR (1)\AisaacSTR\obj\Debug\net9.0\AisaacSTR.csproj.AssemblyReference.cache
+C:\Users\gonza\Downloads\AisaacSTR (1)\AisaacSTR\obj\Debug\net9.0\rpswa.dswa.cache.json
+C:\Users\gonza\Downloads\AisaacSTR (1)\AisaacSTR\obj\Debug\net9.0\AisaacSTR.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\gonza\Downloads\AisaacSTR (1)\AisaacSTR\obj\Debug\net9.0\AisaacSTR.AssemblyInfoInputs.cache
+C:\Users\gonza\Downloads\AisaacSTR (1)\AisaacSTR\obj\Debug\net9.0\AisaacSTR.AssemblyInfo.cs
+C:\Users\gonza\Downloads\AisaacSTR (1)\AisaacSTR\obj\Debug\net9.0\AisaacSTR.csproj.CoreCompileInputs.cache
+C:\Users\gonza\Downloads\AisaacSTR (1)\AisaacSTR\obj\Debug\net9.0\AisaacSTR.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\gonza\Downloads\AisaacSTR (1)\AisaacSTR\obj\Debug\net9.0\AisaacSTR.RazorAssemblyInfo.cache
+C:\Users\gonza\Downloads\AisaacSTR (1)\AisaacSTR\obj\Debug\net9.0\AisaacSTR.RazorAssemblyInfo.cs
+C:\Users\gonza\Downloads\AisaacSTR (1)\AisaacSTR\obj\Debug\net9.0\rjimswa.dswa.cache.json
+C:\Users\gonza\Downloads\AisaacSTR (1)\AisaacSTR\obj\Debug\net9.0\rjsmrazor.dswa.cache.json
+C:\Users\gonza\Downloads\AisaacSTR (1)\AisaacSTR\obj\Debug\net9.0\rjsmcshtml.dswa.cache.json
+C:\Users\gonza\Downloads\AisaacSTR (1)\AisaacSTR\obj\Debug\net9.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\gonza\Downloads\AisaacSTR (1)\AisaacSTR\obj\Debug\net9.0\scopedcss\bundle\AisaacSTR.styles.css
+C:\Users\gonza\Downloads\AisaacSTR (1)\AisaacSTR\obj\Debug\net9.0\scopedcss\projectbundle\AisaacSTR.bundle.scp.css
+C:\Users\gonza\Downloads\AisaacSTR (1)\AisaacSTR\obj\Debug\net9.0\compressed\3t7px3j005-b9sayid5wm.gz
+C:\Users\gonza\Downloads\AisaacSTR (1)\AisaacSTR\obj\Debug\net9.0\compressed\wqh2yk1qmi-61n19gt1b8.gz
+C:\Users\gonza\Downloads\AisaacSTR (1)\AisaacSTR\obj\Debug\net9.0\compressed\k8xax4e7qk-xtxxf3hu2r.gz
+C:\Users\gonza\Downloads\AisaacSTR (1)\AisaacSTR\obj\Debug\net9.0\compressed\887v6bjyvf-bqjiyaj88i.gz
+C:\Users\gonza\Downloads\AisaacSTR (1)\AisaacSTR\obj\Debug\net9.0\compressed\2bwa4krptf-c2jlpeoesf.gz
+C:\Users\gonza\Downloads\AisaacSTR (1)\AisaacSTR\obj\Debug\net9.0\compressed\hmja6ztqty-erw9l3u2r3.gz
+C:\Users\gonza\Downloads\AisaacSTR (1)\AisaacSTR\obj\Debug\net9.0\compressed\to6kh8ge2j-aexeepp0ev.gz
+C:\Users\gonza\Downloads\AisaacSTR (1)\AisaacSTR\obj\Debug\net9.0\compressed\mbak7fsh1r-d7shbmvgxk.gz
+C:\Users\gonza\Downloads\AisaacSTR (1)\AisaacSTR\obj\Debug\net9.0\compressed\d9aaelfh14-ausgxo2sd3.gz
+C:\Users\gonza\Downloads\AisaacSTR (1)\AisaacSTR\obj\Debug\net9.0\compressed\clwwbld3hi-k8d9w2qqmf.gz
+C:\Users\gonza\Downloads\AisaacSTR (1)\AisaacSTR\obj\Debug\net9.0\compressed\wslx53f1lo-cosvhxvwiu.gz
+C:\Users\gonza\Downloads\AisaacSTR (1)\AisaacSTR\obj\Debug\net9.0\compressed\28lfv0vcm3-ub07r2b239.gz
+C:\Users\gonza\Downloads\AisaacSTR (1)\AisaacSTR\obj\Debug\net9.0\compressed\ttgzu2a73o-fvhpjtyr6v.gz
+C:\Users\gonza\Downloads\AisaacSTR (1)\AisaacSTR\obj\Debug\net9.0\compressed\gj75z59ly1-b7pk76d08c.gz
+C:\Users\gonza\Downloads\AisaacSTR (1)\AisaacSTR\obj\Debug\net9.0\compressed\zmcu7bvm6f-fsbi9cje9m.gz
+C:\Users\gonza\Downloads\AisaacSTR (1)\AisaacSTR\obj\Debug\net9.0\compressed\lf1fq1ha3d-rzd6atqjts.gz
+C:\Users\gonza\Downloads\AisaacSTR (1)\AisaacSTR\obj\Debug\net9.0\compressed\wgud4w76q7-ee0r1s7dh0.gz
+C:\Users\gonza\Downloads\AisaacSTR (1)\AisaacSTR\obj\Debug\net9.0\compressed\7esu8ts1el-dxx9fxp4il.gz
+C:\Users\gonza\Downloads\AisaacSTR (1)\AisaacSTR\obj\Debug\net9.0\compressed\hqrcinn6pt-jd9uben2k1.gz
+C:\Users\gonza\Downloads\AisaacSTR (1)\AisaacSTR\obj\Debug\net9.0\compressed\y8gcg90d0x-khv3u5hwcm.gz
+C:\Users\gonza\Downloads\AisaacSTR (1)\AisaacSTR\obj\Debug\net9.0\compressed\854y38dj59-r4e9w2rdcm.gz
+C:\Users\gonza\Downloads\AisaacSTR (1)\AisaacSTR\obj\Debug\net9.0\compressed\8g6bysylhw-lcd1t2u6c8.gz
+C:\Users\gonza\Downloads\AisaacSTR (1)\AisaacSTR\obj\Debug\net9.0\compressed\dp43xmbi72-c2oey78nd0.gz
+C:\Users\gonza\Downloads\AisaacSTR (1)\AisaacSTR\obj\Debug\net9.0\compressed\686ajpaov6-tdbxkamptv.gz
+C:\Users\gonza\Downloads\AisaacSTR (1)\AisaacSTR\obj\Debug\net9.0\compressed\3r3uhypeu7-j5mq2jizvt.gz
+C:\Users\gonza\Downloads\AisaacSTR (1)\AisaacSTR\obj\Debug\net9.0\compressed\y5b475odih-06098lyss8.gz
+C:\Users\gonza\Downloads\AisaacSTR (1)\AisaacSTR\obj\Debug\net9.0\compressed\m1ve6xrzul-nvvlpmu67g.gz
+C:\Users\gonza\Downloads\AisaacSTR (1)\AisaacSTR\obj\Debug\net9.0\compressed\emgrilwdmu-s35ty4nyc5.gz
+C:\Users\gonza\Downloads\AisaacSTR (1)\AisaacSTR\obj\Debug\net9.0\compressed\6jpeea14f0-pj5nd1wqec.gz
+C:\Users\gonza\Downloads\AisaacSTR (1)\AisaacSTR\obj\Debug\net9.0\compressed\3ezezdowzg-46ein0sx1k.gz
+C:\Users\gonza\Downloads\AisaacSTR (1)\AisaacSTR\obj\Debug\net9.0\compressed\7ftqws5doe-v0zj4ognzu.gz
+C:\Users\gonza\Downloads\AisaacSTR (1)\AisaacSTR\obj\Debug\net9.0\compressed\7xkqmuc3wm-37tfw0ft22.gz
+C:\Users\gonza\Downloads\AisaacSTR (1)\AisaacSTR\obj\Debug\net9.0\compressed\jvni2yh0q5-hrwsygsryq.gz
+C:\Users\gonza\Downloads\AisaacSTR (1)\AisaacSTR\obj\Debug\net9.0\compressed\vhu8d7ktbb-pk9g2wxc8p.gz
+C:\Users\gonza\Downloads\AisaacSTR (1)\AisaacSTR\obj\Debug\net9.0\compressed\k0ijeep85h-ft3s53vfgj.gz
+C:\Users\gonza\Downloads\AisaacSTR (1)\AisaacSTR\obj\Debug\net9.0\compressed\ylq37wovrx-6cfz1n2cew.gz
+C:\Users\gonza\Downloads\AisaacSTR (1)\AisaacSTR\obj\Debug\net9.0\compressed\p0zdjkyaym-6pdc2jztkx.gz
+C:\Users\gonza\Downloads\AisaacSTR (1)\AisaacSTR\obj\Debug\net9.0\compressed\qikkjrs83l-493y06b0oq.gz
+C:\Users\gonza\Downloads\AisaacSTR (1)\AisaacSTR\obj\Debug\net9.0\compressed\1nm3qgv6p8-iovd86k7lj.gz
+C:\Users\gonza\Downloads\AisaacSTR (1)\AisaacSTR\obj\Debug\net9.0\compressed\hp35cyy5tq-vr1egmr9el.gz
+C:\Users\gonza\Downloads\AisaacSTR (1)\AisaacSTR\obj\Debug\net9.0\compressed\ow0tauslgu-kbrnm935zg.gz
+C:\Users\gonza\Downloads\AisaacSTR (1)\AisaacSTR\obj\Debug\net9.0\compressed\fhnrso2uee-jj8uyg4cgr.gz
+C:\Users\gonza\Downloads\AisaacSTR (1)\AisaacSTR\obj\Debug\net9.0\compressed\vqqfknoasp-y7v9cxd14o.gz
+C:\Users\gonza\Downloads\AisaacSTR (1)\AisaacSTR\obj\Debug\net9.0\compressed\w9r7yl1kop-notf2xhcfb.gz
+C:\Users\gonza\Downloads\AisaacSTR (1)\AisaacSTR\obj\Debug\net9.0\compressed\2yqryv9vez-h1s4sie4z3.gz
+C:\Users\gonza\Downloads\AisaacSTR (1)\AisaacSTR\obj\Debug\net9.0\compressed\7b1kzksn3v-63fj8s7r0e.gz
+C:\Users\gonza\Downloads\AisaacSTR (1)\AisaacSTR\obj\Debug\net9.0\compressed\xjqphlnilg-0j3bgjxly4.gz
+C:\Users\gonza\Downloads\AisaacSTR (1)\AisaacSTR\obj\Debug\net9.0\compressed\n2kp8xkcy7-47otxtyo56.gz
+C:\Users\gonza\Downloads\AisaacSTR (1)\AisaacSTR\obj\Debug\net9.0\compressed\augp09ad9n-4v8eqarkd7.gz
+C:\Users\gonza\Downloads\AisaacSTR (1)\AisaacSTR\obj\Debug\net9.0\compressed\93mch5t9mg-356vix0kms.gz
+C:\Users\gonza\Downloads\AisaacSTR (1)\AisaacSTR\obj\Debug\net9.0\compressed\f370rb3jg5-83jwlth58m.gz
+C:\Users\gonza\Downloads\AisaacSTR (1)\AisaacSTR\obj\Debug\net9.0\compressed\6t17mrkxaw-mrlpezrjn3.gz
+C:\Users\gonza\Downloads\AisaacSTR (1)\AisaacSTR\obj\Debug\net9.0\compressed\sp584j3vly-lzl9nlhx6b.gz
+C:\Users\gonza\Downloads\AisaacSTR (1)\AisaacSTR\obj\Debug\net9.0\compressed\msgia8xfxs-ag7o75518u.gz
+C:\Users\gonza\Downloads\AisaacSTR (1)\AisaacSTR\obj\Debug\net9.0\compressed\g9tmhu664c-x0q3zqp4vz.gz
+C:\Users\gonza\Downloads\AisaacSTR (1)\AisaacSTR\obj\Debug\net9.0\compressed\ci8f1b618w-0i3buxo5is.gz
+C:\Users\gonza\Downloads\AisaacSTR (1)\AisaacSTR\obj\Debug\net9.0\compressed\wqwphzqyj9-o1o13a6vjx.gz
+C:\Users\gonza\Downloads\AisaacSTR (1)\AisaacSTR\obj\Debug\net9.0\compressed\e9k5cukf4r-ttgo8qnofa.gz
+C:\Users\gonza\Downloads\AisaacSTR (1)\AisaacSTR\obj\Debug\net9.0\compressed\5b6pnwb4s1-2z0ns9nrw6.gz
+C:\Users\gonza\Downloads\AisaacSTR (1)\AisaacSTR\obj\Debug\net9.0\compressed\bzgnnyj0j4-muycvpuwrr.gz
+C:\Users\gonza\Downloads\AisaacSTR (1)\AisaacSTR\obj\Debug\net9.0\compressed\19r6s3wq2p-87fc7y1x7t.gz
+C:\Users\gonza\Downloads\AisaacSTR (1)\AisaacSTR\obj\Debug\net9.0\compressed\qrbj13wckc-mlv21k5csn.gz
+C:\Users\gonza\Downloads\AisaacSTR (1)\AisaacSTR\obj\Debug\net9.0\compressed\gjav0rbnsy-6x0ps564rj.gz
+C:\Users\gonza\Downloads\AisaacSTR (1)\AisaacSTR\obj\Debug\net9.0\compressed\laqchw9fqr-6x0ps564rj.gz
+C:\Users\gonza\Downloads\AisaacSTR (1)\AisaacSTR\obj\Debug\net9.0\staticwebassets.build.json
+C:\Users\gonza\Downloads\AisaacSTR (1)\AisaacSTR\obj\Debug\net9.0\staticwebassets.build.json.cache
+C:\Users\gonza\Downloads\AisaacSTR (1)\AisaacSTR\obj\Debug\net9.0\staticwebassets.development.json
+C:\Users\gonza\Downloads\AisaacSTR (1)\AisaacSTR\obj\Debug\net9.0\staticwebassets.build.endpoints.json
+C:\Users\gonza\Downloads\AisaacSTR (1)\AisaacSTR\obj\Debug\net9.0\AisaacSTR.csproj.Up2Date
+C:\Users\gonza\Downloads\AisaacSTR (1)\AisaacSTR\obj\Debug\net9.0\AisaacSTR.dll
+C:\Users\gonza\Downloads\AisaacSTR (1)\AisaacSTR\obj\Debug\net9.0\refint\AisaacSTR.dll
+C:\Users\gonza\Downloads\AisaacSTR (1)\AisaacSTR\obj\Debug\net9.0\AisaacSTR.pdb
+C:\Users\gonza\Downloads\AisaacSTR (1)\AisaacSTR\obj\Debug\net9.0\AisaacSTR.genruntimeconfig.cache
+C:\Users\gonza\Downloads\AisaacSTR (1)\AisaacSTR\obj\Debug\net9.0\ref\AisaacSTR.dll
+C:\Users\gonza\Downloads\AisaacSTR (1)\AisaacSTR\obj\Debug\net9.0\compressed\0ttpic2yj0-ug70ilkogx.gz
+C:\Users\gonza\Downloads\AisaacSTR (1)\AisaacSTR\obj\Debug\net9.0\compressed\40bgiq88ox-adk2nnw4tp.gz

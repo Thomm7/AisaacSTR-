@@ -1,0 +1,1581 @@
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+@{
+    Layout = null;
+    var version = DateTime.UtcNow.Ticks;
+}
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AISAAC STR — Retail ERP & POS</title>
+  <meta name="description" content="AISAAC STR: Sistema Integral de Gestión Retail con POS, Inventario por Variantes, Cierre de Caja y Dashboard Gerencial" />
+  <link rel="icon" type="image/jpeg" href="~/favicon.jpeg" />
+  <script>
+    document.documentElement.dataset.theme = localStorage.getItem('aisaac-theme') || 'dark';
+  </script>
+  <link rel="stylesheet" href="~/css/aisaac.css?v=@version" asp-append-version="true" />
+  <style>
+    /* Estilos Críticos de Autenticación y Layout para asegurar renderizado inmediato */
+    .auth-overlay {
+      position: fixed !important;
+      inset: 0 !important;
+      background: rgba(8, 8, 8, 0.94) !important;
+      backdrop-filter: blur(14px) !important;
+      -webkit-backdrop-filter: blur(14px) !important;
+      z-index: 99999 !important;
+      display: flex !important;
+      align-items: center !important;
+      justify-content: center !important;
+      padding: 20px !important;
+    }
+    .auth-overlay.hidden {
+      display: none !important;
+    }
+    .login-card {
+      width: 100% !important;
+      max-width: 440px !important;
+      background: #111111 !important;
+      border: 1px solid rgba(212, 168, 67, 0.45) !important;
+      border-radius: 20px !important;
+      padding: 34px 28px !important;
+      box-shadow: 0 16px 50px rgba(0, 0, 0, 0.9), 0 0 25px rgba(212, 168, 67, 0.25) !important;
+      display: flex !important;
+      flex-direction: column !important;
+      gap: 18px !important;
+      position: relative !important;
+      overflow: hidden !important;
+      font-family: 'Outfit', sans-serif !important;
+      color: #f0f0f0 !important;
+    }
+    .login-card::before {
+      content: "";
+      position: absolute;
+      top: 0; left: 0; right: 0; height: 3px;
+      background: linear-gradient(90deg, transparent, #d4a843, transparent);
+    }
+    .login-header {
+      text-align: center !important;
+      display: flex !important;
+      flex-direction: column !important;
+      align-items: center !important;
+      gap: 8px !important;
+    }
+    .login-logo {
+      width: 72px !important;
+      height: 72px !important;
+      max-width: 72px !important;
+      max-height: 72px !important;
+      border-radius: 14px !important;
+      border: 1px solid rgba(212, 168, 67, 0.5) !important;
+      box-shadow: 0 0 20px rgba(212, 168, 67, 0.3) !important;
+      object-fit: cover !important;
+      display: block !important;
+    }
+    .login-title {
+      font-size: 22px !important;
+      font-weight: 800 !important;
+      color: #d4a843 !important;
+      letter-spacing: 2.5px !important;
+      margin-top: 4px !important;
+    }
+    .login-sub {
+      font-size: 11px !important;
+      color: #888888 !important;
+      text-transform: uppercase !important;
+      letter-spacing: 1px !important;
+    }
+    .form-group {
+      display: flex !important;
+      flex-direction: column !important;
+      gap: 5px !important;
+      text-align: left !important;
+    }
+    .form-group label {
+      font-size: 11px !important;
+      font-weight: 600 !important;
+      color: #888888 !important;
+      text-transform: uppercase !important;
+      letter-spacing: 1px !important;
+    }
+    .form-input {
+      width: 100% !important;
+      height: 42px !important;
+      padding: 0 14px !important;
+      background: #181818 !important;
+      border: 1px solid rgba(255, 255, 255, 0.12) !important;
+      border-radius: 8px !important;
+      color: #f0f0f0 !important;
+      font-family: inherit !important;
+      font-size: 13px !important;
+      box-sizing: border-box !important;
+    }
+    .form-input:focus {
+      outline: none !important;
+      border-color: #d4a843 !important;
+      box-shadow: 0 0 12px rgba(212, 168, 67, 0.3) !important;
+    }
+    .login-btn {
+      height: 44px !important;
+      background: linear-gradient(135deg, #b8922d, #d4a843) !important;
+      border: none !important;
+      border-radius: 8px !important;
+      color: #080808 !important;
+      font-weight: 700 !important;
+      font-size: 13px !important;
+      letter-spacing: 1.5px !important;
+      text-transform: uppercase !important;
+      cursor: pointer !important;
+      display: flex !important;
+      align-items: center !important;
+      justify-content: center !important;
+      gap: 8px !important;
+      transition: all .2s !important;
+    }
+    .login-btn:hover {
+      filter: brightness(1.15) !important;
+      box-shadow: 0 0 20px rgba(212, 168, 67, 0.4) !important;
+    }
+
+    /* Modales Críticos */
+    .modal-overlay {
+      position: fixed !important;
+      inset: 0 !important;
+      background: rgba(0, 0, 0, 0.85) !important;
+      backdrop-filter: blur(8px) !important;
+      z-index: 9999 !important;
+      display: flex !important;
+      align-items: center !important;
+      justify-content: center !important;
+      padding: 20px !important;
+    }
+    .modal-overlay.hidden { display: none !important; }
+    .modal-window {
+      width: 100% !important;
+      max-width: 600px !important;
+      max-height: 90vh !important;
+      overflow-y: auto !important;
+      background: #111111 !important;
+      border: 1px solid rgba(212, 168, 67, 0.4) !important;
+      border-radius: 18px !important;
+      padding: 24px !important;
+      box-shadow: 0 10px 40px rgba(0,0,0,0.8), 0 0 20px rgba(212, 168, 67, 0.2) !important;
+      display: flex !important;
+      flex-direction: column !important;
+      gap: 16px !important;
+      color: #f0f0f0 !important;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- ══════════════════════════════════════════
+       MÓDULO DE AUTENTICACIÓN / LOGIN MODAL
+       ══════════════════════════════════════════ -->
+  <div id="auth-overlay" class="auth-overlay">
+    <div class="login-card">
+      <div class="login-header">
+        <img src="~/img/logo.jpeg" alt="AISAAC STR" class="login-logo" width="72" height="72" style="width: 72px; height: 72px; max-width: 72px; max-height: 72px; object-fit: cover; border-radius: 14px;" />
+        <div class="login-title">AISAAC STR</div>
+        <div class="login-sub">Sistema de Gestión Retail · Campoalegre, Huila</div>
+      </div>
+
+      <form id="login-form" onsubmit="handleLogin(event); return false;">
+        <div class="form-group">
+          <label>Correo Electrónico</label>
+          <input type="email" id="login-email" class="form-input" placeholder="usuario@aisaacstr.com" required autocomplete="email" />
+        </div>
+
+        <div class="form-group" style="margin-top: 8px;">
+          <label>Contraseña</label>
+          <input type="password" id="login-password" class="form-input" placeholder="••••••••" required autocomplete="current-password" />
+        </div>
+
+        <button type="submit" class="login-btn" id="login-submit-btn" style="margin-top: 14px;">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+            <path d="M15 3h4a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2h-4"/>
+            <polyline points="10 17 15 12 10 7"/>
+            <line x1="15" y1="12" x2="3" y2="12"/>
+          </svg>
+          Iniciar Sesión
+        </button>
+      </form>
+    </div>
+  </div>
+
+  <!-- ══════════════════════════════════════════
+       TOP BAR
+       ══════════════════════════════════════════ -->
+  <header id="topbar">
+    <div class="brand">
+      <img src="~/img/logo.jpeg" alt="AISAAC STR Logo" class="brand-logo-img" />
+      <div>
+        <div class="brand-name">AISAAC STR</div>
+        <div class="brand-sub">Retail & Fashion ERP</div>
+      </div>
+    </div>
+
+    <div class="topbar-right">
+      <button class="theme-toggle" id="theme-toggle" type="button" aria-label="Cambiar a modo claro" title="Cambiar tema">
+        <span class="theme-toggle-icon" aria-hidden="true">☀</span>
+      </button>
+      <!-- Botón Desplegable del Carrito de Compras -->
+      <button class="topbar-cart-btn" id="btn-toggle-cart" onclick="abrirModalCarrito()" title="Ver carrito de compras">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2">
+          <circle cx="9" cy="21" r="1"></circle>
+          <circle cx="20" cy="21" r="1"></circle>
+          <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path>
+        </svg>
+        <span>Carrito</span>
+        <span class="cart-pill-badge" id="topbar-cart-count">0</span>
+      </button>
+
+      <!-- Botón de Estado de Caja (Abrir / Cerrar) -->
+      <button class="topbar-caja-btn cerrada" id="btn-topbar-caja" onclick="manejarClickBotonCajaTopbar()" title="Control de Caja">
+        <span class="caja-status-dot red" id="topbar-caja-dot"></span>
+        <span id="topbar-caja-text">Caja: Cerrada</span>
+      </button>
+
+      <!-- Info de Usuario y Rol RBAC -->
+      <div id="user-info-box" class="user-badge" style="display: none;">
+        <span id="user-name-display">Usuario</span>
+        <span id="user-role-display" class="role-pill admin">ADMIN</span>
+        <button class="logout-btn" onclick="logout()" title="Cerrar Sesión">
+          <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M9 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h4"/>
+            <polyline points="16 17 21 12 16 7"/>
+            <line x1="21" y1="12" x2="9" y2="12"/>
+          </svg>
+          Salir
+        </button>
+      </div>
+
+      <span class="topbar-date" id="topbar-time">cargando...</span>
+      <div class="status-badge">
+        <span class="status-dot"></span>
+        <span id="db-status-label">En Línea (DB)</span>
+      </div>
+    </div>
+  </header>
+
+  <!-- ══════════════════════════════════════════
+       NAV TABS (CON CONTROL RBAC)
+       ══════════════════════════════════════════ -->
+  <nav id="nav-tabs">
+    <!-- Visible para todos (Cajero y Admin) -->
+    <button class="tab-btn active" data-panel="panel-pdv" id="tab-pdv" data-role="all">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+        <rect x="3" y="3" width="18" height="18" rx="2"/><path d="M3 9h18M9 21V9"/>
+      </svg>
+      Punto de Venta
+    </button>
+    <button class="tab-btn" data-panel="panel-cierre" id="tab-cierre" data-role="all">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+        <path d="M12 2v20M2 12h20"/><circle cx="12" cy="12" r="9"/>
+      </svg>
+      Cierre de Caja
+    </button>
+
+    <!-- Exclusivos de Administrador / Gerente -->
+    <button class="tab-btn admin-only" data-panel="panel-inventario" id="tab-inventario" data-role="admin">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+        <path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"/>
+        <polyline points="3.27 6.96 12 12.01 20.73 6.96"/>
+        <line x1="12" y1="22.08" x2="12" y2="12"/>
+      </svg>
+      Inventario y Variantes
+    </button>
+    <button class="tab-btn admin-only" data-panel="panel-proveedores" id="tab-proveedores" data-role="admin">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+        <path d="M16 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="8.5" cy="7" r="4"/><line x1="20" y1="8" x2="20" y2="14"/><line x1="23" y1="11" x2="17" y2="11"/>
+      </svg>
+      Proveedores y Compras
+    </button>
+    <button class="tab-btn admin-only" data-panel="panel-dashboard" id="tab-dashboard" data-role="admin">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+        <line x1="18" y1="20" x2="18" y2="10"/><line x1="12" y1="20" x2="12" y2="4"/><line x1="6" y1="20" x2="6" y2="14"/>
+      </svg>
+      Dashboard Gerencial
+    </button>
+    <button class="tab-btn admin-only" data-panel="panel-usuarios" id="tab-usuarios" data-role="admin">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+        <path d="M16 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/>
+        <circle cx="8.5" cy="7" r="4"/>
+        <path d="M20 8v6M23 11h-6"/>
+      </svg>
+      Gestión de Usuarios
+    </button>
+    <button class="tab-btn" data-panel="panel-historial" id="tab-historial" data-role="all">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+        <path d="M3 3h18v18H3z"/><path d="M7 7h10M7 12h10M7 17h6"/>
+      </svg>
+      Historial de Ventas
+    </button>
+  </nav>
+
+  <!-- ══════════════════════════════════════════
+       CONTENIDO PRINCIPAL
+       ══════════════════════════════════════════ -->
+  <main id="app-body">
+
+    <!-- ──────────────────────────────────────────
+         1. PANEL: PUNTO DE VENTA (POS)
+         ────────────────────────────────────────── -->
+    <section id="panel-pdv" class="panel active">
+      <div class="pdv-left">
+        <!-- Barra de Búsqueda y Filtros Rápidos (Chips modernos) -->
+        <div class="pos-catalog-header">
+          <div class="pos-search-line">
+            <div class="search-input-wrap">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/>
+              </svg>
+              <input id="search-producto" type="text"
+                placeholder="Escribe camisa, pantalón, calzado o SKU para filtrar..." autocomplete="off" />
+              <button type="button" id="btn-clear-search" class="clear-search-btn" style="display: none;" onclick="limpiarBusquedaPOS()" title="Borrar búsqueda">✕</button>
+            </div>
+            <div class="pos-catalog-stats" id="pos-catalog-count">
+              Cargando catálogo...
+            </div>
+          </div>
+
+          <!-- Filtros de categoría rápidos tipo chips -->
+          <div class="pos-category-chips" id="pos-category-chips">
+            <button type="button" class="chip-btn active" data-categoria="" onclick="seleccionarChipCategoria(this, '')">Todas</button>
+            <button type="button" class="chip-btn" data-categoria="camisas" onclick="seleccionarChipCategoria(this, 'camisas')">👔 Camisas</button>
+            <button type="button" class="chip-btn" data-categoria="pantalones" onclick="seleccionarChipCategoria(this, 'pantalones')">👖 Jeans & Pantalones</button>
+            <button type="button" class="chip-btn" data-categoria="bermudas" onclick="seleccionarChipCategoria(this, 'bermudas')">🩳 Bermudas</button>
+            <button type="button" class="chip-btn" data-categoria="calzado" onclick="seleccionarChipCategoria(this, 'calzado')">👟 Zapatos</button>
+            <button type="button" class="chip-btn" data-categoria="accesorios" onclick="seleccionarChipCategoria(this, 'accesorios')">🎒 Accesorios</button>
+          </div>
+        </div>
+
+        <!-- Muestra interactiva de prendas en stock (Grid dinámico) -->
+        <div class="pos-catalog-container">
+          <div id="pos-catalog-grid" class="pos-catalog-grid">
+            <!-- Renderizado dinámicamente desde app.js -->
+          </div>
+        </div>
+      </div>
+
+  <!-- Modal: Carrito de Compras / Orden Actual (Desplegable) -->
+  <div id="modal-carrito" class="modal-overlay hidden">
+    <div class="modal-window cart-modal-window" style="max-width: 500px;">
+      <div class="modal-header">
+        <div class="cart-modal-title-box">
+          <span class="cart-icon" style="font-size: 22px;">🛍️</span>
+          <div>
+            <h3 style="margin: 0; font-size: 16px;">Carrito de Compras</h3>
+            <span class="cart-badge-count" id="cart-badge-count" style="margin-top: 2px; display: inline-block;">0 prendas</span>
+          </div>
+        </div>
+        <button class="modal-close-btn" onclick="cerrarModalCarrito()">&times;</button>
+      </div>
+
+      <div class="modal-body pos-checkout-grid">
+        <section class="pos-checkout-card pos-order-card">
+          <div class="payment-section-title">Orden del cliente</div>
+          <div class="cart-items-wrapper">
+            <div id="cart-body" class="cart-items-list"><!-- Render dinámico desde app.js --></div>
+          </div>
+          <div class="summary-block">
+            <div class="summary-row"><span>Subtotal</span><span class="summary-val" id="sum-subtotal">$ 0</span></div>
+            <div class="summary-row"><span>Descuentos</span><span class="summary-val" id="sum-descuentos">$ 0</span></div>
+            <div class="summary-row"><span>IVA (0%)</span><span class="summary-val" id="sum-iva">$ 0</span></div>
+            <div class="summary-row total-row"><span>TOTAL A COBRAR</span><span class="summary-val" id="sum-total">$ 0</span></div>
+          </div>
+        </section>
+
+        <section class="pos-checkout-card pos-payment-card">
+          <div class="payment-section-title">Método de pago</div>
+          <div class="payment-methods" id="payment-methods-container">
+            <div class="pay-method-card" data-method="1" data-flujo="Efectivo" id="pay-efectivo">
+              <div class="pay-icon efectivo">💵</div><div class="pay-info"><div class="pay-name">Efectivo</div><div class="pay-desc">Pago directo en efectivo</div></div>
+            </div>
+            <div class="pay-method-card" data-method="2" data-flujo="Transferencia" id="pay-transferencia">
+              <div class="pay-icon transferencia">🏦</div><div class="pay-info"><div class="pay-name">Transferencia</div><div class="pay-desc">Nequi · Daviplata · Bancolombia</div></div>
+            </div>
+            <div class="pay-method-card" data-method="3" data-flujo="Credito" data-proveedor="Sistecrédito" id="pay-sistecredito">
+              <div class="pay-icon credito">💳</div><div class="pay-info"><div class="pay-name">Sistecrédito</div><div class="pay-desc">Crédito en cuotas</div></div>
+            </div>
+            <div class="pay-method-card" data-method="4" data-flujo="Credito" data-proveedor="Addi" id="pay-addi">
+              <div class="pay-icon credito">💳</div><div class="pay-info"><div class="pay-name">Addi</div><div class="pay-desc">Crédito digital inmediato</div></div>
+            </div>
+          </div>
+
+          <div id="pos-payment-details" class="pos-payment-details">
+            <div id="payment-cash-fields" class="payment-extra-fields" hidden>
+              <label for="efectivo-recibido">Efectivo recibido</label>
+              <input id="efectivo-recibido" class="pos-payment-input" type="number" min="0" inputmode="decimal" placeholder="0">
+              <div id="payment-change-row" class="payment-change-row"><span>Vueltas / cambio</span><strong id="payment-change">$ 0</strong></div>
+            </div>
+            <div id="payment-transfer-fields" class="payment-extra-fields" hidden>
+              <label for="transfer-banco">Banco / billetera</label>
+              <select id="transfer-banco" class="pos-payment-input">
+                <option value="">Seleccione una opción</option>
+                <option>Nequi</option><option>Daviplata</option><option>Bancolombia</option>
+              </select>
+              <label for="transfer-referencia">Comprobante o referencia</label>
+              <input id="transfer-referencia" class="pos-payment-input" maxlength="100" placeholder="Número de comprobante">
+            </div>
+            <div id="payment-credit-fields" class="payment-extra-fields" hidden>
+              <label for="credit-aprobacion">Código de aprobación</label>
+              <input id="credit-aprobacion" class="pos-payment-input" maxlength="100" placeholder="Código aprobado por el proveedor">
+            </div>
+          </div>
+
+          <button class="process-btn-large" id="process-btn" disabled onclick="ejecutarVentaBackend()">
+            PROCESAR VENTA Y GENERAR TICKET
+          </button>
+        </section>
+      </div>
+    </div>
+  </div>
+    </section>
+
+    <!-- ──────────────────────────────────────────
+         2. PANEL: CIERRE DE CAJA Y ARQUEO
+         ────────────────────────────────────────── -->
+    <section id="panel-cierre" class="panel">
+      <div class="module-container" style="align-items: center;">
+        <div class="cierre-header">
+          <div class="cierre-date" id="cierre-date-label">HOY</div>
+          <div class="cierre-title">Módulo de Cierre y Arqueo de Caja</div>
+          <div class="cierre-subtitle">Conciliación discriminada: Efectivo vs Bancos vs Sistecrédito</div>
+        </div>
+
+        <!-- Banner Dinámico de Estado de Turno: Abierta vs Cerrada -->
+        <div id="cierre-shift-banner" class="cierre-shift-card cerrada">
+          <div style="display: flex; align-items: center; gap: 12px;">
+            <span class="shift-status-badge cerrada" id="shift-badge-text">🔴 Caja Cerrada</span>
+            <div>
+              <div style="font-weight: 700; font-size: 15px; color: var(--text-primary);" id="shift-title-text">No hay un turno de caja activo</div>
+              <div style="font-size: 12px; color: var(--text-muted);" id="shift-desc-text">Inicia el turno registrando la base de efectivo para comenzar a facturar.</div>
+            </div>
+          </div>
+          <button class="btn-abrir-caja-action" id="btn-abrir-caja-banner" onclick="abrirModalAperturaCaja()">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+              <rect x="3" y="11" width="18" height="11" rx="2" ry="2"></rect>
+              <path d="M7 11V7a5 5 0 0 1 9.9-1"></path>
+            </svg>
+            Abrir caja
+          </button>
+        </div>
+
+        <!-- KPIs discriminados del turno -->
+        <div class="cierre-kpis" id="cierre-kpis-container">
+          <div class="kpi-card base">
+            <span class="kpi-badge">🏦 Base Inicial</span>
+            <div class="kpi-label">Fondo de Apertura</div>
+            <div class="kpi-value" id="kpi-base-display">$ 0</div>
+            <div class="kpi-hint" id="kpi-base-hint">Base con que inició la caja</div>
+          </div>
+          <div class="kpi-card efectivo">
+            <span class="kpi-badge">💵 Ventas Efectivo</span>
+            <div class="kpi-label">Cobros en Efectivo (+)</div>
+            <div class="kpi-value" id="kpi-efectivo">$ 0</div>
+            <div class="kpi-hint">Ingresos por ventas de hoy</div>
+          </div>
+          <div class="kpi-card egreso">
+            <span class="kpi-badge">📉 Pagos Proveedores</span>
+            <div class="kpi-label">Egresos de Caja (-)</div>
+            <div class="kpi-value" id="kpi-egresos">$ 0</div>
+            <div class="kpi-hint">Compras pagadas en efectivo</div>
+          </div>
+          <div class="kpi-card transferencia">
+            <span class="kpi-badge">🏦 Bancos</span>
+            <div class="kpi-label">Transferencias Bancarias</div>
+            <div class="kpi-value" id="kpi-transferencia">$ 0</div>
+            <div class="kpi-hint">Nequi · Daviplata · PSE</div>
+          </div>
+          <div class="kpi-card credito">
+            <span class="kpi-badge">💳 Cartera</span>
+            <div class="kpi-label">Ventas a Crédito</div>
+            <div class="kpi-value" id="kpi-credito">$ 0</div>
+            <div class="kpi-hint">Sistecrédito · Addi</div>
+          </div>
+        </div>
+
+        <!-- Total de la jornada -->
+        <div class="cierre-total-row">
+          <div>
+            <div class="cierre-total-label">Venta Total Consolidada del Día</div>
+            <div style="font-size:11px; color:var(--text-secondary); margin-top:2px;">
+              Efectivo + Transferencias + Crédito
+            </div>
+          </div>
+          <div class="cierre-total-val" id="cierre-total">$ 0</div>
+        </div>
+
+        <!-- Arqueo de Caja Físico y Descuadre con Deducción de Proveedores -->
+        <div class="cierre-bottom" id="cierre-arqueo-section">
+          <div class="cierre-box">
+            <div class="cierre-box-title">Arqueo de Caja — Base y Conteo Físico Real</div>
+            
+            <div class="cierre-money-grid">
+              <div class="cierre-money-field">
+                <label for="cierre-monto-inicial">
+                  <span class="field-step">1</span> Base Inicial (Fija / Protegida 🔒)
+                </label>
+                <div class="money-input-wrap">
+                  <span class="money-prefix">$</span>
+                  <input type="number" id="cierre-monto-inicial" value="0" min="0" step="1000" disabled readonly style="background: rgba(255,255,255,0.03); opacity: 0.85; cursor: not-allowed;" title="La base inicial queda bloqueada tras la apertura de caja." />
+                </div>
+              </div>
+              <div class="cierre-money-field">
+                <label for="efectivo-contado">
+                  <span class="field-step">2</span> Efectivo contado en cajón (Físico) *
+                </label>
+                <div class="money-input-wrap">
+                  <span class="money-prefix">$</span>
+                  <input type="number" id="efectivo-contado" placeholder="0" min="0" step="1000" oninput="calcDiferenciaCierre()" />
+                </div>
+              </div>
+            </div>
+
+            <div class="esperado-note" style="background: rgba(212,168,67,0.08); padding: 10px 14px; border-radius: 8px; border: 1px solid rgba(212,168,67,0.25);">
+              <div style="display: flex; justify-content: space-between; align-items: center;">
+                <span style="font-size: 12px; color: var(--text-secondary);">Total Efectivo Esperado en Caja:</span>
+                <strong id="esperado-val" style="color: var(--gold-bright); font-size: 16px; font-family: 'JetBrains Mono';">$ 0</strong>
+              </div>
+              <div style="font-size:10px; color:var(--text-muted); margin-top:4px;">
+                Fórmula: Base (<span id="calc-base">$ 0</span>) + Ventas Efectivo (<span id="calc-ventas">$ 0</span>) − Egresos Proveedores (<span id="calc-egresos">$ 0</span>)
+              </div>
+            </div>
+          </div>
+
+          <div class="cierre-box">
+            <div class="cierre-box-title">Comparación y Conciliación Final</div>
+            <div class="diferencia-display">
+              <div class="dif-row">
+                <span>Efectivo Contado</span>
+                <span>vs Efectivo Esperado</span>
+              </div>
+              <div class="dif-val" id="diferencia-val">—</div>
+              <div style="font-size:11px; color:var(--text-muted); margin-top:4px;" id="dif-status-text">
+                Ingresa el valor contado físicamente en cajón para auditar
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Lista de Pagos/Egresos a Proveedores en el Turno Activo -->
+        <div class="cierre-box" style="width: 100%; max-width: 900px;" id="cierre-egresos-container">
+          <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px;">
+            <div class="cierre-box-title" style="margin-bottom: 0;">📉 Pagos y Egresos a Proveedores con Efectivo de Tienda (Turno Activo)</div>
+            <span id="cierre-egresos-count" style="font-size: 11px; color: #ff6b6b; font-weight: 600;">0 comprobante(s)</span>
+          </div>
+          <div id="cierre-egresos-list" style="max-height: 140px; overflow-y: auto;">
+            <div style="font-size: 11px; color: var(--text-muted); padding: 8px 0;">No se registran egresos de compras en efectivo para este turno.</div>
+          </div>
+        </div>
+
+        <div style="width: 100%; max-width: 900px; margin-top: 10px;" id="cierre-obs-wrapper">
+          <textarea id="cierre-observaciones" class="form-input" style="height: 60px; padding: 8px 12px; resize: none;" placeholder="Observaciones o notas sobre el arqueo diario..."></textarea>
+        </div>
+
+        <!-- Botones de Acción de Cierre -->
+        <div style="display: flex; gap: 12px; width: 100%; max-width: 900px;" id="cierre-action-buttons">
+          <button class="cierre-confirm-btn" id="confirmar-cierre-btn" onclick="ejecutarCierreBackend()">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+              <rect x="3" y="11" width="18" height="11" rx="2" ry="2"></rect>
+              <path d="M7 11V7a5 5 0 0 1 10 0v4"></path>
+            </svg>
+            Cerrar caja y Guardar Arqueo en PostgreSQL
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- ──────────────────────────────────────────
+         3. PANEL: GESTIÓN DE INVENTARIO Y VARIANTES
+         ────────────────────────────────────────── -->
+    <section id="panel-inventario" class="panel">
+      <div class="module-container">
+        <div class="module-header">
+          <div class="module-title-box">
+            <h2>Gestión de Inventario y Matriz de Variantes</h2>
+            <p>Control exacto por prenda, talla, marca, color, SKU y niveles de existencias</p>
+          </div>
+          <div class="module-actions">
+            <button class="btn-primary" onclick="abrirModalNuevoProducto()">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
+              Nuevo Producto Base
+            </button>
+          </div>
+        </div>
+
+        <!-- Tabla de Matriz de Variantes -->
+        <div class="data-card">
+          <div class="search-bar" style="border-bottom: 1px solid var(--border-subtle);">
+            <div class="search-input-wrap inventory-search-wrap">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg>
+              <input type="search" id="inv-search" placeholder="Buscar por SKU, código, prenda o marca..." aria-label="Filtrar inventario" oninput="filtrarTablaInventario()" />
+              <span class="inventory-search-hint">⌘ K</span>
+            </div>
+          </div>
+          <div class="table-responsive inventory-table-scroll">
+            <table class="custom-table" id="tabla-inventario">
+              <thead>
+                <tr>
+                  <th>Foto</th>
+                  <th>SKU</th>
+                  <th>Prenda Base</th>
+                  <th>Talla</th>
+                  <th>Color</th>
+                  <th>Marca</th>
+                  <th>P. Compra</th>
+                  <th>P. Venta</th>
+                  <th>Stock Actual</th>
+                  <th>Mín / Máx</th>
+                  <th>Estado</th>
+                  <th>Acción</th>
+                </tr>
+              </thead>
+              <tbody id="inventario-body">
+                <!-- Inyección JS -->
+              </tbody>
+            </table>
+          </div>
+
+          <!-- Barra de Paginación del Inventario -->
+          <div id="inventario-paginacion" class="inventory-pagination">
+            <div class="pagination-info" id="inv-paginacion-info">
+              Mostrando página <span id="inv-pag-actual">@(ViewBag.PaginaActual ?? 1)</span> de <span id="inv-pag-total">@(ViewBag.TotalPaginas ?? 1)</span> (<span id="inv-total-registros">@(ViewBag.TotalRegistros ?? 0)</span> registros)
+            </div>
+            <div class="pagination-controls" id="inv-pag-controles">
+              <button type="button" class="btn-pagination" id="btn-pag-prev" onclick="cambiarPaginaInventario(inventarioEstado.pagina - 1)" disabled>
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="15 18 9 12 15 6"></polyline></svg>
+                Anterior
+              </button>
+              <div class="pagination-numbers" id="inv-pag-numeros">
+                <!-- Botones numéricos dinámicos -->
+              </div>
+              <button type="button" class="btn-pagination" id="btn-pag-next" onclick="cambiarPaginaInventario(inventarioEstado.pagina + 1)">
+                Siguiente
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"></polyline></svg>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 
+         4. PANEL: PROVEEDORES Y COMPRAS
+         -->
+    <section id="panel-proveedores" class="panel">
+      <div class="module-container">
+        <div class="module-header">
+          <div class="module-title-box">
+            <h2>Módulo de Proveedores y Entradas de Mercancía</h2>
+            <p>Registro de órdenes de compra con actualización automática inmediata de stock</p>
+          </div>
+          <div class="module-actions">
+            <button class="btn-secondary" onclick="abrirModalNuevoProveedor()">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="8.5" cy="7" r="4"/></svg>
+              Nuevo Proveedor
+            </button>
+            <button class="btn-primary" onclick="abrirModalNuevaCompra()">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"/><line x1="3" y1="6" x2="21" y2="6"/><path d="M16 10a4 4 0 0 1-8 0"/></svg>
+              Registrar Compra / Entrada
+            </button>
+          </div>
+        </div>
+
+        <!-- Sección de Proveedores -->
+        <div class="data-card">
+          <div style="padding: 14px 16px; border-bottom: 1px solid var(--border-subtle); display:flex; justify-content:space-between; align-items:center;">
+            <span style="font-weight:700; color:var(--gold-bright); font-size:12px; letter-spacing:1px; text-transform:uppercase;">
+              Directorio de Proveedores Homologados
+            </span>
+          </div>
+          <div class="table-responsive proveedores-table-scroll" style="max-height: 250px; overflow-y: auto;">
+            <table class="custom-table">
+              <thead style="position: sticky; top: 0; background-color: #121212; z-index: 10;">
+                <tr>
+                  <th style="position: sticky; top: 0; background-color: #121212; z-index: 10;">NIT / Doc</th>
+                  <th style="position: sticky; top: 0; background-color: #121212; z-index: 10;">Razón Social</th>
+                  <th style="position: sticky; top: 0; background-color: #121212; z-index: 10;">Contacto</th>
+                  <th style="position: sticky; top: 0; background-color: #121212; z-index: 10;">Teléfono</th>
+                  <th style="position: sticky; top: 0; background-color: #121212; z-index: 10;">Email</th>
+                  <th style="position: sticky; top: 0; background-color: #121212; z-index: 10;">Ciudad</th>
+                  <th style="position: sticky; top: 0; background-color: #121212; z-index: 10;">Compras Reg.</th>
+                </tr>
+              </thead>
+              <tbody id="proveedores-body">
+                <!-- Inyección JS -->
+              </tbody>
+            </table>
+          </div>
+        </div>
+
+        <!-- Historial de Órdenes de Compra -->
+        <div class="data-card" style="margin-top: 10px;">
+          <div style="padding: 14px 16px; border-bottom: 1px solid var(--border-subtle);">
+            <span style="font-weight:700; color:var(--gold-bright); font-size:12px; letter-spacing:1px; text-transform:uppercase;">
+              Historial de Entradas de Mercancía Recientes
+            </span>
+          </div>
+          <div class="table-responsive compras-table-scroll" style="max-height: 400px; overflow-y: auto;">
+            <table class="custom-table">
+              <thead style="position: sticky; top: 0; background-color: #121212; z-index: 10;">
+                <tr>
+                  <th style="position: sticky; top: 0; background-color: #121212; z-index: 10;">N° Factura</th>
+                  <th style="position: sticky; top: 0; background-color: #121212; z-index: 10;">Fecha</th>
+                  <th style="position: sticky; top: 0; background-color: #121212; z-index: 10;">Proveedor</th>
+                  <th style="position: sticky; top: 0; background-color: #121212; z-index: 10;">Prendas Recibidas</th>
+                  <th style="position: sticky; top: 0; background-color: #121212; z-index: 10;">Total Factura</th>
+                  <th style="position: sticky; top: 0; background-color: #121212; z-index: 10;">Estado</th>
+                </tr>
+              </thead>
+              <tbody id="compras-body">
+                <!-- Inyección JS -->
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ──────────────────────────────────────────
+         5. PANEL: DASHBOARD GERENCIAL & ALERTAS
+         ────────────────────────────────────────── -->
+    <section id="panel-dashboard" class="panel">
+      <div class="module-container">
+        <div class="module-header">
+          <div class="module-title-box">
+            <h2>Dashboard Gerencial, Estadísticas y Reabastecimiento</h2>
+            <p>Toma de decisiones de compra basadas en demanda real y alertas de rotación</p>
+          </div>
+          <button class="btn-secondary" onclick="cargarDashboard()">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="23 4 23 10 17 10"/><path d="M20.49 15a9 9 0 1 1-2.12-9.36L23 10"/></svg>
+            Actualizar Métricas
+          </button>
+        </div>
+
+        <!-- KPIs Cuadrícula -->
+        <div class="kpi-grid-4">
+          <div class="dash-kpi gold">
+            <span class="dash-kpi-label">Ventas del Mes</span>
+            <span class="dash-kpi-val" id="kpi-ventas-mes">$ 0</span>
+            <span class="dash-kpi-sub">Facturación mensual consolidada</span>
+          </div>
+          <div class="dash-kpi green">
+            <span class="dash-kpi-label">Ventas de Hoy</span>
+            <span class="dash-kpi-val" id="kpi-ventas-hoy">$ 0</span>
+            <span class="dash-kpi-sub">Ingresos jornada actual</span>
+          </div>
+          <div class="dash-kpi green">
+            <span class="dash-kpi-label">Valorización de Stock</span>
+            <span class="dash-kpi-val" id="kpi-valor-stock">$ 0</span>
+            <span class="dash-kpi-sub">Total prendas a precio venta</span>
+          </div>
+          <div class="dash-kpi red">
+            <span class="dash-kpi-label">Alertas Críticas</span>
+            <span class="dash-kpi-val" id="kpi-alertas-count">0</span>
+            <span class="dash-kpi-sub">Prendas con stock &le; mínimo</span>
+          </div>
+          <div class="dash-kpi provider-budget">
+            <span class="dash-kpi-label">Presupuesto para Proveedores</span>
+            <span class="dash-kpi-val" id="kpi-proveedores-disponible">$ 0</span>
+            <span class="dash-kpi-sub">Fondos del mes: <b id="kpi-proveedores-fondo">$ 0</b> · Pagado: <b id="kpi-proveedores-pagado">$ 0</b></span>
+            <div class="provider-budget-progress"><div id="provider-budget-progress-bar"></div></div>
+          </div>
+        </div>
+
+        <!-- Secciones Divididas: Top de Prendas vs Alertas de Reabastecimiento -->
+        <div class="dashboard-split">
+
+          <!-- 1. Top de Prendas Más Vendidas por Variantes -->
+          <div class="data-card" style="padding: 18px;">
+            <div style="font-weight:700; color:var(--gold-bright); font-size:12px; letter-spacing:1px; text-transform:uppercase; margin-bottom: 14px;">
+              🔥 Top Prendas Más Vendidas (Filtrado por Variantes)
+            </div>
+            <div id="top-vendidas-container">
+              <!-- Render dinámico con barras de progreso -->
+            </div>
+          </div>
+
+          <!-- 2. Alertas Automáticas de Stock Mínimo y Sugerencias de Reabastecimiento -->
+          <div class="data-card" style="padding: 18px;">
+            <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom: 14px;">
+              <span style="font-weight:700; color:var(--red-accent); font-size:12px; letter-spacing:1px; text-transform:uppercase;">
+                ⚠️ Alertas de Stock Mínimo y Sugerencias
+              </span>
+              <span style="font-size:10px; color:var(--text-muted);">stock &le; stock_minimo</span>
+            </div>
+            <div id="alertas-stock-container" class="alertas-stock-list">
+              <!-- Render dinámico de tarjetas de alerta -->
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Historial independiente de ventas y auditoría de pagos -->
+    <section id="panel-historial" class="panel">
+      <div class="module-container history-module">
+        <div class="module-header">
+          <div class="module-title-box">
+            <h2>Historial de Ventas y Auditoría de Pagos</h2>
+            <p id="historial-subtitulo">Transacciones organizadas por día y medio de pago</p>
+          </div>
+          <div style="display: flex; gap: 10px; align-items: center;">
+            <span id="historial-rol-badge" style="font-size: 11px; padding: 5px 12px; border-radius: 20px; font-weight: 600; display: inline-flex; align-items: center; gap: 5px; background: rgba(212,168,67,0.1); border: 1px solid rgba(212,168,67,0.3); color: var(--gold-bright);">
+              <span>🔒 Consulta:</span> <strong id="historial-alcance-text">Todas las ventas</strong>
+            </span>
+            <button class="btn-secondary" onclick="cargarHistorialVentas()">
+              Actualizar historial
+            </button>
+          </div>
+        </div>
+        <div class="data-card dashboard-history-card history-full-card">
+          <div class="dashboard-section-title">🧾 Registro histórico diario</div>
+          <div id="ventas-historial-container" class="dashboard-history-container history-full-container">
+            <!-- Agrupación dinámica por fecha -->
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="panel-usuarios" class="panel">
+      <div class="module-container">
+        <div class="module-header">
+          <div class="module-title-box">
+            <h2>Gestión de Usuarios</h2>
+            <p>Crear cuentas y activar o desactivar usuarios del sistema</p>
+          </div>
+          <button class="btn-primary" onclick="abrirFormularioUsuario()">Nuevo usuario</button>
+        </div>
+
+        <div class="data-card users-management-card">
+          <form id="form-crear-usuario" class="users-form" style="display:none; margin-bottom:20px;">
+            <label for="usuario-nombre">Nombre completo
+              <input id="usuario-nombre" class="auth-input" placeholder="Ej. Ana Pérez" maxlength="150"
+                     pattern="[A-Za-zÀ-ÿ\s]+" title="Solo se permiten letras" required />
+            </label>
+            <label for="usuario-email">Correo electrónico
+              <input id="usuario-email" class="auth-input" type="email" maxlength="150" autocomplete="email" placeholder="correo@empresa.com" required />
+            </label>
+            <label for="usuario-password">Contraseña
+              <input id="usuario-password" class="auth-input" type="password" minlength="8" maxlength="128" autocomplete="new-password"
+                     pattern="(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[^A-Za-z0-9]).{8,}"
+                     title="Mínimo 8 caracteres, con mayúscula, minúscula, número y carácter especial"
+                     placeholder="8 caracteres mínimos" required />
+            </label>
+            <label for="usuario-telefono">Teléfono
+              <input id="usuario-telefono" class="auth-input" type="tel" maxlength="15" inputmode="tel" pattern="[0-9+\s]+"
+                     title="Solo se permiten números, signos más y espacios." placeholder="Ej. +573001234567" />
+            </label>
+            <label for="usuario-rol">Rol
+              <select id="usuario-rol" class="auth-input" required>
+                <option value="Cajero">Cajero</option>
+                <option value="Administrador">Administrador</option>
+              </select>
+            </label>
+            <div class="users-form-actions">
+              <button type="submit" class="btn-primary">Crear cuenta</button>
+              <button type="button" class="btn-secondary" onclick="cancelarFormularioUsuario()">Cancelar</button>
+            </div>
+          </form>
+          <div id="usuarios-container" style="max-height:460px; overflow:auto;">Cargando usuarios...</div>
+        </div>
+      </div>
+
+      <div id="modal-editar-usuario" class="modal-overlay hidden" aria-hidden="true">
+        <div class="data-card" style="width:min(520px, calc(100vw - 32px));">
+          <div class="module-header">
+            <div class="module-title-box">
+              <h2>Editar usuario</h2>
+              <p>Modifica los datos de la cuenta seleccionada</p>
+            </div>
+            <button type="button" class="modal-close" aria-label="Cerrar" onclick="cerrarModalEditarUsuario()">×</button>
+          </div>
+          <form id="form-editar-usuario" class="users-form edit-user-form">
+            <input id="editar-usuario-id" type="hidden" />
+            <label for="editar-usuario-nombre">Nombre completo
+              <input id="editar-usuario-nombre" class="auth-input" maxlength="150"
+                     pattern="[A-Za-zÀ-ÿ\s]+"
+                     title="Solo se permiten letras" required />
+            </label>
+            <label for="editar-usuario-email">Correo electrónico
+              <input id="editar-usuario-email" class="auth-input" type="email" maxlength="150" required />
+            </label>
+            <label for="editar-usuario-telefono">Teléfono
+              <input id="editar-usuario-telefono" class="auth-input" type="tel" maxlength="15" inputmode="tel"
+                     pattern="[0-9+\s]+" title="Solo se permiten números, signos más y espacios." />
+            </label>
+            <label for="editar-usuario-rol">Rol
+              <select id="editar-usuario-rol" class="auth-input" required>
+                <option value="Cajero">Cajero</option>
+                <option value="Administrador">Administrador</option>
+              </select>
+            </label>
+            <div class="users-form-actions modal-edit-actions" style="display: flex; justify-content: space-between; align-items: center; gap: 16px; margin-top: 24px;">
+              <button type="button" class="btn-secondary" onclick="cerrarModalEditarUsuario()">Cancelar</button>
+              <button type="submit" class="btn-primary">Guardar cambios</button>
+            </div>
+          </form>
+        </div>
+      </div>
+
+      <div id="modal-password-usuario" class="modal-overlay hidden" aria-hidden="true">
+        <div class="data-card" style="width:min(520px, calc(100vw - 32px));">
+          <div class="module-header">
+            <div class="module-title-box">
+              <h2>Restablecer contraseña</h2>
+              <p>Define una nueva contraseña segura para la cuenta seleccionada</p>
+            </div>
+            <button type="button" class="modal-close" aria-label="Cerrar" onclick="cerrarModalPasswordUsuario()">×</button>
+          </div>
+          <form id="form-password-usuario" class="users-form password-reset-form">
+            <input id="password-usuario-id" type="hidden" />
+            <label for="password-usuario-nueva">Nueva contraseña
+              <input id="password-usuario-nueva" class="auth-input" type="password" minlength="8" maxlength="128"
+                     autocomplete="new-password" required />
+            </label>
+            <label for="password-usuario-confirmar">Confirmar contraseña
+              <input id="password-usuario-confirmar" class="auth-input" type="password" minlength="8" maxlength="128"
+                     autocomplete="new-password" required />
+            </label>
+            <div class="users-form-actions">
+              <button type="submit" class="btn-primary">Restablecer contraseña</button>
+              <button type="button" class="btn-secondary" onclick="cerrarModalPasswordUsuario()">Cancelar</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ══════════════════════════════════════════
+       MODALES DE LA APLICACIÓN
+       ══════════════════════════════════════════ -->
+
+  <!-- Modal: Registrar Producto Base y Variantes -->
+  <div id="modal-nuevo-producto" class="modal-overlay hidden">
+    <div class="modal-window">
+      <div class="modal-header">
+        <h3>Registrar Nuevo Producto Base</h3>
+        <button class="modal-close-btn" onclick="cerrarModal('modal-nuevo-producto')">&times;</button>
+      </div>
+      <div class="modal-body">
+        <div class="form-group">
+          <label>Código Base</label>
+          <input type="text" id="np-codigo" class="form-input" placeholder="Ej: POL-BAS" />
+        </div>
+        <div class="form-group">
+          <label>Nombre de la Prenda</label>
+          <input type="text" id="np-nombre" class="form-input" placeholder="Ej: Camiseta Polo Algodón" />
+        </div>
+        <div class="form-group">
+          <label>Categoría</label>
+          <input type="text" id="np-categoria" class="form-input" placeholder="Ej: Camisas, Pantalones, Bermudas, Calzado, Accesorios" />
+        </div>
+        <div class="form-group">
+          <label>Imagen / Foto de la Prenda</label>
+          <input type="file" id="np-imagen" class="form-input" accept="image/jpeg,image/png,image/webp" />
+        </div>
+        <div class="form-group">
+          <label>Descripción</label>
+          <input type="text" id="np-descripcion" class="form-input" placeholder="Detalles de la tela, tejido, etc." />
+        </div>
+
+        <div style="border-top: 1px solid var(--border-subtle); padding-top: 10px;">
+          <label style="font-size:11px; color:var(--gold-bright); text-transform:uppercase; font-weight:700;">Primera Variante (Inicial)</label>
+          <div style="display:grid; grid-template-columns: 1fr 1fr 1fr; gap:8px; margin-top:8px;">
+            <input type="text" id="nv-talla" class="form-input" placeholder="Talla (M, 32...)" />
+            <input type="text" id="nv-color" class="form-input" placeholder="Color (Negro...)" />
+            <input type="text" id="nv-marca" class="form-input" placeholder="Marca (Arturo Calle...)" />
+          </div>
+          <div style="display:grid; grid-template-columns: 1fr 1fr; gap:8px; margin-top:8px;">
+            <input type="text" id="nv-sku" class="form-input" placeholder="SKU Único (POL-001)" />
+            <input type="text" id="nv-barras" class="form-input" placeholder="Código de Barras" />
+          </div>
+          <div style="display:grid; grid-template-columns: 1fr 1fr 1fr; gap:8px; margin-top:8px;">
+            <input type="number" id="nv-costo" class="form-input" placeholder="Precio Compra $" />
+            <input type="number" id="nv-venta" class="form-input" placeholder="Precio Venta $" />
+            <input type="number" id="nv-stock" class="form-input" placeholder="Stock Inicial" />
+          </div>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button class="btn-secondary" onclick="cerrarModal('modal-nuevo-producto')">Cancelar</button>
+        <button class="btn-primary" onclick="guardarNuevoProducto()">Guardar Producto</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal: Registrar Proveedor -->
+  <div id="modal-nuevo-proveedor" class="modal-overlay hidden">
+    <div class="modal-window">
+      <div class="modal-header">
+        <h3>Registrar Proveedor</h3>
+        <button class="modal-close-btn" onclick="cerrarModal('modal-nuevo-proveedor')">&times;</button>
+      </div>
+      <div class="modal-body">
+        <div class="form-group">
+          <label>NIT / Cédula</label>
+          <input type="text" id="prov-nit" class="form-input" placeholder="Ej: 900.555.444-1" />
+        </div>
+        <div class="form-group">
+          <label>Razón Social / Nombre Comercial</label>
+          <input type="text" id="prov-razon" class="form-input" placeholder="Ej: Distribuidora Textil Huila" />
+        </div>
+        <div class="form-group">
+          <label>Contacto / Asesor</label>
+          <input type="text" id="prov-contacto" class="form-input" placeholder="Nombre del representante" />
+        </div>
+        <div style="display:grid; grid-template-columns: 1fr 1fr; gap:8px;">
+          <div class="form-group">
+            <label>Teléfono</label>
+            <input type="text" id="prov-telefono" class="form-input" placeholder="310 000 0000" />
+          </div>
+          <div class="form-group">
+            <label>Ciudad</label>
+            <input type="text" id="prov-ciudad" class="form-input" placeholder="Neiva / Bogotá" />
+          </div>
+        </div>
+        <div class="form-group">
+          <label>Email</label>
+          <input type="email" id="prov-email" class="form-input" placeholder="ventas@proveedor.com" />
+        </div>
+        <div class="form-group">
+          <label>Dirección</label>
+          <input type="text" id="prov-direccion" class="form-input" placeholder="Calle / Carrera" />
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button class="btn-secondary" onclick="cerrarModal('modal-nuevo-proveedor')">Cancelar</button>
+        <button class="btn-primary" onclick="guardarNuevoProveedor()">Guardar Proveedor</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal: Registrar Compra / Entrada de Mercancía -->
+  <div id="modal-nueva-compra" class="modal-overlay hidden">
+    <div class="modal-window">
+      <div class="modal-header">
+        <h3>Registrar Entrada de Mercancía</h3>
+        <button class="modal-close-btn" onclick="cerrarModal('modal-nueva-compra')">&times;</button>
+      </div>
+      <div class="modal-body">
+        <div class="form-group">
+          <label>Proveedor</label>
+          <select id="compra-proveedor-select" class="form-input">
+            <!-- Cargado dinámicamente -->
+          </select>
+        </div>
+        <div class="form-group">
+          <label>N° Factura del Proveedor</label>
+          <input type="text" id="compra-factura" class="form-input" placeholder="Ej: FAC-9821" />
+        </div>
+        <div class="form-group">
+          <label>Prenda / Variante a Ingresar</label>
+          <select id="compra-variante-select" class="form-input" onchange="autoCompletarCostoCompra()">
+            <!-- Cargado dinámicamente -->
+          </select>
+        </div>
+        <div style="display:grid; grid-template-columns: 1fr 1fr; gap:8px;">
+          <div class="form-group">
+            <label>Cantidad de Unidades</label>
+            <input type="number" id="compra-cantidad" class="form-input" min="1" value="10" oninput="actualizarTotalCompraModal()" />
+          </div>
+          <div class="form-group">
+            <label>Costo Unitario de Compra ($)</label>
+            <input type="number" id="compra-costo" class="form-input" placeholder="0" oninput="actualizarTotalCompraModal()" />
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label>Forma de Pago del Proveedor</label>
+          <select id="compra-medio-pago" class="form-input" onchange="toggleDescuentoCaja()">
+            <option value="Efectivo" selected>💵 Efectivo (Fondos de Tienda / Caja Activa)</option>
+            <option value="Transferencia">🏦 Transferencia Bancaria (Bancos / Empresa)</option>
+            <option value="Credito">📑 Crédito Proveedor (Factura por Pagar)</option>
+          </select>
+        </div>
+
+        <div id="compra-caja-wrap" style="display: flex; align-items: center; gap: 8px; padding: 10px 12px; background: rgba(212,168,67,0.08); border: 1px solid rgba(212,168,67,0.25); border-radius: 8px;">
+          <input type="checkbox" id="compra-descontar-caja" checked style="accent-color: var(--gold-bright); width: 16px; height: 16px; cursor: pointer;" />
+          <label for="compra-descontar-caja" style="margin: 0; font-size: 12px; cursor: pointer; color: var(--gold-bright);">
+            Descontar automáticamente este egreso del efectivo de la caja abierta actualmente
+          </label>
+        </div>
+
+        <div style="display: flex; justify-content: space-between; align-items: center; padding: 8px 12px; background: rgba(255,255,255,0.03); border-radius: 8px; border: 1px solid var(--border-subtle);">
+          <span style="font-size: 12px; color: var(--text-secondary);">Total de la Compra / Egreso:</span>
+          <span id="compra-total-calculado" style="font-family: 'JetBrains Mono'; font-weight: 700; color: var(--gold-bright); font-size: 15px;">$ 0</span>
+        </div>
+
+        <div class="form-group">
+          <label>Observaciones de Recepción</label>
+          <input type="text" id="compra-obs" class="form-input" placeholder="Ej: Lote recibido sin averías" />
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button class="btn-secondary" onclick="cerrarModal('modal-nueva-compra')">Cancelar</button>
+        <button class="btn-primary" onclick="guardarNuevaCompra()">
+          Confirmar Entrada y Registrar Egreso
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal: Selector Rápido de Prenda, Talla y Color para el POS -->
+  <div id="modal-selector-variante" class="modal-overlay hidden">
+    <div class="modal-window fashion-modal-window" style="max-width: 580px;">
+      <div class="modal-header">
+        <div>
+          <h3 id="modal-var-title">Seleccionar Talla y Color</h3>
+          <div id="modal-var-subtitle" style="font-size: 12px; color: var(--text-secondary); margin-top: 2px;"></div>
+        </div>
+        <button class="modal-close-btn" onclick="cerrarModal('modal-selector-variante')">&times;</button>
+      </div>
+      <div class="modal-body" style="gap: 18px;">
+        <div class="modal-product-summary">
+          <div id="modal-var-img-container" class="modal-var-img-box">
+            <span id="modal-var-icon">👔</span>
+          </div>
+          <div style="flex: 1; overflow: hidden;">
+            <div id="modal-var-name" style="font-weight: 700; font-size: 16px; color: var(--text-primary); white-space: nowrap; overflow: hidden; text-overflow: ellipsis;">Nombre de la Prenda</div>
+            <div id="modal-var-category" style="font-size: 12px; color: var(--text-secondary); margin-top: 3px;">Categoría · Marca</div>
+            <div id="modal-var-sku" style="font-family: 'JetBrains Mono'; font-size: 12px; color: var(--gold-bright); margin-top: 4px;">SKU: —</div>
+          </div>
+          <div style="text-align: right; flex-shrink: 0;">
+            <div style="font-size: 11px; color: var(--text-muted); text-transform: uppercase;">Precio Venta</div>
+            <div id="modal-var-price" style="font-family: 'JetBrains Mono'; font-size: 20px; font-weight: 700; color: var(--gold-bright);">$ 0</div>
+          </div>
+        </div>
+
+        <div>
+          <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px;">
+            <label style="font-size: 11px; font-weight: 700; text-transform: uppercase; color: var(--text-secondary); letter-spacing: 1.2px; margin: 0;">
+              1. Tallas Disponibles:
+            </label>
+            <span id="modal-selected-size-label" style="font-size: 11px; color: var(--gold-bright); font-weight: 600;"></span>
+          </div>
+          <div id="modal-var-tallas-container" class="fashion-size-row"></div>
+        </div>
+
+        <div>
+          <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px;">
+            <label style="font-size: 11px; font-weight: 700; text-transform: uppercase; color: var(--text-secondary); letter-spacing: 1.2px; margin: 0;">
+              2. Color / Referencia:
+            </label>
+            <span id="modal-selected-color-label" style="font-size: 11px; color: var(--gold-bright); font-weight: 600;"></span>
+          </div>
+          <div id="modal-var-colores-container" style="display: flex; flex-wrap: wrap; gap: 8px;"></div>
+        </div>
+
+        <div style="display: flex; justify-content: space-between; align-items: center; padding: 12px 16px; background: rgba(255,255,255,0.03); border: 1px solid var(--border-subtle); border-radius: 10px;">
+          <div>
+            <div style="font-size: 11px; color: var(--text-secondary); text-transform: uppercase; letter-spacing: 0.8px;">Disponibilidad en Inventario:</div>
+            <div id="modal-var-stock-badge" style="font-size: 13px; font-weight: 600; margin-top: 3px;">Selecciona talla y color</div>
+          </div>
+          <div style="display: flex; align-items: center; gap: 8px;">
+            <span style="font-size: 11px; color: var(--text-secondary);">Cantidad:</span>
+            <div class="qty-control">
+              <button class="qty-btn" type="button" onclick="modificarCantidadModalVar(-1)">−</button>
+              <input class="qty-input" id="modal-var-qty" type="number" min="1" value="1" onchange="validarCantidadModalVar()" />
+              <button class="qty-btn" type="button" onclick="modificarCantidadModalVar(1)">+</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button class="btn-secondary" onclick="cerrarModal('modal-selector-variante')">Cancelar</button>
+        <button class="btn-primary" id="btn-modal-add-cart" onclick="confirmarAgregarAlCarritoModal()" disabled>
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"/><line x1="3" y1="6" x2="21" y2="6"/><path d="M16 10a4 4 0 0 1-8 0"/></svg>
+          Agregar a la Orden
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal: Ticket de Venta -->
+  <div id="modal-ticket" class="modal-overlay hidden">
+    <div class="modal-window" style="max-width: 440px;">
+      <div class="modal-header">
+        <h3>Ticket de Venta Generado</h3>
+        <button class="modal-close-btn" onclick="cerrarModal('modal-ticket')">&times;</button>
+      </div>
+      <div class="modal-body">
+        <div id="ticket-print-area" class="ticket-modal-content">
+          <!-- Render dinámico del recibo -->
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button class="btn-secondary" onclick="cerrarModal('modal-ticket')">Cerrar</button>
+        <button class="btn-primary" onclick="window.print()">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 6 2 18 2 18 9"/><path d="M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"/><rect x="6" y="14" width="12" height="8"/></svg>
+          Imprimir Ticket
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal: Apertura de Turno de Caja -->
+  <div id="modal-abrir-caja" class="modal-overlay hidden">
+    <div class="modal-window" style="max-width: 480px;">
+      <div class="modal-header">
+        <div style="display: flex; align-items: center; gap: 8px;">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="color: var(--gold-bright);">
+            <rect x="3" y="11" width="18" height="11" rx="2" ry="2"></rect>
+            <path d="M7 11V7a5 5 0 0 1 9.9-1"></path>
+          </svg>
+          <h3 style="font-size: 17px; margin: 0;">Apertura de Turno de Caja</h3>
+        </div>
+        <button class="modal-close-btn" onclick="cerrarModal('modal-abrir-caja')">&times;</button>
+      </div>
+      <div class="modal-body" style="display: flex; flex-direction: column; gap: 16px;">
+        <div style="background: rgba(212,168,67,0.06); border: 1px solid rgba(212,168,67,0.25); border-radius: 8px; padding: 12px 14px;">
+          <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 6px;">
+            <span style="font-size: 11px; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.5px;">Responsable:</span>
+            <strong id="apertura-cajero-nombre" style="font-size: 13px; color: var(--gold-bright);">Cajero</strong>
+          </div>
+          <div style="display: flex; justify-content: space-between; align-items: center;">
+            <span style="font-size: 11px; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.5px;">Fecha y Hora:</span>
+            <span id="apertura-fecha-hora" style="font-size: 12px; color: var(--text-primary); font-family: 'JetBrains Mono';">--/--/---- --:--</span>
+          </div>
+        </div>
+
+        <div class="form-group" style="margin: 0;">
+          <label style="display: block; font-size: 12px; font-weight: 600; color: var(--text-secondary); margin-bottom: 6px;">
+            Base Inicial en Efectivo (Fondo de Caja) *
+          </label>
+          <div class="apertura-money-input" style="margin-bottom: 8px;">
+            <span class="apertura-money-prefix" aria-hidden="true">$</span>
+            <input type="number" id="apertura-monto-inicial" class="form-input" placeholder="100000" min="0" step="5000" value="100000" />
+          </div>
+          <div style="display: flex; gap: 6px; flex-wrap: wrap;">
+            <button type="button" class="quick-base-btn" onclick="document.getElementById('apertura-monto-inicial').value=50000">$ 50.000</button>
+            <button type="button" class="quick-base-btn" onclick="document.getElementById('apertura-monto-inicial').value=100000">$ 100.000</button>
+            <button type="button" class="quick-base-btn" onclick="document.getElementById('apertura-monto-inicial').value=150000">$ 150.000</button>
+            <button type="button" class="quick-base-btn" onclick="document.getElementById('apertura-monto-inicial').value=200000">$ 200.000</button>
+            <button type="button" class="quick-base-btn" onclick="document.getElementById('apertura-monto-inicial').value=300000">$ 300.000</button>
+          </div>
+        </div>
+
+        <div class="form-group" style="margin: 0;">
+          <label style="display: block; font-size: 12px; font-weight: 600; color: var(--text-secondary); margin-bottom: 6px;">
+            Observaciones o notas de apertura
+          </label>
+          <textarea id="apertura-observaciones" class="form-input" style="height: 55px; padding: 8px 10px; font-size: 12px; resize: none;" placeholder="Ej: Billetes de 20k y 10k para cambio..."></textarea>
+        </div>
+      </div>
+      <div class="modal-footer" style="display: flex; justify-content: flex-end; gap: 10px;">
+        <button class="btn-secondary" onclick="cerrarModal('modal-abrir-caja')">Cancelar</button>
+        <button class="btn-primary" onclick="confirmarAperturaCajaBackend()">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+          Abrir caja e Iniciar Turno
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal: Comprobante y Resumen de Cierre de Caja -->
+  <div id="modal-resumen-cierre" class="modal-overlay hidden">
+    <div class="modal-window" style="max-width: 480px;">
+      <div class="modal-header">
+        <div style="display: flex; align-items: center; gap: 8px;">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="color: var(--gold-bright);">
+            <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+            <polyline points="14 2 14 8 20 8"></polyline>
+            <line x1="16" y1="13" x2="8" y2="13"></line>
+            <line x1="16" y1="17" x2="8" y2="17"></line>
+            <polyline points="10 9 9 9 8 9"></polyline>
+          </svg>
+          <h3 style="font-size: 17px; margin: 0;">Comprobante de Cierre de Caja</h3>
+        </div>
+        <button class="modal-close-btn" onclick="cerrarModal('modal-resumen-cierre')">&times;</button>
+      </div>
+      <div class="modal-body">
+        <div id="cierre-resumen-ticket" class="ticket-modal-content" style="padding: 16px; background: #0c0c0c; border: 1px dashed var(--border-gold); border-radius: 8px;">
+          <!-- Render dinámico del comprobante de arqueo -->
+        </div>
+      </div>
+      <div class="modal-footer" style="display: flex; justify-content: flex-end; gap: 10px;">
+        <button class="btn-secondary" onclick="cerrarModal('modal-resumen-cierre')">Cerrar</button>
+        <button class="btn-primary" onclick="imprimirComprobanteCierre()">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 6 2 18 2 18 9"/><path d="M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"/><rect x="6" y="14" width="12" height="8"/></svg>
+          Imprimir Comprobante
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal: Gestionar y Editar Producto / Variantes / Entrada de Stock -->
+  <div id="modal-gestionar-producto" class="modal-overlay hidden">
+    <div class="modal-window" style="max-width: 820px; max-height: 90vh; display: flex; flex-direction: column;">
+      <div class="modal-header" style="align-items: flex-start; padding-bottom: 12px;">
+        <div style="display: flex; gap: 14px; align-items: center;">
+          <div id="gp-header-img-box" style="width: 52px; height: 52px; border-radius: 8px; border: 1px solid var(--border-gold); background: #121212; display: flex; align-items: center; justify-content: center; overflow: hidden; flex-shrink: 0;">
+            <span id="gp-header-icon" style="font-size: 26px;">👔</span>
+          </div>
+          <div>
+            <div style="display: flex; align-items: center; gap: 8px; flex-wrap: wrap;">
+              <h3 id="gp-header-nombre" style="font-size: 18px; margin: 0; color: var(--text-primary);">Gestionar Prenda</h3>
+              <span id="gp-header-categoria" class="category-chip active" style="font-size: 10px; padding: 2px 8px;">Categoría</span>
+              <span id="gp-header-codigo" style="font-family: 'JetBrains Mono'; font-size: 11px; color: var(--gold-bright);">SKU / Código</span>
+            </div>
+            <div style="font-size: 12px; color: var(--text-muted); margin-top: 2px;">
+              Edición de datos, ajuste de precios, niveles mínimo/máximo y entradas de stock
+            </div>
+          </div>
+        </div>
+        <button class="modal-close-btn" onclick="cerrarModal('modal-gestionar-producto')">&times;</button>
+      </div>
+
+      <!-- Pestañas internas del Modal -->
+      <div class="gp-tabs-bar" style="display: flex; border-bottom: 1px solid var(--border-subtle); padding: 0 20px; background: rgba(255,255,255,0.02); gap: 6px;">
+        <button class="gp-tab-btn active" data-gptab="gptab-entrada" onclick="cambiarSubTabGestion('gptab-entrada')">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M12 5v14M5 12h14"/></svg>
+          Entrada de Stock
+        </button>
+        <button class="gp-tab-btn" data-gptab="gptab-variantes" onclick="cambiarSubTabGestion('gptab-variantes')">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"/><line x1="7" y1="7" x2="7.01" y2="7"/></svg>
+          Precios y Mín / Máx
+        </button>
+        <button class="gp-tab-btn" data-gptab="gptab-datos" onclick="cambiarSubTabGestion('gptab-datos')">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M11 4H4a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7"/><path d="M18.5 2.5a2.121 2.121 0 0 1 3 3L12 15l-4 1 1-4 9.5-9.5z"/></svg>
+          Datos de la Prenda
+        </button>
+        <button class="gp-tab-btn" data-gptab="gptab-historial" onclick="cambiarSubTabGestion('gptab-historial')">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+          Historial de Entradas
+        </button>
+      </div>
+
+      <div class="modal-body" style="overflow-y: auto; padding: 20px; flex: 1;">
+        <!-- TAB 1: ENTRADA DE STOCK (SUMAR AL STOCK EXISTENTE CON AUDITORÍA) -->
+        <div id="gptab-entrada" class="gp-tab-content active">
+          <div style="background: rgba(212,168,67,0.05); border: 1px solid rgba(212,168,67,0.25); border-radius: 8px; padding: 14px 18px; margin-bottom: 16px;">
+            <div style="font-weight: 700; color: var(--gold-bright); font-size: 14px; margin-bottom: 4px;">
+              ➕ Registrar Entrada de Unidades
+            </div>
+            <div style="font-size: 12px; color: var(--text-secondary);">
+              Las unidades agregadas se sumarán automáticamente al stock actual de la talla y color elegidos, registrando fecha, hora, cantidad y usuario responsable.
+            </div>
+          </div>
+
+          <form onsubmit="guardarEntradaStockSubmit(event)" style="display: flex; flex-direction: column; gap: 14px;">
+            <div class="form-group" style="margin: 0;">
+              <label style="font-size: 12px; font-weight: 600; color: var(--text-secondary); margin-bottom: 6px; display: block;">
+                Seleccionar Talla / Color / Variante a Reabastecer *
+              </label>
+              <select id="gp-entrada-variante-select" class="form-input" style="height: 42px; font-weight: 600;" onchange="actualizarInfoVarianteSeleccionada()">
+                <!-- Opciones dinámicas -->
+              </select>
+            </div>
+
+            <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px; background: #111; padding: 12px 16px; border-radius: 8px; border: 1px solid rgba(255,255,255,0.08);">
+              <div>
+                <div style="font-size: 10px; color: var(--text-muted); text-transform: uppercase;">Stock Actual</div>
+                <div id="gp-info-stock-actual" style="font-family: 'JetBrains Mono'; font-size: 18px; font-weight: 700; color: var(--text-primary); margin-top: 2px;">0 un.</div>
+              </div>
+              <div>
+                <div style="font-size: 10px; color: var(--text-muted); text-transform: uppercase;">Unidades a Sumar</div>
+                <div id="gp-info-stock-sumar" style="font-family: 'JetBrains Mono'; font-size: 18px; font-weight: 700; color: var(--gold-bright); margin-top: 2px;">+5 un.</div>
+              </div>
+              <div>
+                <div style="font-size: 10px; color: var(--text-muted); text-transform: uppercase;">Nuevo Stock Resultante</div>
+                <div id="gp-info-stock-nuevo" style="font-family: 'JetBrains Mono'; font-size: 18px; font-weight: 700; color: var(--green-accent); margin-top: 2px;">5 un.</div>
+              </div>
+            </div>
+
+            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 12px;">
+              <div class="form-group" style="margin: 0;">
+                <label style="font-size: 12px; font-weight: 600; color: var(--text-secondary); margin-bottom: 6px; display: block;">
+                  Cantidad de Unidades a Ingresar *
+                </label>
+                <input type="number" id="gp-entrada-cantidad" class="form-input" min="1" step="1" value="5" oninput="calcularNuevoStockEntrada()" style="height: 42px; font-size: 16px; font-family: 'JetBrains Mono'; font-weight: 700;" required />
+              </div>
+              <div class="form-group" style="margin: 0;">
+                <label style="font-size: 12px; font-weight: 600; color: var(--text-secondary); margin-bottom: 6px; display: block;">
+                  Usuario Responsable
+                </label>
+                <input type="text" id="gp-entrada-responsable" class="form-input" style="height: 42px; background: rgba(255,255,255,0.03); opacity: 0.85; cursor: not-allowed;" disabled readonly />
+              </div>
+            </div>
+
+            <div class="form-group" style="margin: 0;">
+              <label style="font-size: 12px; font-weight: 600; color: var(--text-secondary); margin-bottom: 6px; display: block;">
+                Motivo / Justificación de la Entrada
+              </label>
+              <input type="text" id="gp-entrada-motivo" class="form-input" placeholder="Ej: Reabastecimiento de existencias, llegada de pedido, reposición..." value="Reabastecimiento de existencias" />
+            </div>
+
+            <div style="display: flex; justify-content: flex-end; margin-top: 8px;">
+              <button type="submit" class="btn-primary" style="height: 44px; padding: 0 24px; font-weight: 700;">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                Sumar Unidades al Inventario
+              </button>
+            </div>
+          </form>
+        </div>
+
+        <!-- TAB 2: PRECIOS Y NIVELES MÍNIMO / MÁXIMO POR VARIANTE -->
+        <div id="gptab-variantes" class="gp-tab-content">
+          <div style="font-size: 12px; color: var(--text-secondary); margin-bottom: 12px;">
+            Ajusta los precios de compra, precios de venta al público y define los umbrales de stock mínimo y máximo para las alertas de reabastecimiento:
+          </div>
+
+          <div class="table-responsive" style="max-height: 380px; overflow-y: auto;">
+            <table class="custom-table" style="font-size: 12px;">
+              <thead>
+                <tr>
+                  <th>Talla / Color</th>
+                  <th>SKU</th>
+                  <th style="width: 120px;">P. Compra ($)</th>
+                  <th style="width: 120px;">P. Venta ($)</th>
+                  <th style="width: 90px;">Mín</th>
+                  <th style="width: 90px;">Máx</th>
+                  <th>Stock Actual</th>
+                  <th>Acción</th>
+                </tr>
+              </thead>
+              <tbody id="gp-variantes-table-body">
+                <!-- Inyección JS -->
+              </tbody>
+            </table>
+          </div>
+        </div>
+
+        <!-- TAB 3: DATOS GENERALES DEL PRODUCTO -->
+        <div id="gptab-datos" class="gp-tab-content">
+          <form onsubmit="guardarDatosGeneralesProductoSubmit(event)" style="display: flex; flex-direction: column; gap: 14px;">
+            <input type="hidden" id="gp-edit-producto-id" />
+            
+            <div style="display: grid; grid-template-columns: 2fr 1fr; gap: 12px;">
+              <div class="form-group" style="margin: 0;">
+                <label style="font-size: 12px; font-weight: 600; color: var(--text-secondary); margin-bottom: 6px; display: block;">Nombre de la Prenda *</label>
+                <input type="text" id="gp-edit-nombre" class="form-input" required />
+              </div>
+              <div class="form-group" style="margin: 0;">
+                <label style="font-size: 12px; font-weight: 600; color: var(--text-secondary); margin-bottom: 6px; display: block;">Código Base</label>
+                <input type="text" id="gp-edit-codigo" class="form-input" disabled readonly style="opacity: 0.75; cursor: not-allowed;" />
+              </div>
+            </div>
+
+            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 12px;">
+              <div class="form-group" style="margin: 0;">
+                <label style="font-size: 12px; font-weight: 600; color: var(--text-secondary); margin-bottom: 6px; display: block;">Categoría *</label>
+                <select id="gp-edit-categoria" class="form-input" style="height: 42px;">
+                  <option value="Camisas & Tops">Camisas & Tops</option>
+                  <option value="Pantalones & Jeans">Pantalones & Jeans</option>
+                  <option value="Bermudas">Bermudas</option>
+                  <option value="Calzado">Calzado</option>
+                  <option value="Accesorios">Accesorios</option>
+                  <option value="Prendas de Vestir">Prendas de Vestir</option>
+                </select>
+              </div>
+              <div class="form-group" style="margin: 0;">
+                <label style="font-size: 12px; font-weight: 600; color: var(--text-secondary); margin-bottom: 6px; display: block;">Imagen de la Prenda</label>
+                <input type="file" id="gp-edit-imagen" class="form-input" accept="image/jpeg,image/png,image/webp" onchange="actualizarPrevisualizacionImagenGP()" />
+              </div>
+            </div>
+
+            <div class="form-group" style="margin: 0;">
+              <label style="font-size: 12px; font-weight: 600; color: var(--text-secondary); margin-bottom: 6px; display: block;">Descripción de la Prenda</label>
+              <textarea id="gp-edit-descripcion" class="form-input" style="height: 60px; padding: 8px 12px; resize: none;"></textarea>
+            </div>
+
+            <div style="display: flex; justify-content: space-between; align-items: center; margin-top: 8px; gap: 12px;">
+              <button type="button" class="btn-danger" id="btn-eliminar-producto" onclick="eliminarProductoBaseActual()" style="height: 42px; padding: 0 18px; display: inline-flex; align-items: center; gap: 8px;">
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="3 6 5 6 21 6"></polyline><path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path><line x1="10" y1="11" x2="10" y2="17"></line><line x1="14" y1="11" x2="14" y2="17"></line></svg>
+                Eliminar Producto
+              </button>
+              <button type="submit" class="btn-primary" style="height: 42px; padding: 0 20px;">
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M19 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11l5 5v11a2 2 0 0 1-2 2z"/><polyline points="17 21 17 13 7 13 7 21"/><polyline points="7 3 7 8 15 8"/></svg>
+                Guardar Datos de la Prenda
+              </button>
+            </div>
+          </form>
+        </div>
+
+        <!-- TAB 4: HISTORIAL DE ENTRADAS RECIENTES -->
+        <div id="gptab-historial" class="gp-tab-content">
+          <div style="font-size: 12px; color: var(--text-secondary); margin-bottom: 12px;">
+            Auditoría de ingresos de mercancía registrados para esta prenda:
+          </div>
+
+          <div class="table-responsive" style="max-height: 380px; overflow-y: auto;">
+            <table class="custom-table" style="font-size: 12px;">
+              <thead>
+                <tr>
+                  <th>Fecha y Hora</th>
+                  <th>Variante</th>
+                  <th>Cant. Sumada</th>
+                  <th>Stock Anterior</th>
+                  <th>Stock Nuevo</th>
+                  <th>Responsable</th>
+                  <th>Motivo</th>
+                </tr>
+              </thead>
+              <tbody id="gp-historial-table-body">
+                <!-- Inyección JS -->
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+
+      <div class="modal-footer" style="padding: 14px 20px; border-top: 1px solid var(--border-subtle); display: flex; justify-content: space-between; align-items: center;">
+        <span style="font-size: 11px; color: var(--text-muted);" id="gp-footer-info">AisaacSTR Control de Inventario</span>
+        <button class="btn-secondary" onclick="cerrarModal('modal-gestionar-producto')">Cerrar</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal: Ver Detalle de Factura / Imprimir y Descargar PDF -->
+  <div id="modal-detalle-factura" class="modal-overlay hidden">
+    <div class="modal-window" style="max-width: 520px; max-height: 92vh; display: flex; flex-direction: column;">
+      <div class="modal-header" style="padding-bottom: 12px; border-bottom: 1px solid var(--border-subtle);">
+        <div style="display: flex; align-items: center; gap: 8px;">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="color: var(--gold-bright);">
+            <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+            <polyline points="14 2 14 8 20 8"></polyline>
+            <line x1="16" y1="13" x2="8" y2="13"></line>
+            <line x1="16" y1="17" x2="8" y2="17"></line>
+            <polyline points="10 9 9 9 8 9"></polyline>
+          </svg>
+          <h3 id="mf-header-title" style="font-size: 17px; margin: 0; color: var(--text-primary);">Detalle de Factura</h3>
+        </div>
+        <button class="modal-close-btn" onclick="cerrarModal('modal-detalle-factura')">&times;</button>
+      </div>
+
+      <div class="modal-body" style="overflow-y: auto; padding: 16px; flex: 1;">
+        <!-- Contenedor del comprobante imprimible/descargable -->
+        <div id="factura-imprimible-area" class="ticket-modal-content" style="padding: 16px; background: #0a0a0a; border: 1px dashed var(--border-gold); border-radius: 8px;">
+          <!-- Inyección dinámica de la factura completa -->
+        </div>
+      </div>
+
+      <div class="modal-footer" style="padding: 12px 18px; border-top: 1px solid var(--border-subtle); display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 10px;">
+        <button class="btn-secondary" onclick="cerrarModal('modal-detalle-factura')">Cerrar</button>
+        <div style="display: flex; gap: 8px;">
+          <button class="btn-secondary" onclick="descargarFacturaPDF()" title="Descargar comprobante en formato PDF">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+            Descargar PDF
+          </button>
+          <button class="btn-primary" onclick="imprimirFacturaDetalle()" title="Imprimir ticket / factura">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 6 2 18 2 18 9"/><path d="M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"/><rect x="6" y="14" width="12" height="8"/></svg>
+            Imprimir Factura
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Contenedor Toast -->
+  <div id="toast-container"></div>
+
+  <!-- Script Principal con la Lógica Completa (con cache-buster) -->
+  <script src="~/js/app.js?v=@version" asp-append-version="true"></script>
+</body>
+</html>
