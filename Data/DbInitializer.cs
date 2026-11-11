@@ -5,6 +5,9 @@ namespace AisaacSTR.Data
 {
     public static class DbInitializer
     {
+        /// <summary>
+        /// Crea la base de datos si hace falta y carga los datos iniciales cuando está vacía.
+        /// </summary>
         public static void Initialize(AppDbContext context)
         {
             // Asegurar que las tablas existan

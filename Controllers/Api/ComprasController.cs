@@ -20,6 +20,9 @@ namespace AisaacSTR.Controllers.Api
             _context = context;
         }
 
+        /// <summary>
+        /// Lista las compras registradas con proveedor, responsable y detalle de artículos.
+        /// </summary>
         [HttpGet]
         public async Task<IActionResult> GetCompras()
         {
@@ -62,6 +65,9 @@ namespace AisaacSTR.Controllers.Api
             return Ok(compras);
         }
 
+        /// <summary>
+        /// Registra una compra, suma sus unidades al inventario y descuenta efectivo de la caja si aplica.
+        /// </summary>
         [HttpPost]
         public async Task<IActionResult> RegistrarCompra([FromBody] CompraCreateDto dto)
         {

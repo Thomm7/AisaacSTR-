@@ -17,6 +17,9 @@ namespace AisaacSTR.Controllers.Api
             _context = context;
         }
 
+        /// <summary>
+        /// Calcula los indicadores, rankings, alertas y ventas recientes del panel gerencial.
+        /// </summary>
         [HttpGet("resumen")]
         public async Task<IActionResult> GetResumen()
         {

@@ -20,6 +20,9 @@ namespace AisaacSTR.Controllers.Api
             _context = context;
         }
 
+        /// <summary>
+        /// Resume el turno de caja activo (o el día actual), incluyendo ventas y egresos en efectivo.
+        /// </summary>
         [HttpGet("hoy")]
         [Authorize(Roles = "Administrador,Cajero")]
         public async Task<IActionResult> GetCierreHoy()
@@ -146,6 +149,9 @@ namespace AisaacSTR.Controllers.Api
             });
         }
 
+        /// <summary>
+        /// Abre un turno con su fondo inicial si no existe otra caja abierta.
+        /// </summary>
         [HttpPost("apertura")]
         [Authorize(Roles = "Administrador,Cajero")]
         public async Task<IActionResult> AperturaCaja([FromBody] CajaAperturaDto dto)
@@ -217,6 +223,9 @@ namespace AisaacSTR.Controllers.Api
             });
         }
 
+        /// <summary>
+        /// Calcula el efectivo esperado, registra el arqueo y vincula al cierre las operaciones del turno.
+        /// </summary>
         [HttpPost("confirmar")]
         [Authorize(Roles = "Administrador,Cajero")]
         public async Task<IActionResult> ConfirmarCierre([FromBody] CierreCajaCreateDto dto)
@@ -372,6 +381,9 @@ namespace AisaacSTR.Controllers.Api
             });
         }
 
+        /// <summary>
+        /// Devuelve los últimos cierres de caja con sus totales y responsable.
+        /// </summary>
         [HttpGet("historial")]
         public async Task<IActionResult> GetHistorial()
         {

@@ -41,6 +41,9 @@ namespace AisaacSTR.Controllers
             }
         };
 
+        /// <summary>
+        /// Muestra la página principal con los datos iniciales de paginación del inventario.
+        /// </summary>
         public async Task<IActionResult> Index([FromQuery] int pagina = 1)
         {
             if (pagina < 1) pagina = 1;
@@ -57,6 +60,9 @@ namespace AisaacSTR.Controllers
             return View();
         }
 
+        /// <summary>
+        /// Devuelve el catálogo de demostración, filtrado opcionalmente por nombre o código.
+        /// </summary>
         [HttpGet]
         public IActionResult ObtenerCatalogo(string? busqueda)
         {
@@ -69,6 +75,9 @@ namespace AisaacSTR.Controllers
             return Json(resultado.ToList());
         }
 
+        /// <summary>
+        /// Calcula y devuelve el resumen de caja de demostración para la fecha actual.
+        /// </summary>
         [HttpGet]
         public IActionResult ObtenerCierreCaja()
         {

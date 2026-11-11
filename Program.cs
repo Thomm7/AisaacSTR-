@@ -6,6 +6,7 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
 using QuestPDF.Infrastructure;
 
+// Punto de entrada: registra dependencias, configura seguridad y publica las rutas MVC/API.
 QuestPDF.Settings.License = LicenseType.Community;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -108,7 +109,7 @@ builder.Services.AddControllersWithViews()
 
 var app = builder.Build();
 
-// 4. Inicialización y Semilla de Base de Datos
+// Inicializa el almacenamiento y sus datos base antes de aceptar solicitudes.
 using (var scope = app.Services.CreateScope())
 {
     var services = scope.ServiceProvider;
@@ -124,6 +125,7 @@ using (var scope = app.Services.CreateScope())
     }
 }
 
+// Orden del pipeline: archivos públicos, enrutamiento, autenticación y autorización.
 app.UseStaticFiles();
 app.UseRouting();
 

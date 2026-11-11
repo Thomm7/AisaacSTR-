@@ -8,6 +8,9 @@ namespace AisaacSTR.Services
 {
     public interface IJwtService
     {
+        /// <summary>
+        /// Genera un token firmado con la identidad, el rol y los datos básicos del usuario.
+        /// </summary>
         string GenerateToken(Usuario usuario);
     }
 
@@ -20,6 +23,9 @@ namespace AisaacSTR.Services
             _config = config;
         }
 
+        /// <summary>
+        /// Emite un JWT firmado cuya vigencia es de doce horas.
+        /// </summary>
         public string GenerateToken(Usuario usuario)
         {
             var keyString = _config["Jwt:Key"] ?? "AISAAC_STR_SUPER_SECRET_KEY_2026_JWT_RETAIL_SECURITY_TOKEN!";

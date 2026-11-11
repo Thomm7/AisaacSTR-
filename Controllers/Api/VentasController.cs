@@ -23,6 +23,9 @@ namespace AisaacSTR.Controllers.Api
             _context = context;
         }
 
+        /// <summary>
+        /// Devuelve los medios de pago activos disponibles para registrar ventas.
+        /// </summary>
         [HttpGet("medios-pago")]
         public async Task<IActionResult> GetMediosPago()
         {
@@ -43,6 +46,9 @@ namespace AisaacSTR.Controllers.Api
             return Ok(medios);
         }
 
+        /// <summary>
+        /// Lista las ventas del día con datos de pago y sus artículos.
+        /// </summary>
         [HttpGet("hoy")]
         public async Task<IActionResult> GetVentasHoy()
         {
@@ -94,6 +100,9 @@ namespace AisaacSTR.Controllers.Api
         // Historial de ventas con control de acceso:
         // Administrador: consulta todas las ventas.
         // Cajero: consulta únicamente las ventas asociadas al cierre de caja activo.
+        /// <summary>
+        /// Lista ventas completadas respetando el alcance permitido para el rol autenticado.
+        /// </summary>
         [HttpGet("historial")]
         [Authorize(Roles = "Administrador,Cajero")]
         public async Task<IActionResult> GetHistorialVentas([FromQuery] int? usuarioId)
@@ -185,6 +194,9 @@ namespace AisaacSTR.Controllers.Api
         }
 
         // Obtener el detalle completo de una venta específica por ID
+        /// <summary>
+        /// Devuelve el detalle de una factura si el usuario tiene acceso a esa venta.
+        /// </summary>
         [HttpGet("{id}")]
         public async Task<IActionResult> GetDetalleVenta(int id)
         {
@@ -257,6 +269,9 @@ namespace AisaacSTR.Controllers.Api
             });
         }
 
+        /// <summary>
+        /// Genera y descarga la factura PDF de una venta autorizada y completada.
+        /// </summary>
         [HttpGet("{id}/pdf")]
         public async Task<IActionResult> DescargarFacturaPdf(int id)
         {
@@ -384,21 +399,33 @@ namespace AisaacSTR.Controllers.Api
             return File(archivoPdf, "application/pdf", $"Factura_{nombreSeguro}.pdf");
         }
 
+        /// <summary>
+        /// Aplica el formato común a las celdas de encabezado de la factura PDF.
+        /// </summary>
         private static IContainer CellHeader(IContainer container)
         {
             return container.PaddingVertical(5).Background(Colors.Grey.Lighten3);
         }
 
+        /// <summary>
+        /// Aplica el formato común a las celdas de contenido de la factura PDF.
+        /// </summary>
         private static IContainer CellBody(IContainer container)
         {
             return container.PaddingVertical(5).BorderBottom(1).BorderColor(Colors.Grey.Lighten2);
         }
 
+        /// <summary>
+        /// Convierte un importe a texto con formato monetario colombiano para la factura.
+        /// </summary>
         private static string FormatearPesos(decimal valor)
         {
             return $"$ {valor:N0}";
         }
 
+        /// <summary>
+        /// Valida y registra una venta, calcula sus importes y descuenta las unidades vendidas.
+        /// </summary>
         [HttpPost("procesar")]
         [Authorize(Roles = "Administrador,Cajero")]
         public async Task<IActionResult> ProcesarVenta([FromBody] VentaCreateDto dto)

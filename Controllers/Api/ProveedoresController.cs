@@ -19,6 +19,9 @@ namespace AisaacSTR.Controllers.Api
             _context = context;
         }
 
+        /// <summary>
+        /// Lista proveedores activos y permite buscar por razón social, documento, contacto o ciudad.
+        /// </summary>
         [HttpGet]
         public async Task<IActionResult> GetProveedores([FromQuery] string? busqueda)
         {
@@ -55,6 +58,9 @@ namespace AisaacSTR.Controllers.Api
             return Ok(list);
         }
 
+        /// <summary>
+        /// Obtiene un proveedor junto con sus compras o devuelve 404 si no existe.
+        /// </summary>
         [HttpGet("{id}")]
         public async Task<IActionResult> GetProveedorById(int id)
         {
@@ -67,6 +73,9 @@ namespace AisaacSTR.Controllers.Api
             return Ok(p);
         }
 
+        /// <summary>
+        /// Valida y registra un proveedor nuevo.
+        /// </summary>
         [HttpPost]
         public async Task<IActionResult> CrearProveedor([FromBody] ProveedorCreateDto dto)
         {
@@ -95,6 +104,9 @@ namespace AisaacSTR.Controllers.Api
             return Ok(new { mensaje = "Proveedor registrado exitosamente.", proveedorId = proveedor.Id });
         }
 
+        /// <summary>
+        /// Actualiza los datos de contacto y ubicación de un proveedor existente.
+        /// </summary>
         [HttpPut("{id}")]
         public async Task<IActionResult> ActualizarProveedor(int id, [FromBody] ProveedorCreateDto dto)
         {
@@ -112,6 +124,9 @@ namespace AisaacSTR.Controllers.Api
             return Ok(new { mensaje = "Proveedor actualizado correctamente." });
         }
 
+        /// <summary>
+        /// Desactiva lógicamente un proveedor para conservar su historial de compras.
+        /// </summary>
         [HttpDelete("{id}")]
         public async Task<IActionResult> EliminarProveedor(int id)
         {

@@ -544,6 +544,9 @@ namespace AisaacSTR.Controllers.Api
             return Ok(new { mensaje = "Imagen actualizada exitosamente.", imagenUrl = producto.ImagenUrl });
         }
 
+        /// <summary>
+        /// Valida y almacena una imagen permitida, o conserva la ruta actual si no se envía una nueva.
+        /// </summary>
         private async Task<string?> GuardarImagenProducto(IFormFile? imagen, string? imagenActual)
         {
             if (imagen == null || imagen.Length == 0)

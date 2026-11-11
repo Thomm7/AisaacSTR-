@@ -15,11 +15,13 @@ const state = {
 };
 
 // ── Formateadores ─────────────────────────────────────────────────────────────
+// Formatea una cantidad como pesos colombianos, redondeada al entero más cercano.
 function fmt(n) {
   if (isNaN(n) || n === null || n === undefined) return '$ 0';
   return '$ ' + Math.round(Number(n)).toLocaleString('es-CO');
 }
 
+// Devuelve una fecha localizada en español y en mayúsculas.
 function fmtDate(d) {
   const date = d ? new Date(d) : new Date();
   return date.toLocaleDateString('es-CO', {
@@ -27,6 +29,7 @@ function fmtDate(d) {
   }).toUpperCase();
 }
 
+// Devuelve la fecha y hora localizadas para Colombia.
 function fmtDateTime(d) {
   const date = d ? new Date(d) : new Date();
   return date.toLocaleDateString('es-CO') + ' ' +
@@ -34,6 +37,7 @@ function fmtDateTime(d) {
 }
 
 // ── Notificaciones Toast ──────────────────────────────────────────────────────
+// Inserta una notificación temporal en el contenedor de avisos.
 function toast(msg, type = 'success') {
   const container = document.getElementById('toast-container');
   if (!container) return;
@@ -45,6 +49,7 @@ function toast(msg, type = 'success') {
 }
 
 // ── Cliente HTTP con Autenticación JWT ────────────────────────────────────────
+// Añade autenticación y JSON a las solicitudes, y gestiona respuestas 401/403.
 async function fetchWithAuth(url, options = {}) {
   const headers = options.headers || {};
   if (state.token) {
@@ -73,6 +78,7 @@ async function fetchWithAuth(url, options = {}) {
 // 1. MÓDULO DE AUTENTICACIÓN Y CONTROL DE ACCESO (RBAC)
 // ═════════════════════════════════════════════════════════════════════════════
 
+// Restaura la sesión guardada o muestra la pantalla de inicio de sesión.
 function checkAuth() {
   const savedToken = localStorage.getItem('aisaac_token');
   const savedUser = localStorage.getItem('aisaac_user');
@@ -102,6 +108,7 @@ function checkAuth() {
 
 // Procesar formulario de login con correo y contraseña obligatorios
 
+// Valida el formulario de acceso y delega el envío de credenciales.
 async function handleLogin(e) {
   if (e) {
     e.preventDefault();
@@ -119,6 +126,7 @@ async function handleLogin(e) {
   return false;
 }
 
+// Autentica al usuario, guarda la sesión y actualiza la interfaz.
 async function submitLogin(email, password) {
   const submitBtn = document.getElementById('login-submit-btn');
   if (submitBtn) {
@@ -174,6 +182,7 @@ async function submitLogin(email, password) {
   }
 }
 
+// Aplica los datos y permisos del usuario, y carga los módulos permitidos.
 function aplicarSesionUsuario() {
   const overlay = document.getElementById('auth-overlay');
   if (overlay) {
@@ -236,6 +245,7 @@ function aplicarSesionUsuario() {
 
 let usuariosGestion = [];
 
+// Consulta los usuarios y actualiza la tabla de administración.
 async function cargarUsuarios() {
   const container = document.getElementById('usuarios-container');
   if (!container) return;
@@ -270,6 +280,7 @@ async function cargarUsuarios() {
   }
 }
 
+// Carga los datos del usuario seleccionado y abre su formulario de edición.
 function abrirModalEditarUsuario(id) {
   const usuario = usuariosGestion.find(u => u.id === id);
   if (!usuario) return;
@@ -285,6 +296,7 @@ function abrirModalEditarUsuario(id) {
   document.getElementById('editar-usuario-nombre').focus();
 }
 
+// Oculta el formulario de edición, restablece sus campos y libera el fondo.
 function cerrarModalEditarUsuario() {
   const modal = document.getElementById('modal-editar-usuario');
   modal.classList.add('hidden');
@@ -293,6 +305,7 @@ function cerrarModalEditarUsuario() {
   document.getElementById('form-editar-usuario').reset();
 }
 
+// Prepara y muestra el formulario para restablecer la contraseña del usuario.
 function abrirModalPasswordUsuario(id) {
   const usuario = usuariosGestion.find(u => u.id === id);
   if (!usuario) return;
@@ -306,6 +319,7 @@ function abrirModalPasswordUsuario(id) {
   document.getElementById('password-usuario-nueva').focus();
 }
 
+// Oculta y restablece el formulario de contraseña.
 function cerrarModalPasswordUsuario() {
   const modal = document.getElementById('modal-password-usuario');
   modal.classList.add('hidden');
@@ -314,6 +328,7 @@ function cerrarModalPasswordUsuario() {
   document.getElementById('form-password-usuario').reset();
 }
 
+// Valida y envía la nueva contraseña del usuario seleccionado.
 async function restablecerPasswordUsuario(event) {
   event.preventDefault();
   const password = document.getElementById('password-usuario-nueva').value;
@@ -344,6 +359,7 @@ async function restablecerPasswordUsuario(event) {
   cerrarModalPasswordUsuario();
 }
 
+// Valida y guarda los datos modificados de un usuario.
 async function actualizarUsuario(event) {
   event.preventDefault();
   const form = event.currentTarget;
@@ -387,6 +403,7 @@ async function actualizarUsuario(event) {
 
 
 
+// Muestra el formulario de alta de usuario y enfoca el campo de nombre.
 function abrirFormularioUsuario() {
   const form = document.getElementById('form-crear-usuario');
   if (form) {
@@ -395,6 +412,7 @@ function abrirFormularioUsuario() {
   }
 }
 
+// Restablece y oculta el formulario de alta de usuario.
 function cancelarFormularioUsuario() {
   const form = document.getElementById('form-crear-usuario');
   if (!form) return;
@@ -402,6 +420,7 @@ function cancelarFormularioUsuario() {
   form.style.display = 'none';
 }
 
+// Valida y registra un usuario nuevo; luego actualiza la lista.
 async function crearUsuario(event) {
   event.preventDefault();
   const form = event.currentTarget;
@@ -438,6 +457,7 @@ async function crearUsuario(event) {
   cargarUsuarios();
 }
 
+// Confirma el cambio de estado de una cuenta y refresca la lista.
 async function cambiarEstadoUsuario(id, activo) {
   const accion = activo ? 'activar' : 'desactivar';
   if (!window.confirm(`¿Seguro que deseas ${accion} esta cuenta de usuario?`)) return;
@@ -454,6 +474,7 @@ async function cambiarEstadoUsuario(id, activo) {
   cargarUsuarios();
 }
 
+// Borra la sesión y datos asociados, restablece la navegación y muestra el acceso.
 function logout() {
   // 1. Limpiar almacenamiento de sesión y cookies
   localStorage.removeItem('aisaac_token');
@@ -517,6 +538,7 @@ function logout() {
 // 2. PUNTO DE VENTA (POS)
 // ═════════════════════════════════════════════════════════════════════════════
 
+// Consulta el catálogo y refresca filtros, productos y carrito inicial.
 async function cargarCatalogoVariantes() {
   try {
     const res = await fetchWithAuth('/api/inventario/variantes');
@@ -546,6 +568,7 @@ async function cargarCatalogoVariantes() {
   }
 }
 
+// Llena el selector de variantes de compra y actualiza su costo sugerido.
 function actualizarSelectsFiltros() {
   // Llenar combo de variantes en modal de compras
   const selectCompra = document.getElementById('compra-variante-select');
@@ -559,6 +582,7 @@ function actualizarSelectsFiltros() {
   }
 }
 
+// Renderiza las prendas y contadores del carrito, y recalcula el resumen.
 function renderCarrito() {
   const container = document.getElementById('cart-body');
   const countBadge = document.getElementById('cart-badge-count');
@@ -613,10 +637,12 @@ function renderCarrito() {
   updateSummary();
 }
 
+// Suma los subtotales de las prendas del carrito.
 function getTotal() {
   return state.carrito.reduce((acc, i) => acc + (i.precio * i.cantidad), 0);
 }
 
+// Actualiza los importes, el cambio y la disponibilidad del botón de venta.
 function updateSummary() {
   const sub = getTotal();
   const desc = 0;
@@ -639,6 +665,7 @@ function updateSummary() {
   if (btn) btn.disabled = !validarPagoPOS(total);
 }
 
+// Lee los datos de efectivo, transferencia y aprobación ingresados en el POS.
 function obtenerDatosPago() {
   const efectivo = Number(document.getElementById('efectivo-recibido')?.value || 0);
   return {
@@ -650,6 +677,7 @@ function obtenerDatosPago() {
   };
 }
 
+// Comprueba que haya artículos y que el método de pago tenga sus datos requeridos.
 function validarPagoPOS(total) {
   if (state.carrito.length === 0 || !state.metodoPagoSeleccionado) return false;
   const pago = obtenerDatosPago();
@@ -661,6 +689,7 @@ function validarPagoPOS(total) {
   return false;
 }
 
+// Calcula el cambio en efectivo y marca si el monto recibido no alcanza.
 function actualizarVueltas(total) {
   const input = document.getElementById('efectivo-recibido');
   const cambio = document.getElementById('payment-change');
@@ -673,6 +702,7 @@ function actualizarVueltas(total) {
   fila?.classList.toggle('is-invalid', recibido > 0 && recibido < total);
 }
 
+// Ajusta la cantidad de una línea sin superar el stock disponible.
 function changeQty(idx, delta) {
   const item = state.carrito[idx];
   const nuevaCant = item.cantidad + delta;
@@ -688,6 +718,7 @@ function changeQty(idx, delta) {
   renderCarrito();
 }
 
+// Retira una línea del carrito, lo vuelve a renderizar y notifica el cambio.
 function removeItem(idx) {
   state.carrito.splice(idx, 1);
   renderCarrito();
@@ -695,6 +726,7 @@ function removeItem(idx) {
 }
 
 // ── Control del Modal Desplegable del Carrito ────────────────────────────────
+// Actualiza el carrito y muestra su modal.
 function abrirModalCarrito() {
   renderCarrito();
   const modal = document.getElementById('modal-carrito');
@@ -703,6 +735,7 @@ function abrirModalCarrito() {
   }
 }
 
+// Oculta el modal del carrito.
 function cerrarModalCarrito() {
   const modal = document.getElementById('modal-carrito');
   if (modal) {
@@ -711,6 +744,7 @@ function cerrarModalCarrito() {
 }
 
 // ── Íconos Dinámicos por Tipo de Prenda ──────────────────────────────────────
+// Elige un emoji según palabras clave de la categoría o el nombre de la prenda.
 function getIconoPrenda(categoria, nombre) {
   const str = ((categoria || '') + ' ' + (nombre || '')).toLowerCase();
   if (str.includes('calzado') || str.includes('zapato') || str.includes('tenis') || str.includes('mocasín')) return '👟';
@@ -722,6 +756,7 @@ function getIconoPrenda(categoria, nombre) {
 }
 
 // ── Búsqueda Dinámica y Filtro en Tiempo Real en el Catálogo ──────────────────
+// Conecta la búsqueda en vivo y el agregado por Enter en el catálogo POS.
 function initSearch() {
   const input = document.getElementById('search-producto');
   if (!input) return;
@@ -767,6 +802,7 @@ function initSearch() {
   });
 }
 
+// Guarda la categoría activa, actualiza el chip y aplica los filtros del POS.
 function seleccionarChipCategoria(btn, cat) {
   state.categoriaActivaPOS = (cat || '').toLowerCase();
   document.querySelectorAll('.chip-btn').forEach(b => b.classList.remove('active'));
@@ -774,6 +810,7 @@ function seleccionarChipCategoria(btn, cat) {
   onFiltroPOSCambiado();
 }
 
+// Filtra variantes por texto y categoría, y vuelve a dibujar el catálogo.
 function onFiltroPOSCambiado() {
   const input = document.getElementById('search-producto');
   const q = input?.value?.trim()?.toLowerCase() || '';
@@ -835,6 +872,7 @@ function onFiltroPOSCambiado() {
   renderCatalogoPOS(filtrados);
 }
 
+// Limpia y enfoca la búsqueda antes de volver a aplicar los filtros.
 function limpiarBusquedaPOS() {
   const input = document.getElementById('search-producto');
   if (input) {
@@ -844,6 +882,7 @@ function limpiarBusquedaPOS() {
   onFiltroPOSCambiado();
 }
 
+// Renderiza las tarjetas del catálogo POS y su contador de resultados.
 function renderCatalogoPOS(items = null) {
   const grid = document.getElementById('pos-catalog-grid');
   const countEl = document.getElementById('pos-catalog-count');
@@ -975,11 +1014,13 @@ function renderCatalogoPOS(items = null) {
   }).join('');
 }
 
+// Abre el selector de talla y color enfocado en la variante elegida.
 function cambiarVarianteEnCard(varianteId) {
   // Re-render con la variante elegida en foco o simplemente abrir selector modal
   abrirModalSelectorVariante(null, varianteId);
 }
 
+// Agrega una unidad de la variante al carrito o incrementa su línea existente.
 function agregarVarianteDirecta(varianteId) {
   const found = state.catalogoVariantes.find(v => v.id === varianteId);
   if (!found) return;
@@ -1023,6 +1064,7 @@ let modalVarState = {
   cantidad: 1
 };
 
+// Prepara el selector con variantes relacionadas y muestra la información inicial.
 function abrirModalSelectorVariante(productoId, varianteIdInicial = null) {
   let inicial = state.catalogoVariantes.find(v => v.id === varianteIdInicial);
   if (!inicial && state.catalogoVariantes.length > 0) inicial = state.catalogoVariantes[0];
@@ -1069,6 +1111,7 @@ function abrirModalSelectorVariante(productoId, varianteIdInicial = null) {
   document.getElementById('modal-selector-variante').classList.remove('hidden');
 }
 
+// Renderiza las tallas relacionadas y señala las agotadas o seleccionadas.
 function renderPillsTallasModal() {
   const container = document.getElementById('modal-var-tallas-container');
   const labelTalla = document.getElementById('modal-selected-size-label');
@@ -1094,6 +1137,7 @@ function renderPillsTallasModal() {
   }).join('');
 }
 
+// Renderiza los colores disponibles para la talla seleccionada.
 function renderPillsColoresModal() {
   const container = document.getElementById('modal-var-colores-container');
   const labelColor = document.getElementById('modal-selected-color-label');
@@ -1121,6 +1165,7 @@ function renderPillsColoresModal() {
   }).join('');
 }
 
+// Selecciona una talla con existencias y actualiza las opciones del modal.
 function seleccionarTallaModal(talla) {
   const variantesConTalla = modalVarState.variantesProducto.filter(v => v.talla === talla);
   if (!variantesConTalla.some(v => v.stockActual > 0)) {
@@ -1133,6 +1178,7 @@ function seleccionarTallaModal(talla) {
   actualizarDetalleVarianteModal();
 }
 
+// Selecciona un color disponible para la talla activa y actualiza el detalle.
 function seleccionarColorModal(color) {
   const varianteConColor = modalVarState.variantesProducto.find(v =>
     v.color === color &&
@@ -1148,6 +1194,7 @@ function seleccionarColorModal(color) {
   actualizarDetalleVarianteModal();
 }
 
+// Actualiza el SKU, precio, stock y límites de cantidad de la variante elegida.
 function actualizarDetalleVarianteModal() {
   const match = modalVarState.variantesProducto.find(v =>
     v.talla === modalVarState.tallaSeleccionada &&
@@ -1189,6 +1236,7 @@ function actualizarDetalleVarianteModal() {
   }
 }
 
+// Ajusta la cantidad del modal dentro del rango de stock de la variante.
 function modificarCantidadModalVar(delta) {
   const input = document.getElementById('modal-var-qty');
   if (!input) return;
@@ -1198,6 +1246,7 @@ function modificarCantidadModalVar(delta) {
   input.value = val;
 }
 
+// Corrige la cantidad escrita en el modal para mantenerla dentro del stock.
 function validarCantidadModalVar() {
   const input = document.getElementById('modal-var-qty');
   if (!input) return;
@@ -1206,6 +1255,7 @@ function validarCantidadModalVar() {
   input.value = Math.max(1, Math.min(val, max));
 }
 
+// Agrega la variante seleccionada con la cantidad indicada y cierra el modal.
 function confirmarAgregarAlCarritoModal() {
   const v = modalVarState.varianteSeleccionada;
   if (!v || v.stockActual <= 0) {
@@ -1241,6 +1291,7 @@ function confirmarAgregarAlCarritoModal() {
 }
 
 // Selección de Métodos de Pago
+// Conecta métodos y campos de pago para actualizar la selección y el resumen.
 function initPayMethods() {
   document.querySelectorAll('.pay-method-card').forEach(card => {
     card.addEventListener('click', () => {
@@ -1270,6 +1321,7 @@ function initPayMethods() {
 }
 
 // Procesar Venta contra el Backend
+// Envía la venta al servidor y, si se registra, muestra el ticket y limpia el carrito.
 async function ejecutarVentaBackend() {
   if (state.carrito.length === 0 || !state.metodoPagoSeleccionado) return;
 
@@ -1345,6 +1397,7 @@ async function ejecutarVentaBackend() {
     `;
   }
 }
+// Construye el ticket de venta en pantalla y muestra su modal.
 function mostrarTicketModal(ventaData, items, nombrePago) {
   const container = document.getElementById('ticket-print-area');
   const user = state.usuario ? state.usuario.nombre : 'Cajero Principal';
@@ -1392,6 +1445,7 @@ function mostrarTicketModal(ventaData, items, nombrePago) {
 // 3. CIERRE Y ARQUEO DE CAJA
 // ═════════════════════════════════════════════════════════════════════════════
 
+// Consulta el estado de caja y actualiza sus indicadores, egresos y arqueo.
 async function renderCierre() {
   const dateLabel = document.getElementById('cierre-date-label');
   if (dateLabel) dateLabel.textContent = fmtDate();
@@ -1531,6 +1585,7 @@ async function renderCierre() {
   }
 }
 
+// Muestra los egresos de compras en efectivo asociados al turno.
 function renderEgresosCierre(egresos) {
   const container = document.getElementById('cierre-egresos-list');
   const countEl = document.getElementById('cierre-egresos-count');
@@ -1554,6 +1609,7 @@ function renderEgresosCierre(egresos) {
   `).join('');
 }
 
+// Calcula el efectivo esperado y compara el valor contado con el esperado.
 function calcDiferenciaCierre() {
   if (!state.cierreData) return;
   const base = state.cierreData.montoInicial || 0;
@@ -1604,6 +1660,7 @@ function calcDiferenciaCierre() {
 }
 
 // Modal de Apertura de Caja
+// Completa los datos iniciales de apertura y muestra el modal de caja.
 function abrirModalAperturaCaja() {
   const nombreEl = document.getElementById('apertura-cajero-nombre');
   if (nombreEl) {
@@ -1621,6 +1678,7 @@ function abrirModalAperturaCaja() {
   if (modal) modal.classList.remove('hidden');
 }
 
+// Valida y registra la apertura de caja; después actualiza el resumen del turno.
 async function confirmarAperturaCajaBackend() {
   const montoInput = document.getElementById('apertura-monto-inicial');
   const monto = parseFloat(montoInput?.value);
@@ -1655,6 +1713,7 @@ async function confirmarAperturaCajaBackend() {
   }
 }
 
+// Dirige al arqueo si la caja está abierta o muestra la apertura si está cerrada.
 function manejarClickBotonCajaTopbar() {
   if (state.cierreData && state.cierreData.estadoCaja === 'Abierta') {
     const tabCierre = document.getElementById('tab-cierre');
@@ -1665,6 +1724,7 @@ function manejarClickBotonCajaTopbar() {
   }
 }
 
+// Desplaza la vista al campo del conteo físico y lo enfoca.
 function enfocarArqueoCierre() {
   const contadoInput = document.getElementById('efectivo-contado');
   if (contadoInput) {
@@ -1674,6 +1734,7 @@ function enfocarArqueoCierre() {
 }
 
 // Cerrar Caja y Confirmar Arqueo Final
+// Valida y registra el cierre con el efectivo contado; muestra el comprobante.
 async function ejecutarCierreBackend() {
   if (!state.cierreData || state.cierreData.estadoCaja !== 'Abierta') {
     toast('No hay una caja abierta actualmente para cerrar.', 'error');
@@ -1723,6 +1784,7 @@ async function ejecutarCierreBackend() {
   }
 }
 
+// Construye y presenta el comprobante del arqueo recibido del servidor.
 function mostrarComprobanteCierre(data) {
   const ticketArea = document.getElementById('cierre-resumen-ticket');
   if (!ticketArea) return;
@@ -1800,6 +1862,7 @@ function mostrarComprobanteCierre(data) {
   if (modal) modal.classList.remove('hidden');
 }
 
+// Abre el diálogo de impresión del comprobante de cierre.
 function imprimirComprobanteCierre() {
   window.print();
 }
@@ -1818,6 +1881,7 @@ let inventarioEstado = {
 
 let debounceTimerInventario = null;
 
+// Consulta la página y búsqueda actuales del inventario y actualiza la tabla.
 async function cargarInventario(pagina = inventarioEstado.pagina) {
   try {
     inventarioEstado.pagina = pagina || 1;
@@ -1848,6 +1912,7 @@ async function cargarInventario(pagina = inventarioEstado.pagina) {
   }
 }
 
+// Cambia a una página válida del inventario y reinicia el desplazamiento de la tabla.
 function cambiarPaginaInventario(pagina) {
   if (pagina < 1 || pagina > inventarioEstado.totalPaginas || pagina === inventarioEstado.pagina) return;
   cargarInventario(pagina);
@@ -1855,6 +1920,7 @@ function cambiarPaginaInventario(pagina) {
   if (scrollContainer) scrollContainer.scrollTop = 0;
 }
 
+// Actualiza el rango visible, los controles y los botones numéricos de paginación.
 function actualizarControlesPaginacionInventario() {
   const { pagina, totalPaginas, totalRegistros } = inventarioEstado;
 
@@ -1922,6 +1988,7 @@ function actualizarControlesPaginacionInventario() {
   numerosContainer.innerHTML = html;
 }
 
+// Renderiza las variantes del inventario con stock y acceso a su gestión.
 function renderTablaInventario(productos) {
   const tbody = document.getElementById('inventario-body');
   if (!tbody) return;
@@ -1986,6 +2053,7 @@ function renderTablaInventario(productos) {
 
 // ── GESTIÓN Y EDICIÓN DE PRODUCTO / VARIANTES / ENTRADAS ───────────────────────
 
+// Consulta un producto y carga sus datos, variantes e historial en el modal de gestión.
 async function abrirModalGestionProducto(productoId, varianteIdPreseleccionada = null) {
   try {
     const res = await fetchWithAuth(`/api/inventario/producto/${productoId}`);
@@ -2087,6 +2155,7 @@ async function abrirModalGestionProducto(productoId, varianteIdPreseleccionada =
   }
 }
 
+// Activa la pestaña indicada dentro del modal de gestión de producto.
 function cambiarSubTabGestion(tabId) {
   document.querySelectorAll('.gp-tab-btn').forEach(btn => {
     btn.classList.toggle('active', btn.dataset.gptab === tabId);
@@ -2096,6 +2165,7 @@ function cambiarSubTabGestion(tabId) {
   });
 }
 
+// Actualiza el stock mostrado para la variante de entrada seleccionada.
 function actualizarInfoVarianteSeleccionada() {
   const select = document.getElementById('gp-entrada-variante-select');
   if (!select || !select.selectedOptions || select.selectedOptions.length === 0) return;
@@ -2108,6 +2178,7 @@ function actualizarInfoVarianteSeleccionada() {
   calcularNuevoStockEntrada();
 }
 
+// Muestra la suma y el stock proyectado según la cantidad de entrada escrita.
 function calcularNuevoStockEntrada() {
   const select = document.getElementById('gp-entrada-variante-select');
   if (!select || !select.selectedOptions || select.selectedOptions.length === 0) return;
@@ -2124,6 +2195,7 @@ function calcularNuevoStockEntrada() {
   if (nuevoEl) nuevoEl.textContent = `${stockActual + cantidad} un.`;
 }
 
+// Valida y registra una entrada de stock, luego refresca las vistas relacionadas.
 async function guardarEntradaStockSubmit(e) {
   if (e) e.preventDefault();
   const select = document.getElementById('gp-entrada-variante-select');
@@ -2170,6 +2242,7 @@ async function guardarEntradaStockSubmit(e) {
   }
 }
 
+// Valida y guarda precios y límites de stock de una variante.
 async function guardarVariantePreciosNiveles(varianteId) {
   const pcompra = parseFloat(document.getElementById(`gp-pcompra-${varianteId}`)?.value);
   const pventa = parseFloat(document.getElementById(`gp-pventa-${varianteId}`)?.value);
@@ -2213,6 +2286,7 @@ async function guardarVariantePreciosNiveles(varianteId) {
   }
 }
 
+// Guarda los datos generales e imagen del producto y actualiza sus vistas.
 async function guardarDatosGeneralesProductoSubmit(e) {
   if (e) e.preventDefault();
   const id = parseInt(document.getElementById('gp-edit-producto-id')?.value);
@@ -2255,6 +2329,7 @@ async function guardarDatosGeneralesProductoSubmit(e) {
   }
 }
 
+// Solicita confirmación y elimina el producto y sus variantes desde el servidor.
 async function eliminarProductoBaseActual() {
   const id = parseInt(document.getElementById('gp-edit-producto-id')?.value);
   const nombre = document.getElementById('gp-edit-nombre')?.value?.trim() || 'esta prenda';
@@ -2290,6 +2365,7 @@ async function eliminarProductoBaseActual() {
   }
 }
 
+// Muestra la imagen elegida en el encabezado del modal de gestión.
 function actualizarPrevisualizacionImagenGP() {
   const archivo = document.getElementById('gp-edit-imagen')?.files?.[0];
   const imgBox = document.getElementById('gp-header-img-box');
@@ -2302,6 +2378,7 @@ function actualizarPrevisualizacionImagenGP() {
   }
 }
 
+// Renderiza las entradas de stock recientes de la prenda en gestión.
 function renderHistorialEntradasGP(entradas) {
   const tbody = document.getElementById('gp-historial-table-body');
   if (!tbody) return;
@@ -2329,6 +2406,7 @@ function renderHistorialEntradasGP(entradas) {
   `).join('');
 }
 
+// Reinicia la paginación y retrasa la consulta del inventario para cada búsqueda.
 function filtrarTablaInventario() {
   clearTimeout(debounceTimerInventario);
   debounceTimerInventario = setTimeout(() => {
@@ -2337,10 +2415,12 @@ function filtrarTablaInventario() {
   }, 250);
 }
 
+// Muestra el formulario para registrar un producto nuevo.
 function abrirModalNuevoProducto() {
   document.getElementById('modal-nuevo-producto').classList.remove('hidden');
 }
 
+// Envía el producto y su primera variante, y refresca inventario y catálogo.
 async function guardarNuevoProducto() {
   const codigoBase = document.getElementById('np-codigo').value.trim();
   const nombre = document.getElementById('np-nombre').value.trim();
@@ -2402,6 +2482,7 @@ async function guardarNuevoProducto() {
 // 5. MÓDULO DE PROVEEDORES Y ENTRADAS DE MERCANCÍA
 // ═════════════════════════════════════════════════════════════════════════════
 
+// Consulta proveedores, actualiza su tabla y llena el selector de compras.
 async function cargarProveedores() {
   try {
     const res = await fetchWithAuth('/api/proveedores');
@@ -2421,6 +2502,7 @@ async function cargarProveedores() {
   }
 }
 
+// Renderiza los datos y el total de compras de cada proveedor.
 function renderTablaProveedores(proveedores) {
   const tbody = document.getElementById('proveedores-body');
   if (!tbody) return;
@@ -2437,6 +2519,7 @@ function renderTablaProveedores(proveedores) {
   `).join('');
 }
 
+// Consulta las compras registradas y actualiza su tabla.
 async function cargarCompras() {
   try {
     const res = await fetchWithAuth('/api/compras');
@@ -2460,10 +2543,12 @@ async function cargarCompras() {
   }
 }
 
+// Muestra el formulario para crear un proveedor.
 function abrirModalNuevoProveedor() {
   document.getElementById('modal-nuevo-proveedor').classList.remove('hidden');
 }
 
+// Valida y registra un proveedor; luego cierra el formulario y actualiza la lista.
 async function guardarNuevoProveedor() {
   const nit = document.getElementById('prov-nit').value.trim();
   const razon = document.getElementById('prov-razon').value.trim();
@@ -2494,6 +2579,7 @@ async function guardarNuevoProveedor() {
   }
 }
 
+// Prepara el formulario de compra con una variante opcional y muestra el modal.
 function abrirModalNuevaCompra(preVarianteId = null) {
   actualizarSelectsFiltros();
   if (preVarianteId) {
@@ -2506,6 +2592,7 @@ function abrirModalNuevaCompra(preVarianteId = null) {
   document.getElementById('modal-nueva-compra').classList.remove('hidden');
 }
 
+// Copia al campo de costo el precio de compra de la variante seleccionada.
 function autoCompletarCostoCompra() {
   const select = document.getElementById('compra-variante-select');
   if (!select) return;
@@ -2517,6 +2604,7 @@ function autoCompletarCostoCompra() {
   }
 }
 
+// Calcula y muestra el total según cantidad y costo unitario de la compra.
 function actualizarTotalCompraModal() {
   const cant = parseInt(document.getElementById('compra-cantidad')?.value) || 0;
   const costo = parseFloat(document.getElementById('compra-costo')?.value) || 0;
@@ -2525,6 +2613,7 @@ function actualizarTotalCompraModal() {
   if (el) el.textContent = fmt(total);
 }
 
+// Muestra la opción de descontar caja y la activa solo para pagos en efectivo.
 function toggleDescuentoCaja() {
   const medio = document.getElementById('compra-medio-pago')?.value;
   const wrap = document.getElementById('compra-caja-wrap');
@@ -2538,6 +2627,7 @@ function toggleDescuentoCaja() {
   }
 }
 
+// Registra una compra y actualiza compras, stock, catálogo, dashboard y caja.
 async function guardarNuevaCompra() {
   const provId = parseInt(document.getElementById('compra-proveedor-select').value);
   const factura = document.getElementById('compra-factura').value.trim();
@@ -2586,6 +2676,7 @@ async function guardarNuevaCompra() {
 // 6. DASHBOARD GERENCIAL, ESTADÍSTICAS Y REABASTECIMIENTO
 // ═════════════════════════════════════════════════════════════════════════════
 
+// Consulta el resumen y actualiza los indicadores, gráficos y ventas recientes.
 async function cargarDashboard() {
   try {
     const res = await fetchWithAuth('/api/dashboard/resumen');
@@ -2614,6 +2705,7 @@ async function cargarDashboard() {
   }
 }
 
+// Renderiza el ranking de prendas vendidas con barras relativas de unidades.
 function renderTopVendidas(topList) {
   const container = document.getElementById('top-vendidas-container');
   if (!container) return;
@@ -2641,6 +2733,7 @@ function renderTopVendidas(topList) {
   }).join('');
 }
 
+// Muestra alertas de stock y sugerencias de reabastecimiento.
 function renderAlertasStock(alertas) {
   const container = document.getElementById('alertas-stock-container');
   if (!container) return;
@@ -2680,6 +2773,7 @@ function renderAlertasStock(alertas) {
   }).join('');
 }
 
+// Actualiza los indicadores de presupuesto de proveedores y su barra de avance.
 function renderPresupuestoProveedores(kpis) {
   const fondo = Number(kpis.presupuestoProveedores || 0);
   const pagado = Number(kpis.comprasPagadasMes || 0);
@@ -2692,6 +2786,7 @@ function renderPresupuestoProveedores(kpis) {
   document.getElementById('provider-budget-progress-bar').style.width = `${porcentaje}%`;
 }
 
+// Consulta el historial de ventas y muestra el alcance según el rol del usuario.
 async function cargarHistorialVentas() {
   const container = document.getElementById('ventas-historial-container');
   if (!container) return;
@@ -2721,6 +2816,7 @@ async function cargarHistorialVentas() {
   }
 }
 
+// Agrupa las ventas por fecha y renderiza sus datos y acceso al detalle.
 function renderHistorialVentas(ventas) {
   const container = document.getElementById('ventas-historial-container');
   if (!container) return;
@@ -2774,6 +2870,7 @@ function renderHistorialVentas(ventas) {
 
 // ── VER DETALLE DE FACTURA / IMPRIMIR Y DESCARGAR PDF ──────────────────────────
 
+// Consulta una venta, guarda la factura seleccionada y muestra su comprobante.
 async function verDetalleFactura(ventaId) {
   try {
     const res = await fetchWithAuth(`/api/ventas/${ventaId}`);
@@ -2914,10 +3011,12 @@ async function verDetalleFactura(ventaId) {
   }
 }
 
+// Abre el diálogo de impresión del detalle de factura.
 function imprimirFacturaDetalle() {
   window.print();
 }
 
+// Descarga el PDF de la factura seleccionada mediante una URL temporal del navegador.
 async function descargarFacturaPDF() {
   const factura = state.facturaSeleccionada;
   if (!factura?.id) {
@@ -2945,6 +3044,7 @@ async function descargarFacturaPDF() {
   }
 }
 
+// Renderiza importes, transacciones y proporción por medio de pago.
 function renderMediosDistribucion(medios) {
   const container = document.getElementById('medios-distribucion-container');
   if (!container) return;
@@ -2974,11 +3074,13 @@ function renderMediosDistribucion(medios) {
 }
 
 // ── Modales Helpers ───────────────────────────────────────────────────────────
+// Oculta el modal identificado.
 function cerrarModal(id) {
   document.getElementById(id).classList.add('hidden');
 }
 
 // ── Pestañas / Navegación ─────────────────────────────────────────────────────
+// Conecta la navegación y carga los datos al activar cada módulo.
 function initTabs() {
   document.querySelectorAll('.tab-btn').forEach(btn => {
     btn.addEventListener('click', () => {
@@ -3006,6 +3108,7 @@ function initTabs() {
   actualizarVisibilidadCarrito(activeBtn ? activeBtn.dataset.panel : 'panel-pdv');
 }
 
+// Muestra el acceso al carrito solo cuando está activo el panel de ventas.
 function actualizarVisibilidadCarrito(targetPanel) {
   const btnCart = document.getElementById('btn-toggle-cart');
   if (!btnCart) return;
@@ -3018,6 +3121,7 @@ function actualizarVisibilidadCarrito(targetPanel) {
 }
 
 // ── Reloj del Topbar ──────────────────────────────────────────────────────────
+// Inicializa el reloj del topbar y actualiza su hora cada 30 segundos.
 function startClock() {
   const el = document.getElementById('topbar-time');
   const update = () => { el.textContent = fmtDateTime(); };

@@ -21,6 +21,9 @@ namespace AisaacSTR.Data
         public DbSet<DetalleCompra> DetallesCompra => Set<DetalleCompra>();
         public DbSet<EntradaInventario> EntradasInventario => Set<EntradaInventario>();
 
+        /// <summary>
+        /// Configura índices, precisión monetaria y relaciones de las entidades persistidas.
+        /// </summary>
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             base.OnModelCreating(modelBuilder);

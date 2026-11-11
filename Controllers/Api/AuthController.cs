@@ -24,6 +24,9 @@ namespace AisaacSTR.Controllers.Api
             _jwtService = jwtService;
         }
 
+        /// <summary>
+        /// Valida las credenciales y devuelve un JWT junto con los datos de sesión del usuario.
+        /// </summary>
         [HttpPost("login")]
         [AllowAnonymous]
         public async Task<IActionResult> Login([FromBody] LoginRequest request)
@@ -94,6 +97,9 @@ namespace AisaacSTR.Controllers.Api
             });
         }
 
+        /// <summary>
+        /// Obtiene el perfil del usuario autenticado a partir del identificador incluido en el JWT.
+        /// </summary>
         [HttpGet("me")]
         public async Task<IActionResult> GetCurrentUser()
         {
@@ -121,6 +127,9 @@ namespace AisaacSTR.Controllers.Api
         }
 
         [Authorize(Roles = "Administrador")]
+        /// <summary>
+        /// Lista los datos no confidenciales de las cuentas registradas.
+        /// </summary>
         [HttpGet("usuarios")]
         public async Task<IActionResult> GetUsuarios()
         {
@@ -141,6 +150,9 @@ namespace AisaacSTR.Controllers.Api
         }
 
         [Authorize(Roles = "Administrador")]
+        /// <summary>
+        /// Valida y crea una cuenta nueva, almacenando la contraseña como hash BCrypt.
+        /// </summary>
         [HttpPost("usuarios")]
         public async Task<IActionResult> CrearUsuario([FromBody] CrearUsuarioRequest request)
         {
@@ -229,6 +241,9 @@ namespace AisaacSTR.Controllers.Api
         }
 
         [Authorize(Roles = "Administrador")]
+        /// <summary>
+        /// Activa o desactiva una cuenta respetando las protecciones de la cuenta administradora principal.
+        /// </summary>
         [HttpPatch("usuarios/{id}/estado")]
         public async Task<IActionResult> CambiarEstadoUsuario(int id, [FromBody] EstadoUsuarioRequest request)
         {
@@ -273,6 +288,9 @@ namespace AisaacSTR.Controllers.Api
         }
 
         [Authorize(Roles = "Administrador")]
+        /// <summary>
+        /// Actualiza los datos de una cuenta existente después de validar sus campos.
+        /// </summary>
         [HttpPut("usuarios/{id}")]
         public async Task<IActionResult> ActualizarUsuario(int id, [FromBody] ActualizarUsuarioRequest request)
         {
@@ -327,6 +345,9 @@ namespace AisaacSTR.Controllers.Api
         }
 
         [Authorize(Roles = "Administrador")]
+        /// <summary>
+        /// Verifica las reglas de contraseña y guarda su nuevo hash BCrypt.
+        /// </summary>
         [HttpPatch("usuarios/{id}/password")]
         public async Task<IActionResult> RestablecerPassword(int id, [FromBody] RestablecerPasswordRequest request)
         {

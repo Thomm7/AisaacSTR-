@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AisaacSTR")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2cd4ebad9a988297544327e466a21dc7b59f6493")]
 [assembly: System.Reflection.AssemblyProductAttribute("AisaacSTR")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AisaacSTR")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -1293,5 +1293,6 @@ C:\Users\gonza\Downloads\AisaacSTR (1)\AisaacSTR\obj\Debug\net9.0\refint\AisaacS
 C:\Users\gonza\Downloads\AisaacSTR (1)\AisaacSTR\obj\Debug\net9.0\AisaacSTR.pdb
 C:\Users\gonza\Downloads\AisaacSTR (1)\AisaacSTR\obj\Debug\net9.0\AisaacSTR.genruntimeconfig.cache
 C:\Users\gonza\Downloads\AisaacSTR (1)\AisaacSTR\obj\Debug\net9.0\ref\AisaacSTR.dll
-C:\Users\gonza\Downloads\AisaacSTR (1)\AisaacSTR\obj\Debug\net9.0\compressed\0ttpic2yj0-ug70ilkogx.gz
 C:\Users\gonza\Downloads\AisaacSTR (1)\AisaacSTR\obj\Debug\net9.0\compressed\40bgiq88ox-adk2nnw4tp.gz
+C:\Users\gonza\Downloads\AisaacSTR (1)\AisaacSTR\obj\Debug\net9.0\AisaacSTR.sourcelink.json
+C:\Users\gonza\Downloads\AisaacSTR (1)\AisaacSTR\obj\Debug\net9.0\compressed\0ttpic2yj0-qjpn81casd.gz

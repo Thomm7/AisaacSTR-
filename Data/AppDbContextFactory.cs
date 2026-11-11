@@ -5,6 +5,9 @@ namespace AisaacSTR.Data
 {
     public class AppDbContextFactory : IDesignTimeDbContextFactory<AppDbContext>
     {
+        /// <summary>
+        /// Crea un contexto de PostgreSQL para los comandos de Entity Framework ejecutados en diseño.
+        /// </summary>
         public AppDbContext CreateDbContext(string[] args)
         {
             var optionsBuilder = new DbContextOptionsBuilder<AppDbContext>();
